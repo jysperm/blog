@@ -1,0 +1,32 @@
+- jybox.net
+    - bbs.jybox.net
+    - fm.jybox.net
+    - godoc.jybox.net
+        alias:
+            - godoc.jysperm.me
+    - mail.jybox.net
+        redirect: exmail.qq.com
+    - nt.jybox.net
+    - old-bbs.jybox.net
+    - rb.jybox.net
+    
+- jysperm.me
+    alias: 
+        - jyprince.me
+        
+    - collect.jysperm.me
+    - wiki.jysperm.me
+        alias:
+            - wiki.jyprince.me
+    - static.jysperm.me
+        alias:
+            - static.jybox.net
+            - static2.jybox.net
+            
+- 0-ms.org
+    redirect: github.com
+    
+- rpvhost.net
+    - blog.rpvhost.net
+    - jp1.rpvhost.net
+    - us1.rpvhost.net

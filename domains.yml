@@ -1,0 +1,15 @@
+- jybox.net
+    provider: godaddy
+    expire: 2014.8.18
+- 0-ms.org
+    provider: godaddy
+    expire: 2014.11.1
+- jyprince.me
+    provider: godaddy
+    expire: 2014.1.21
+- jysperm.me
+    provider: godaddy
+    expire: 2014.10.15
+- rpvhost.net
+    provider: godaddy
+    expire: 2014.5.15

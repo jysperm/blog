@@ -1,3 +1,25 @@
-- m@jybox.net
-- jyboxnet@gmail.com
-- jysperm@gmail.com
+## Domain
+
+- jybox.net
+    provider: exmail.qq.com
+- jysperm.me
+    provider: exmail.qq.com
+- rpvhost.net
+    provider: exmail.qq.com
+- jyprince.me
+    provider: exmail.qq.com
+- 0-ms.org
+    provider: exmail.qq.com
+    
+## Address
+
+main:
+    - jysperm@gmail.com
+    - jyboxnet@gmail.com
+
+mirror:
+    - m@jybox.net
+        forward: jyboxnet@gmail.com
+
+
+

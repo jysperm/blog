@@ -25,3 +25,10 @@
     RAM: 1GiB
     Disk: 48G
     System: Ubuntu 13.10 x64
+
+- blog.jybox.net
+    provider: Linode
+    
+    RAM: 1 GiB
+    Disk: 30 GiB
+    System: Debain 7 x64

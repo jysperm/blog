@@ -18,13 +18,6 @@
     RAM: 0.5GiB
     Disk: 30 GiB
     System: ArchLinux x64
-    
-- ss.jybox.net
-    provider: Linode
-    
-    RAM: 1GiB
-    Disk: 48G
-    System: Ubuntu 13.10 x64
 
 - blog.jybox.net
     provider: Linode

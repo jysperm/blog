@@ -3,7 +3,7 @@
 - jybox.net
     provider: exmail.qq.com
 - jysperm.me
-    provider: exmail.qq.com
+    provider: gmail.com
 - rpvhost.net
     provider: exmail.qq.com
 - jyprince.me
@@ -14,11 +14,15 @@
 ## Address
 
 main:
-    - jysperm@gmail.com
-    - jyboxnet@gmail.com
+    - jysperm@gmail.com (for Show)
+    - jyboxnet@gmail.com (for Receive)
 
 mirror:
     - m@jybox.net
+        forward: jyboxnet@gmail.com
+    - i@jysperm.me
+        forward: jyboxnet@gmail.com
+    - *@jysperm.me
         forward: jyboxnet@gmail.com
 
 

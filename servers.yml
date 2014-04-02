@@ -3,25 +3,32 @@
     
     RAM: 1GiB
     Disk: 48 GiB
-    System: Ubuntu 12.04 x64
+    OS: Ubuntu 12.04 x64
 
 - us1.rpvhost.net
     provider: LocVPS
     
     RAM: 2GiB
     Disk: 50 GiB
-    System: Ubuntu 12.04 x86
+    OS: Ubuntu 12.04 x86
     
 - qc1.jysperm.me
     provider: QingCloud
     
     RAM: 0.5GiB
     Disk: 30 GiB
-    System: ArchLinux x64
+    OS: ArchLinux x64
 
-- blog.jybox.net
+- ss.jybox.net
     provider: Linode
     
     RAM: 1 GiB
-    Disk: 30 GiB
-    System: Debain 7 x64
+    Disk: 48 GiB
+    OS: Debain 7 x64
+
+- rp3.rpvhost.net
+    provider: Linode
+    
+    RAM: 1 GiB
+    Disk 48 GiB
+    OS: Ubuntu 13.10 x64

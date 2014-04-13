@@ -4,8 +4,11 @@
 [开源中国](http://www.oschina.net/)
 [SegmentFault](http://segmentfault.com/)
 
-[fe.pomotodo.com](http://fe.pomotodo.com)
+[alpha.pomotodo.com](http://alpha.pomotodo.com)
 [Jimu.Gitlab](http://xuxian.jimu.in)
+
+[Hacker News](https://news.ycombinator.com/)
+[Startup News](http://news.dbanotes.net/)
 
 [GMail](https://mail.google.com)
 [开源中国在线工具](http://www.ostools.net/)

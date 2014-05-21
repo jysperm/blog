@@ -12,4 +12,7 @@
     expire: 2014.10.15
 - rpvhost.net
     provider: godaddy
-    expire: 2014.5.15
+    expire: 2015.5.15
+- newsbee.io
+    provider: gandi
+    expire: 2015.5.21

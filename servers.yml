@@ -1,34 +1,31 @@
 - jp1.rpvhost.net
-    provider: Linode
-    
-    RAM: 1GiB
-    Disk: 48 GiB
-    OS: Ubuntu 12.04 x64
+  id: jp1
+  provider: Linode
+
+  RAM: 1GiB
+  Disk: 48 GiB
+  OS: Ubuntu 12.04 x86
 
 - us1.rpvhost.net
-    provider: LocVPS
-    
-    RAM: 2GiB
-    Disk: 50 GiB
-    OS: Ubuntu 12.04 x86
-    
-- qc1.jysperm.me
-    provider: QingCloud
-    
-    RAM: 0.5GiB
-    Disk: 30 GiB
-    OS: ArchLinux x64
+  id: us1
+  provider: LocVPS
 
-- ss.jybox.net
-    provider: Linode
-    
-    RAM: 1 GiB
-    Disk: 48 GiB
-    OS: Debain 7 x64
+  RAM: 2GiB
+  Disk: 50 GiB
+  OS: Ubuntu 12.04 x86
+
+- qc1.jysperm.me
+  id: qc1
+  provider: QingCloud
+
+  RAM: 0.5GiB
+  Disk: 30 GiB
+  OS: ArchLinux x64
 
 - rp3.rpvhost.net
-    provider: Linode
-    
-    RAM: 1 GiB
-    Disk 48 GiB
-    OS: Ubuntu 13.10 x64
+  id: rp3
+  provider: Linode
+
+  RAM: 2 GiB
+  Disk 48 GiB
+  OS: Ubuntu 14.04 x64

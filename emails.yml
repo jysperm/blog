@@ -10,7 +10,13 @@
     provider: exmail.qq.com
 - 0-ms.org
     provider: exmail.qq.com
-    
+
+## Third Party
+
+- jyboxnet@gmail.com
+- jysperm@gmail.com
+- jysperm@outlook.com
+
 ## Address
 
 main:
@@ -24,6 +30,3 @@ mirror:
         forward: jyboxnet@gmail.com
     - *@jysperm.me
         forward: jyboxnet@gmail.com
-
-
-

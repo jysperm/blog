@@ -1,32 +1,66 @@
 - jybox.net
-    - bbs.jybox.net
-    - fm.jybox.net
-    - godoc.jybox.net
-        alias:
-            - godoc.jysperm.me
-    - mail.jybox.net
-        redirect: exmail.qq.com
-    - nt.jybox.net
-    - old-bbs.jybox.net
-    - blog.jybox.net
-    
-- jysperm.me
-    alias: 
-        - jyprince.me
-        
-    - collect.jysperm.me
-    - wiki.jysperm.me
-        alias:
-            - wiki.jyprince.me
-    - static.jysperm.me
-        alias:
-            - static.jybox.net
-            - static2.jybox.net
-            
-- 0-ms.org
+  - bbs.jybox.net
+    Server: us1
+    Powered: esoTalk
+  - (Deprecated) fm.jybox.net
+    Server: us1
+    Powered: JYFM
+  - godoc.jybox.net
+    alias:
+      - godoc.jysperm.me
+    Server: qc1
+    Powered: Golang
+  - mail.jybox.net
+      redirect: exmail.qq.com
+  - nt.jybox.net
+    Server: qc1
+    Powered: NodeTalk
+  - old-bbs.jybox.net
+    Server: us1
+  - (Deprecated) blog.jybox.net
+    Powered: WordPress
+  - qun.jybox.net
     redirect: github.com
-    
+
+- jysperm.me
+  alias:
+    - jyprince.me
+  Server: qc1
+  Powered: WordPress
+
+  - collect.jysperm.me
+    Server: qc1
+    Powered: WordPress
+  - talk.jysperm.me
+    Server: qc1
+    Powered: 20lines-ChatRoom
+  - (Deprecated) wiki.jysperm.me
+    alias:
+      - wiki.jyprince.me
+    Server: qc1
+    Powered: DokuWiki
+  - static.jysperm.me
+    alias:
+      - static.jybox.net
+      - static2.jybox.net
+
+- 0-ms.org
+  redirect: github.com
+
 - rpvhost.net
-    - blog.rpvhost.net
-    - jp1.rpvhost.net
-    - us1.rpvhost.net
+  redirect: us1.rpvhost.net
+
+  - blog.rpvhost.net
+    Server: qc1
+    Powered: WordPress
+  - jp1.rpvhost.net
+    Server: jp1
+    Powered: RootPanel2
+  - us1.rpvhost.net
+    Server: us1
+    Powered: RootPanel2
+  - rp3.rpvhost.net
+    Server: rp3
+    Powered: RootPanel
+
+- newsbee.io

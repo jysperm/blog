@@ -17,6 +17,9 @@
 [一号店](http://www.yhd.com/)
 [全球付](http://www.globalcash.hk/)
 
+[Blockchain](https://blockchain.info/)
+[火币](https://www.huobi.com/)
+
 [Google Analytics](https://www.google.com/analytics/web)
 [Google云端硬盘](https://drive.google.com/)
 [Dropbox](https://www.dropbox.com/)

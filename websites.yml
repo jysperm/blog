@@ -21,6 +21,9 @@
     Powered: WordPress
   - qun.jybox.net
     redirect: github.com
+  - talk.jybox.me
+    Server: qc1
+    Powered: 20lines-ChatRoom
 
 - jysperm.me
   alias:
@@ -31,9 +34,6 @@
   - collect.jysperm.me
     Server: qc1
     Powered: WordPress
-  - talk.jysperm.me
-    Server: qc1
-    Powered: 20lines-ChatRoom
   - (Deprecated) wiki.jysperm.me
     alias:
       - wiki.jyprince.me

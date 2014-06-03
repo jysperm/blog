@@ -28,5 +28,5 @@ mirror:
         forward: jyboxnet@gmail.com
     - i@jysperm.me
         forward: jyboxnet@gmail.com
-    - *@jysperm.me
+    - '*@jysperm.me'
         forward: jyboxnet@gmail.com

@@ -5,7 +5,14 @@
 
 [番茄土豆](https://pomotodo.com)
 [Alpha](http://alpha.pomotodo.com)
-[积木 Gitlab](http://xuxian.jimu.in)
+[Beta](http://alpha.pomotodo.com)
+[Gitlab](http://xuxian.jimu.in)
+[Helpful:tickets](http://youzhu.hackplan.com/#!/project/5405d0010fbfa1934aac1403/tickets)
+
+Google [Analytics](https://www.google.com/analytics/web)
+[Calendar](https://www.google.com/calendar)
+[Translate](http://translate.google.cn/#auto/zh-CN/)
+[Plus](https://plus.google.com/)
 
 [Startup News](http://news.dbanotes.net/)
 [Feedly](http://cloud.feedly.com/)
@@ -20,8 +27,6 @@
 [Blockchain](https://blockchain.info/)
 [火币](https://www.huobi.com/)
 
-[Google Analytics](https://www.google.com/analytics/web)
-[Google Calendar](https://www.google.com/calendar)
 [Google云端硬盘](https://drive.google.com/)
 [Dropbox](https://www.dropbox.com/)
 [115网盘](http://115.com/)
@@ -40,7 +45,6 @@
 [豆瓣](http://www.douban.com/)
 [QQ空间](http://user.qzone.qq.com/)
 [Facebook](http://www.facebook.com/)
-[Google+](https://plus.google.com/)
 [Twitter](https://twitter.com/)
 [腾讯微博](http://t.qq.com/)
 [新浪微博](http://weibo.com)
@@ -48,6 +52,5 @@
 [Bilibili](http://bilibili.kankanews.com/)
 
 [开源中国在线工具](http://www.ostools.net/)
-[Google翻译](http://translate.google.cn/#auto/zh-CN/)
 [Codepad](http://codepad.org/)
 [PHP Codepad](http://3v4l.org/)

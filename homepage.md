@@ -12,6 +12,7 @@
 Google [Analytics](https://www.google.com/analytics/web)
 [Calendar](https://www.google.com/calendar)
 [Translate](http://translate.google.cn/#auto/zh-CN/)
+[Keep](https://keep.google.com/)
 [Plus](https://plus.google.com/)
 
 [Startup News](http://news.dbanotes.net/)

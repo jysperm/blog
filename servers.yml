@@ -1,29 +1,25 @@
-- jp1.rpvhost.net
-  id: jp1
+- jp1.rpvhost.net:
   provider: Linode
 
-  RAM: 1GiB
-  Disk: 48 GiB
-  OS: Ubuntu 12.04 x86
+  RAM: 2G
+  Disk: 48 G
+  OS: Ubuntu 14.04 x64
 
-- us1.rpvhost.net
-  id: us1
-  provider: LocVPS
+- us1.rpvhost.net:
+  provider: Linode
 
-  RAM: 2GiB
-  Disk: 50 GiB
-  OS: Ubuntu 12.04 x86
+  RAM: 2G
+  Disk: 48 G
+  OS: Ubuntu 14.04 x64
 
-- qc1.jysperm.me
-  id: qc1
+- sperm.rpvhost.net:
   provider: QingCloud
 
-  RAM: 0.5GiB
-  Disk: 30 GiB
-  OS: ArchLinux x64
+  RAM: 0.5G
+  Disk: 30 G
+  OS: Ubuntu 14.04 x64
 
-- rp3.rpvhost.net
-  id: rp3
+- gs1.rpvhost.net:
   provider: Linode
 
   RAM: 2 GiB

@@ -1,18 +1,29 @@
-- jybox.net
-    provider: godaddy
-    expire: 2014.8.18
-- 0-ms.org
+- jybox.net:
+    provider: paomi
+    expire: 2015.8.18
+    NS: dnspod
+- 0-ms.org:
     provider: godaddy
     expire: 2014.11.1
-- jyprince.me
+    NS: dnspod
+- jyprince.me:
     provider: godaddy
     expire: 2015.1.21
-- jysperm.me
-    provider: godaddy
-    expire: 2014.10.15
-- rpvhost.net
+    NS: dnspod
+    deprecated: true
+- jysperm.me:
+    provider: paomi
+    expire: 2015.10.15
+    NS: dnspod
+- rpvhost.net:
     provider: godaddy
     expire: 2015.5.15
-- newsbee.io
+    NS: dnspod
+- newsbee.io:
     provider: gandi
     expire: 2015.5.21
+    NS: linode
+- greenshadow.net:
+    provider: paomi
+    expire: 2015.8.24
+    NS: linode

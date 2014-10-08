@@ -3,9 +3,13 @@
     expire: 2015.8.18
     NS: dnspod
 - 0-ms.org:
-    provider: godaddy
-    expire: 2014.11.1
+    provider: paomi
+    expire: 2015.11.1
     NS: dnspod
+- rootpanel.io:
+    provider: paomi
+    expire: 2015.9.30
+    NS: linode
 - jyprince.me:
     provider: godaddy
     expire: 2015.1.21

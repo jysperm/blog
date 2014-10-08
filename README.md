@@ -6,8 +6,8 @@ Structured meta data for myself.
 
 ### Personal identification
 
-* [SSH Keys](https://github.com/jysperm/meta/tree/master/key)
-* [Avatars](https://github.com/jysperm/meta/tree/master/avatar)
+* [SSH Keys](https://github.com/jysperm/meta/tree/master/keys)
+* [Avatars](https://github.com/jysperm/meta/tree/master/avatars)
 
 ### Digital Assets
 

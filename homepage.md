@@ -5,10 +5,14 @@
 [CNodejs](https://cnodejs.org/)
 [Twitter](https://twitter.com/)
 
+My | [Blog](https://jysperm.me)
+[jybox](https://jybox.net)
+[Git](https://git.jybox.net)
+
 [番茄土豆](https://pomotodo.com) |
 [Alpha](http://alpha.pomotodo.com)
-[Beta](http://alpha.pomotodo.com)
-[Gitlab](http://xuxian.jimu.in)
+[Beta](http://beta.pomotodo.com)
+[Gitlab](http://lab.hackplan.com/)
 [Helpful:tickets](http://youzhu.io/#!/project/5405d0010fbfa1934aac1403/tickets)
 
 Google | [Analytics](https://www.google.com/analytics/web)
@@ -44,6 +48,6 @@ Google | [Analytics](https://www.google.com/analytics/web)
 
 [Bilibili](http://bilibili.kankanews.com/)
 
-[开源中国在线工具](http://www.ostools.net/)
+[ostools](http://www.ostools.net/)
 [Codepad](http://codepad.org/)
 [PHP Codepad](http://3v4l.org/)

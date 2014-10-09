@@ -2,26 +2,40 @@
   provider: Linode
 
   RAM: 2G
-  Disk: 48 G
+  Disk: 48G
   OS: Ubuntu 14.04 x64
 
 - us1.rpvhost.net:
   provider: Linode
 
   RAM: 2G
-  Disk: 48 G
+  Disk: 48G
   OS: Ubuntu 14.04 x64
 
 - sperm.rpvhost.net:
   provider: QingCloud
 
   RAM: 0.5G
-  Disk: 30 G
+  Disk: 30G
   OS: Ubuntu 14.04 x64
 
 - gs1.rpvhost.net:
   provider: Linode
 
-  RAM: 2 GiB
-  Disk 48 GiB
+  RAM: 2G
+  Disk: 48G
+  OS: Ubuntu 14.04 x64
+
+- meme.rpvhost.net:
+  provider: DigitalOcean
+
+  RAM: 0.5G
+  Disk: 20G
+  OS: Ubuntu 14.04 x64
+
+- jybox.rpvhost.net:
+  provider: Linode
+
+  RAM: 2G
+  Disk: 48G
   OS: Ubuntu 14.04 x64

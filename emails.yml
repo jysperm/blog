@@ -1,15 +1,13 @@
 ## Domain
 
-- jybox.net
-    provider: exmail.qq.com
 - jysperm.me
-    provider: gmail.com
+  provider: gmail.com
 - rpvhost.net
-    provider: exmail.qq.com
-- jyprince.me
-    provider: exmail.qq.com
+  provider: gmail.com
+- jybox.net
+  provider: exmail.qq.com
 - 0-ms.org
-    provider: exmail.qq.com
+  provider: exmail.qq.com
 
 ## Third Party
 
@@ -20,13 +18,13 @@
 ## Address
 
 main:
-    - jysperm@gmail.com (for Show)
-    - jyboxnet@gmail.com (for Receive)
+  - jysperm@gmail.com (for Show)
+  - jyboxnet@gmail.com (for Receive)
 
 mirror:
-    - m@jybox.net
-        forward: jyboxnet@gmail.com
-    - i@jysperm.me
-        forward: jyboxnet@gmail.com
-    - '*@jysperm.me'
-        forward: jyboxnet@gmail.com
+  - m@jybox.net
+  - i@jysperm.me
+  - *@jysperm.me
+  - robot@rpvhost.net
+  - admins@rpvhost.net
+  - webmaster@newsbee.io

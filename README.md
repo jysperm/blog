@@ -15,10 +15,13 @@ Structured meta data for myself.
 * [Email](https://github.com/jysperm/meta/blob/master/emails.yaml)
 * [Servers](https://github.com/jysperm/meta/blob/master/servers.yaml)
 
+### Software Development
+
+* [Node Packages](https://github.com/jysperm/meta/blob/master/node-packages.json)
+
 ### SNS Data
 
 * [Feedly](https://github.com/jysperm/meta/blob/master/feedly.opml)
-* [Games (Unfinished)](https://github.com/jysperm/meta/blob/master/games.yaml)
 
 ### Personal Tracking Data
 

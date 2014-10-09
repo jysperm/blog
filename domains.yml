@@ -1,33 +1,37 @@
 - jyprince.me:
-    provider: godaddy
-    expire: 2015.1.21
-    NS: dnspod
-    deprecated: true
+  provider: godaddy
+  expire: 2015.1.21
+  NS: dnspod
+  deprecated: true
 - rpvhost.net:
-    provider: godaddy
-    expire: 2015.5.15
-    NS: dnspod
+  provider: godaddy
+  expire: 2015.5.15
+  NS: linode
 - newsbee.io:
-    provider: gandi
-    expire: 2015.5.21
-    NS: linode
+  provider: gandi
+  expire: 2015.5.21
+  NS: linode
+- ziting.wang:
+  provider: xinnet
+  expire: 2015.8.11
+  NS: dnspod
 - jybox.net:
-    provider: paomi
-    expire: 2015.8.18
-    NS: dnspod
+  provider: paomi
+  expire: 2015.8.18
+  NS: linode
 - greenshadow.net:
-    provider: paomi
-    expire: 2015.8.24
-    NS: linode
+  provider: paomi
+  expire: 2015.8.24
+  NS: linode
 - rootpanel.io:
-    provider: paomi
-    expire: 2015.9.30
-    NS: linode
+  provider: paomi
+  expire: 2015.9.30
+  NS: linode
 - jysperm.me:
-    provider: paomi
-    expire: 2015.10.15
-    NS: dnspod
+  provider: paomi
+  expire: 2015.10.15
+  NS: linode
 - 0-ms.org:
-    provider: paomi
-    expire: 2015.11.1
-    NS: dnspod
+  provider: paomi
+  expire: 2015.11.1
+  NS: linode

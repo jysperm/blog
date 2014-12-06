@@ -11,9 +11,9 @@ Structured meta data for myself.
 
 ### Digital Assets
 
-* [Domains](https://github.com/jysperm/meta/blob/master/domains.yaml)
+* [Domains](https://github.com/jysperm/meta/blob/master/domains.yml)
 * [Email](https://github.com/jysperm/meta/blob/master/emails.yaml)
-* [Servers](https://github.com/jysperm/meta/blob/master/servers.yaml)
+* [Servers](https://github.com/jysperm/meta/blob/master/servers.yml)
 
 ### Software Development
 
@@ -25,7 +25,7 @@ Structured meta data for myself.
 
 ### Personal Tracking Data
 
-* [Footprints](https://github.com/jysperm/meta/blob/master/footprints.yaml)
+* [Footprints](https://github.com/jysperm/meta/blob/master/footprints.yml)
 * [Sleeping](https://github.com/jysperm/meta/blob/master/sleeping.csv)
 * [Sport](https://github.com/jysperm/meta/blob/master/sport.csv)
 

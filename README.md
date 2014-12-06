@@ -1,7 +1,8 @@
 ## meta
 Structured meta data for myself.
 
-* My [Blog](http://jysperm.me)
+* My [Blog](https://jysperm.me)
+* My [Fans Group](https://jybox.net)
 * [Homepage](https://github.com/jysperm/meta/blob/master/homepage.md)
 
 ### Personal identification
@@ -12,7 +13,7 @@ Structured meta data for myself.
 ### Digital Assets
 
 * [Domains](https://github.com/jysperm/meta/blob/master/domains.yml)
-* [Email](https://github.com/jysperm/meta/blob/master/emails.yaml)
+* [Email](https://github.com/jysperm/meta/blob/master/emails.yml)
 * [Servers](https://github.com/jysperm/meta/blob/master/servers.yml)
 
 ### Software Development

@@ -2,4 +2,4 @@
 
 * fetch-sleeping-data.coffee
 
-    coffee fetch-sleeping-data.coffee >> ../sleeping.csv
+        coffee fetch-sleeping-data.coffee >> ../sleeping.csv

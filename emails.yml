@@ -1,12 +1,14 @@
 ## Domain
 
-- jysperm.me
+- jysperm.me:
   provider: gmail.com
-- rpvhost.net
+- rpvhost.net:
   provider: gmail.com
-- jybox.net
+- newsbee.io:
+  provider: gmail.com
+- jybox.net:
   provider: exmail.qq.com
-- 0-ms.org
+- 0-ms.org:
   provider: exmail.qq.com
 
 ## Third Party

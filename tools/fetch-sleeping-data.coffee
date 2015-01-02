@@ -22,7 +22,7 @@ lastRecordDate = (callback) ->
     throw err if err
 
     csv.parse content, {}, (err, sleeping_data) ->
-      callback new Date _.last(sleeping_data)[2].trim()
+      callback new Date _.last(sleeping_data)[1].trim()
 
 request
   url: ICAL_URL
@@ -37,13 +37,16 @@ request
     sleeping_data = _.filter _.values(ical_data), (item) ->
       return item.summary == MATCH_DESCRIPTION
 
-    sleeping_data = _.filter sleeping_data.reverse(), (item) ->
+    sleeping_data = _.filter sleeping_data, (item) ->
       return item.start > last_data
 
     for item in sleeping_data
       _.extend item,
         start: new Date item.start
         end: new Date item.end
+
+    sleeping_data.sort (a, b) ->
+      return a.start.getTime() - b.start.getTime()
 
     for item in sleeping_data
       next_sleeping = _.find sleeping_data, (i) ->

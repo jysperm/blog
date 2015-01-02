@@ -5,7 +5,7 @@ Structured meta data for myself.
 * My [Fans Group](https://jybox.net)
 * [Homepage](https://github.com/jysperm/meta/blob/master/homepage.md)
 
-### Personal identification
+### Personal Identification
 
 * [SSH Keys](https://github.com/jysperm/meta/tree/master/keys)
 * [Avatars](https://github.com/jysperm/meta/tree/master/avatars)
@@ -28,7 +28,6 @@ Structured meta data for myself.
 
 * [Footprints](https://github.com/jysperm/meta/blob/master/footprints.yml)
 * [Sleeping](https://github.com/jysperm/meta/blob/master/sleeping.csv)
-* [Sport](https://github.com/jysperm/meta/blob/master/sport.csv)
 
 ### Todo
 

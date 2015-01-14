@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    block header
+      title= config.title
+  body
+    - page.posts.each(function(post) {
+      p= post.title
+    - });

@@ -1,0 +1,318 @@
+title: 为PHP构建可读的错误报告
+tags:
+  - 技术
+  - PHP
+  - 教程
+date: 2013-06-16 03:12:12
+---
+
+当年使用ASP.Net时，每当程序出错，ASP.Net均会显示一个“漂亮”的错误页，列出出错所在行附近的代码，调用栈和一些提示信息等等。
+
+相比之下，PHP默认的报错信息十分简陋，仅仅指明了出错的位置。
+
+本文将介绍通过PHP的错误处理相关函数，构造一个类似的，具有丰富的可利用的信息的错误页。
+
+![Asp.Net的错误页](http://social.msdn.microsoft.com/Forums/getfile/234858)
+
+提示：本文示例至少需要PHP5.4, 本文使用了PHP5.4中的数组简写语法，和PHP5.3中的匿名函数语法。
+
+应该说很多PHP框架都提供了类似的功能，本文展现的仅仅是其中一种方式。作者我并没有太多地参考其他PHP框架，仅仅是从官网文档下方的注释中精炼出了一些实用的功能。
+
+错误信息并非任何时候都可以展示的，很多情况下，错误信息中包含了很多敏感的数据，容易被攻击者利用。所以显然我们首先要引入一个“运行级别”的概念，该级别将控制我们的错误页展示错误详细信息的程度。
+
+    // 为避免污染全局命名空间，已对所有标识符加 `e` 前缀
+
+    /**
+     *  运行模式
+     *  * debug 调试模式, 会开启详细的日志记录和错误提示
+     *  * default 默认模式, 会输出错误提示
+     *  * production 生产模式, 不会执行任何额外操作, 最高效地执行代码
+     */
+
+    const eDebug = 2;
+    const eDefault = 1;
+    const eProduction = 0;
+
+    const eRunMode = eDefault;
+    `</pre>
+
+    PHP5开始，PHP彻底进入OPP时代，但仍留下了不少历史遗留问题。比如直到目前，PHP的内部错误仍然没有以异常的方式实现，绝大部分的内置函数也没有以异常的方式来报告错误，这种内置的错误报告由`error_reporting`函数进行控制：
+
+    <pre>`// 默认关掉所有错误提示
+    error_reporting(0);
+    // 如果是默认模式，打开致命错误和解析错误的报告
+    if(eRunMode &gt;= eDefault)
+        error_reporting(E_ERROR | E_PARSE);
+    // 如果是调试模式，打开全部错误提示，并启用修改建议提示
+    if(eRunMode &gt;= eDebug)
+        error_reporting(E_ALL | E_STRICT);
+    `</pre>
+
+    为了能够在出现错误的时候，去除已有的输出，以及追加 HTTP 头，我们要开启缓冲：
+
+    <pre>`ob_start();
+    `</pre>
+
+    然后我们需要向PHP引擎申请通过我们自己的函数来接管错误处理的相关流程，这其中有两个关键函数：
+
+*   set_error_handler
+*   set_exception_handler
+
+    set_error_handler 会注册一个自定义函数用于接管由PHP产生的错误，set_exception_handler 会注册一个自定义函数用于接管在最外层仍未被处理的异常。
+
+    在这里，我们会用 error_handler 函数来将PHP产生的错误统一转换为异常，再通过 exception_handler 来实现错误页的展现。
+
+    set_error_handler 所注册的自定义函数会被传递5个参数，分别是错误号，错误描述信息，错误文件名和行号，当前上下文的符号表(当前时刻所有变量的值).
+
+    PHP文档中推荐我们在自定义函数中重新抛出 ErrorException 类型的异常，这是一个内置的异常类型，但它并没有提供储存符号表的功能，而错误发生时的符号表却是非常有用的，所以这里我选择了自己构造一个异常类型来代替 ErrorException, 以便能将符号表储存下来。
+
+    这个工作很简单：
+
+    <pre>`class ePHPException extends Exception
+    {
+        protected $severity;
+        protected $varList;
+
+        public function  __construct($message = "", $code = 0, $severity = 1, $filename = __FILE__, $lineno = __LINE__, Exception $previous = null, $varList = [])
+        {
+            $this-&gt;severity = $severity;
+            $this-&gt;file = $filename;
+            $this-&gt;line = $lineno;
+            $this-&gt;varList = $varList;
+
+            // 调用父类的构造函数
+            parent::__construct($message, $code, $previous);
+        }
+
+        public function getSeverity()
+        {
+            return $this-&gt;severity;
+        }
+
+        public function getVarList()
+        {
+            return $this-&gt;varList;
+        }
+    }
+    `</pre>
+
+    然后我们使用 set_error_handler 注册一个自定义函数将PHP报告的错误转换为抛出 ePHPException 类型的异常.
+
+    <pre>`set_error_handler(function($no, $str, $file, $line, $varList) {
+        throw new ePHPException($str, 0, $no, $file, $line, null, $varList);
+    });
+    `</pre>
+
+    然后我们要重新考虑运行级别的问题，在调试模式和默认模式时，我们打算显示错误信息，而在生产模式下，我们不打算显示任何信息：
+
+    <pre>`if(eRunMode &lt;= eProduction)
+    {
+        set_exception_handler(function(Exception $exception) {
+            header("Content-Type: text/plant; charset=UTF-8");
+
+            die(header("HTTP/1.1 500 Internal Server Error"));
+        });
+    }
+    `</pre>
+
+    现在我们开始设计真正的错误处理函数，需要显示的信息包括：异常类型名，描述信息，调用栈，符号表，附近代码等等，这些信息都可以轻松地从异常对象上获取到：
+
+    <pre>`else
+    {
+        set_exception_handler(function(Exception $exception) {
+            // 暂时我们只打算以纯文本的形式展示信息
+            header("Content-Type: text/plant; charset=UTF-8");
+
+            // 头部
+            print sprintf(
+                "Exception `%s`: %s\n",
+                get_class($exception),
+                $exception-&gt;getMessage()
+            );
+
+            // 运行栈
+            print "\n^ Call Stack:\n";
+            // 从异常对象获取运行栈
+            $trace = $exception-&gt;getTrace();
+            // 如果是 ePHPException 则去除运行栈的第一项，即 error_handler
+            if($exception instanceof ePHPException)
+                array_shift($trace);
+
+            // 只有在调试模式才会显示参数的值，其他模式下只显示参数类型
+            if(eRunMode &lt; eDebug)
+                foreach ($trace as $key =&gt; $v)
+                    $trace[$key]["args"] = array_map("gettype", $trace[$key]["args"]);
+
+            // 用于打印参数的函数
+            $printArgs = function($a) use(&amp;$printArgs)
+            {
+                $result = "";
+                foreach($a as $k =&gt; $v)
+                {
+                    if(is_array($v))
+                        $v = "[" . $printArgs($v) . "]";
+                    else
+                        if(is_string($v))
+                            $v = "`{$v}`";
+                    if(!is_int($k))
+                        $v = "`$k` =&gt; $v";
+
+                    $result .= ($result ? ", {$v}" : $v);
+                }
+                return $result;
+            };
+
+            // 打印运行栈
+            foreach ($trace as $k =&gt; $v)
+                print sprintf(
+                    "#%s %s%s %s(%s)\n",
+                    $k,
+                    isset($v["file"]) ? $v["file"] : "",
+                    isset($v["line"]) ? "({$v["line"]}):" : "",
+                    $v["function"],
+                    $printArgs($v["args"])
+                );
+
+            print sprintf(
+                "#  {main}\n  thrown in %s on line %s\n\n",
+                $exception-&gt;getFile(),
+                $exception-&gt;getLine()
+            );
+
+            // 如果当前是调试模式，且异常对象是我们构造的 ePHPException 类型，打印符号表和源代码
+            if(eRunMode &gt;= eDebug &amp;&amp; $exception instanceof ePHPException)
+            {
+                // 用于打印符号表的函数
+                $printVarList = function($a, $tab=0) use(&amp;$printVarList)
+                {
+                    $tabs = str_repeat("   ", $tab);
+                    foreach($a as $k =&gt; $v)
+                        if(is_array($v))
+                            if(!$v)
+                                print "{$tabs}`{$k}` =&gt; []\n";
+                            else
+                                print "{$tabs}`{$k}` =&gt; [\n" . $printVarList($v, $tab+1) . "{$tabs}]\n";
+                        else
+                            print "{$tabs}`{$k}` =&gt; `{$v}`\n";
+                };
+
+                print "^ Symbol Table:\n";
+                $printVarList($exception-&gt;getVarList());
+
+                print "\n^ Code:\n";
+
+                // 显示出错附近行的代码
+                $code = file($exception-&gt;getFile());
+                $s = max($exception-&gt;getLine()-6, 0);
+                $e = min($exception-&gt;getLine()+5, count($code));
+                $code = array_slice($code, $s, $e - $s);
+
+                // 为代码添加行号
+                $line = $s + 1;
+                foreach($code as &amp;$v)
+                {
+                    $l = $line++;
+                    if(strlen($l) &lt; 4)
+                        $l = str_repeat(" ", 4-strlen($l)) . $l;
+                    if($exception-&gt;getLine() == $l)
+                        $v = "{$l}-&gt;{$v}";
+                    else
+                        $v = "{$l}  {$v}";
+                }
+
+                print implode("", $code);
+            }
+
+        });
+    }
+    `</pre>
+
+    下面我们编写一个示例来测试一下：
+
+    <pre>`function throwException()
+    {
+        class MyException extends Exception{}
+        throw new MyException("Aal izz well");
+    }
+
+    function call($func, $arg)
+    {
+        $func($arg);
+    }
+
+    // 错误1：
+    call("array_keys", 1234);
+    // 错误2：
+    throwException();
+    `</pre>
+
+    下面是`错误1`在eDefault下的显示：
+
+    <pre>`Exception `ePHPException`: array_keys() expects parameter 1 to be array, integer given
+
+    ^ Call Stack:
+    #0 /var/www/test.php(188): array_keys(integer)
+    #1 /var/www/test.php(192): call(string, integer)
+    #  {main}
+      thrown /var/www/test.php on line 188
+    `</pre>
+
+    很不错！显示了错误信息和运行栈，运行栈中的参数内容都以类型掩去了。
+
+    在 eDebug 下：
+
+    <pre>`Exception `ePHPException`: array_keys() expects parameter 1 to be array, integer given
+
+    ^ Call Stack:
+    #0 /var/www/test.php(188): array_keys(1234)
+    #1 /var/www/test.php(192): call(`array_keys`, 1234)
+    #  {main}
+      thrown in /var/www/test.php on line 188
+
+    ^ Symbol Table:
+    `func` =&gt; `array_keys`
+    `arg` =&gt; `1234`
+
+    ^ Code:
+     183      throw new MyException;
+     184  }
+     185  
+     186  function call($func, $arg)
+     187  {
+     188-&gt;    $func($arg);
+     189  }
+     190  
+     191  // 错误1：
+     192  call("array_keys", 1234);
+     193  // 错误2：
+    `</pre>
+
+    也如我们预期一样，在eDebug模式下，在运行栈中会显示参数内容，还会显示符号表和出错附近的代码。
+
+    至于eProduction模式，服务器没有返回任何信息，浏览器直接给出了下面的错误提示：
+
+    <pre>`HTTP 错误 500（Internal Server Error）：服务器尝试执行请求时遇到了意外情况。
+    `</pre>
+
+    错误2的eDefault模式(其他两个模式不再详细展示)：
+
+    <pre>`Exception `MyException`: Aal izz well
+
+    ^ Call Stack:
+    #0 /var/www/test.php(194): throwException()
+    #  {main}
+      thrown in /var/www/test.php on line 183
+
+就这样，我们通过百行左右的代码实现了一个具有丰富的可利用信息的PHP错误页，除了我们仅仅是纯文本，已经不逊色于Asp.Net的错误页了。
+
+这将会是非常值得的，会为你的调试工作带来很多方便。
+
+本文全部代码：[https://gist.github.com/jybox/5789249](https://gist.github.com/jybox/5789249)
+
+应该说，这个方案是存在硬伤的：PHP并不允许用户使用自定义函数处理致命错误！这包括无法解析的语法，调用未定义的函数等等行为，在发生致命错误时，仍会出现PHP那“丑陋”的错误提示。好在，但凡是致命错误，大都是很容易更正的，反倒是那些乱七八糟的“警告”和“提示”，最难以调试，这也是本文希望解决的问题。
+
+更进一步地，你可以使用PHP的反射机制，获取更多的信息用于调试：[http://www.php.net/manual/zh/book.reflection.php](http://www.php.net/manual/zh/book.reflection.php)
+
+所谓反射，就是在运行时，与PHP的解释器进行交互，获取关于代码的元信息，进行“反向工程”的一种机制，使用反射，你可以深入地挖掘类，函数，扩展的元信息。
+
+比如，获取一个匿名函数的源代码：[http://segmentfault.com/q/1010000000160912](http://segmentfault.com/q/1010000000160912)

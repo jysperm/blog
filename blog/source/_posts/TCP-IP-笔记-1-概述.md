@@ -1,0 +1,65 @@
+title: TCP/IP 笔记(1.概述)
+tags:
+  - 技术
+  - 计算机网络
+date: 2012-11-24 16:32:23
+---
+
+TCP/IP代表一套数据通讯协议的组合. TCP(Transmission Control Protocol, 传输控制协议)和IP(Internet Protocol, 网际协议)是其中最重要的两种协议. 它们是目前使用最广泛的协议组合，全球性Internet的基础.
+
+TCP/IP是统一的开放标准，不受制于特定的硬件或操作系统.
+
+Internet协议多由IETF(Internet Engineering Task Force,互联网工程任务小组)以RFC(Request For Comments,征求修正意见书)的形式发表.
+
+### OSI参考模型(Open System Interconnection Reference Model,开放式通信系统互联参考模型)
+
+(由底层至上层)
+
+更多信息：[http://zh.wikipedia.org/wiki/OSI%E6%A8%A1%E5%9E%8B](http://zh.wikipedia.org/wiki/OSI%E6%A8%A1%E5%9E%8B)
+
+*   物理层(Physical Layer)
+
+定义传输数据的物理规格(电平、电压、接口和引脚等)，物理层传输的是原始比特流，物理层需要保证对方能够正确地解析比特流，如约定哪个引脚发送的多少电压表示0或1, 一个bit持续多少微秒.
+
+*   数据链路层(Data Link Layer)
+
+保证数据能在物理层正确地被传输.
+
+*   网络层(Network Layer)
+
+管理网络间的连接、寻址，屏蔽底层的细节. IP通常被认为在这一层.
+
+*   传输层(Transport Layer)
+
+保证接收方能够正确无误、按顺序接到发送方的数据. TCP通常被认为在这一层.
+
+*   会话层(Session Layer)
+
+配合应用层管理会话式,某些协议允许在一个连接中进行多个会话. 而在某些协议中(如HTTP/1.0)连接和会话并无区别.
+
+*   表示层(Presentation Layer)
+
+双方就数据的格式达成共识，如压缩和加密.
+
+*   应用层(Appliction Layer)
+
+应用程序交互的实际内容.
+
+### TCP/IP模型
+
+(由底层至上层)
+
+更多信息：[http://zh.wikipedia.org/wiki/TCP/IP%E5%8D%8F%E8%AE%AE](http://zh.wikipedia.org/wiki/TCP/IP%E5%8D%8F%E8%AE%AE)
+
+TCP/IP并没有一个标准的模型，通常认为它有四层，但不同资料对四层的划分并不相同.
+
+*   网络访问层(Network Access Layer)
+*   网际层(Internet Layer)
+*   主机对主机传输层(Host-to-Host Transport Layer)
+*   应用层
+
+无论是OSI还是TCP/IP, 数据都是逐层传输的.
+
+发送方的数据，由应用层，逐层向下，经过每层时被加上该层的报头或进行封装.
+
+接收方由下至上，每层剥离报头与数据，并将数据交给正确的上层应用.

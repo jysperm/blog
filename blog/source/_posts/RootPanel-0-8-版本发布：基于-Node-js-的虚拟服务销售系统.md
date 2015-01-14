@@ -1,0 +1,46 @@
+title: RootPanel 0.8 版本发布：基于 Node.js 的虚拟服务销售系统
+tags:
+  - 技术
+  - RootPanel
+date: 2014-11-20 07:02:19
+---
+
+RootPanel on Github: [https://github.com/jysperm/RootPanel](https://github.com/jysperm/RootPanel)
+
+### RootPanel 是什么
+
+简单来说 RootPanel 是一个虚拟主机销售系统，但是它被设计得高度插件化，除了虚拟主机也支持类似  ShadowSocks 或者 VPS 等服务的销售。
+
+如果说得高端大气一点，RootPanel 是一个 SaaS 或者 PaaS 的开发框架，你可以在这个框架的基础上，以插件的形式销售自定义的服务。
+
+### RootPanel 目前支持哪些功能
+
+RootPanel 目前支持两个典型的场景：Linux 虚拟主机、ShadowSocks 代理。
+
+Linux 虚拟主机这个部分之前实现了支持 MongoDB, MySQL, Memcached, Redis 等数据库；通过 Nginx 共享 80 端口；通过 PHP-FPM 支持 PHP 网站，通过 Supervisor 支持 Node.js 和 Python, 以及 Golang 的应用。
+
+但现在正在重写所有的插件，目前能用的只有 SSH 和 Supervisor.
+
+除了具体的服务，RootPanel 提供了订单管理和工单系统的功能，形成一套完整的销售系统。
+
+然后这里有一些截图：[http://blog.rpvhost.net/?p=148](http://blog.rpvhost.net/?p=148)
+
+### RootPanel 目前的进度如何
+
+RootPanel 半年在来反复地重构，探索「正确」的写法。目前刚刚完成一次大规模的重构，正在重写之前的插件。接下来打算将插件提供的服务进一步抽象成「元件(原谅我想不出更恰当的词了)」，提供对多台服务器的支持，然后让服务可以在不同用户间交叉授权或转移。
+
+我自己经营的虚拟主机服务 ([http://rpvhost.net](http://rpvhost.net)) 和代理服务 ([http://greenshadow.net](http://greenshadow.net)) 就在使用它。所以也不能完全算是纸上谈兵，但毕竟是一个刚刚完成的作品，用户很少，用起来不可避免地会出一些问题，存在一些风险。
+
+总而言之这是一个还在成长阶段的项目，但毕竟花了这么多时间，实在想提前介绍给大家。
+
+### RootPanel 使用哪些技术
+
+前端：BootStrap, jQuery, Coffee, 我不会写前端，所以代码惨不忍睹。
+
+页面用 Jade, 由后端渲染；样式用 Less, 不过因为用了 Bootstrap, 只有很少的一点。
+
+后端 Coffee, MongoDB, Redis, Express, Mongoose, 首要支持 Ubuntu 14.04.
+
+### RootPanel 是开源软件么
+
+为了保留一些盈利的可能，RootPanel 使用 AGPL 和商业版本双授权。开源版本使用 AGPL, 这是一个比较丧心病狂的协议，要求用户在公开运行的服务器上使用并修改了 RootPanel 时，开源对其的修改。

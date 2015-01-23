@@ -3,27 +3,35 @@ extends base
 mixin article(post)
   article
     header
-      h2= post.title
+      if is_post()
+        h2= post.title
+      else
+        h2
+          a(href=url_for(post.path))= post.title
       
     .article-meta.clearfix
       time.pull-left= post.date.format(config.date_format)
-      ul.tags.pull-left
-        - post.categories.each(function(category) {
-        li
-          a(href="/#{category.path}")= category.name
+      
+      if post.categories
+        ul.tags.pull-left
+          - post.categories.each(function(category) {
+            li
+              a(href=url_for(category.path))= category.name
           - });
-      ul.tags.pull-right
-        - post.tags.each(function(tag) {
-          li
-            a(href="/#{tag.path}")= tag.name
-        - });
+        
+      if post.tags
+        ul.tags.pull-right
+          - post.tags.each(function(tag) {
+            li
+              a(href=url_for(tag.path))= tag.name
+          - });
       
     div!= post.content
 
-block head
-  title= config.title
-
 block body
-  - page.posts.each(function(post) {
-    +article(post)
-  - });
+  if page.posts
+    - page.posts.each(function(post) {
+      +article(post)
+    - });
+  else
+    +article(page)

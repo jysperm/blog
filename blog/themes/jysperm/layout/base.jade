@@ -2,9 +2,12 @@ doctype html
 html
   head
     meta(charset='utf-8')
+    link(rel='alternate', type='application/rss+xml', title='王子亭的博客' href='https://jysperm.me/atom.xml')
+    link(rel='icon', type='image/png', href='/image/avatar.png')
     link(rel='stylesheet', href='/vendor.css')
     link(rel='stylesheet', href='/theme.css')
     block head
+      title= config.title
   body
     .container
       .page-header
@@ -28,6 +31,8 @@ html
             li 
               a(href='/ad') 广告
           ul.nav.navbar-nav.navbar-right
+            li
+              a(href='/atom.xml') RSS
             li 
               a(href='https://github.com/jysperm/meta') fork on Github
               

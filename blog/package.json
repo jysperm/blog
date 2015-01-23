@@ -8,6 +8,7 @@
     "hexo-renderer-ejs": "*",
     "hexo-renderer-jade": "^0.1.0",
     "hexo-renderer-marked": "*",
-    "hexo-renderer-stylus": "*"
+    "hexo-renderer-stylus": "*",
+    "markdown": "^0.5.0"
   }
 }

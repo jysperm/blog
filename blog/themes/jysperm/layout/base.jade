@@ -9,13 +9,53 @@ html
     .container
       .page-header
         h1= config.title
-        
+    
+    .container
+      nav.navbar.navbar-default
+        .container-fluid
+          .navbar-header
+            a.navbar-brand(href='/')
+              img(alt=config.title, src='/image/avatar.png')
+          ul.nav.navbar-nav
+            li 
+              a(href='/about') 关于精子
+            li 
+              a(href='/profile') 简历
+            li 
+              a(href='/links') 推荐及链接
+            li 
+              a(href='/list') 所有日志
+            li 
+              a(href='/ad') 广告
+          ul.nav.navbar-nav.navbar-right
+            li 
+              a(href='https://github.com/jysperm/meta') fork on Github
+              
     .container
       .row
         .col-md-9.block-body
           block body
         .col-md-3.block-sidebar
           block sidebar
+            .widget.about
+              :markdown
+                精子生于 1995.11.25, 19 岁，现居江苏苏州，英文 ID jysperm.
+                
+                * 高中退学
+                * [独立博客](https://jysperm.me) 作者
+                * 有一个 [精子粉丝团](https://jybox.net)
+                * [RP 主机](http://rpvhost.net) 和 [GreenShadow](http://greenshadow.net) 维护者
+                * 积极参与开源社区，深度 [Github](https://github.com) 用户
+                * [番茄土豆](https://pomotodo.com) 维护者之一，[Hackplan](http://hackplan.com/) 成员
+
+            .widget.categories
+              != list_categories()
+              
+            .widget.tags
+              != list_tags({show_count: false})
+              
+            .widget.archives
+              != list_archives()
 
     if theme.google_analytics
       script.

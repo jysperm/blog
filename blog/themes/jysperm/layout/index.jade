@@ -1,9 +1,29 @@
 extends base
 
+mixin article(post)
+  article
+    header
+      h2= post.title
+      
+    .article-meta.clearfix
+      time.pull-left= post.date.format(config.date_format)
+      ul.tags.pull-left
+        - post.categories.each(function(category) {
+        li
+          a(href="/#{category.path}")= category.name
+          - });
+      ul.tags.pull-right
+        - post.tags.each(function(tag) {
+          li
+            a(href="/#{tag.path}")= tag.name
+        - });
+      
+    div!= post.content
+
 block head
   title= config.title
 
 block body
   - page.posts.each(function(post) {
-    p= post.title
+    +article(post)
   - });

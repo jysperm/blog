@@ -53,7 +53,7 @@ gulp.task 'theme.css', ->
   .pipe minifyCSS()
   .pipe gulp.dest 'source'
 
-gulp.task 'default', ['vendor', 'theme.js', 'theme.css', 'watch']
+gulp.task 'default', ['vendor', 'theme.js', 'theme.css']
 
 gulp.task 'watch', ->
   gulp.watch 'source/script/*', ['theme.js']

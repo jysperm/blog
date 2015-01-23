@@ -56,7 +56,7 @@ logger: false
 logger_format: dev
 
 # Date / Time format
-date_format: MMM D YYYY
+date_format: YYYY MMM D
 time_format: H:mm:ss
 
 # Pagination

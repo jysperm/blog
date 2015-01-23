@@ -24,13 +24,13 @@ lastRecordDate = (callback) ->
     csv.parse content, {}, (err, sleeping_data) ->
       callback new Date _.last(sleeping_data)[1].trim()
 
+getDistanceByHours = (from, to) ->
+  return parseFloat ((to?.getTime() - from.getTime()) / 3600 / 1000).toFixed 1
+
 request
   url: ICAL_URL
   agent: agent
 , (err, _res, body) ->
-  getDistanceByHours = (from, to) ->
-    return parseFloat ((to?.getTime() - from.getTime()) / 3600 / 1000).toFixed 1
-
   lastRecordDate (last_data) ->
     ical_data = ical.parseICS body
 

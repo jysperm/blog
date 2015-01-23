@@ -23,8 +23,8 @@ public_dir: public
 # Writing
 new_post_name: :year-:month-:day#:title.md
 default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+titlecase: false
+external_link: true
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -45,26 +45,17 @@ tag_map:
   PHP: php
 
 # Archives
-## 2: Enable pagination
-## 1: Disable pagination
-## 0: Fully Disable
 archive: 2
 category: 2
 tag: 2
 
 # Server
-## Hexo uses Connect as a server
-## You can customize the logger format as defined in
-## http://www.senchalabs.org/connect/logger.html
 port: 4000
 server_ip: localhost
 logger: false
 logger_format: dev
 
 # Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
 date_format: MMM D YYYY
 time_format: H:mm:ss
 
@@ -76,13 +67,10 @@ pagination_dir: page
 disqus_shortname:
 
 # Extensions
-## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
-## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: landscape
+theme: jysperm
 exclude_generator:
 
 # Deployment
-## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: rsync
   host: jysperm.me

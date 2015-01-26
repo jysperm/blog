@@ -40,9 +40,34 @@ category_map:
   技术: technology
   生活: live
   随笔: note
+  精子的故事: story
 tag_map:
   软件工程: 软件工程
   PHP: php
+  C++: cpp
+  C++讲稿: cpp-ppt
+  Golang: golang
+  HTML: html
+  LightPHP: lightphp
+  Linux: linux
+  Node.js: nodejs
+  计划: plans
+  计算机网络: network
+  笔记: reading-notes
+  价值观: values
+  RP主机: rpvhost
+  教程: tutorials
+  读书: reading
+  小璐: xiaolu
+  计算机科学: computer-science
+  电影: movie
+  博客: blog
+  学校考试: exam
+  黑客: hacker
+  零毫秒: zeroms
+  学校周记: school-weekly
+  密码学: cryptography
+  比特币: bitcoin
 
 # Archives
 archive: 2

@@ -27,6 +27,9 @@ mixin article(post)
           - });
       
     div!= post.content
+        
+    if !page.posts
+      .ds-thread(data-thread-key=duoshuoKey(post), data-title=post.title, data-url=post.permalink)
 
 block body
   if page.posts

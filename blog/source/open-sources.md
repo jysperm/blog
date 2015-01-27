@@ -1,4 +1,5 @@
 title: My open source projects
+permalink: open-sources
 duoshuo_id: 1881
 ---
 

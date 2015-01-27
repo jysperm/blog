@@ -1,4 +1,5 @@
 title: 广告
+permalink: ad
 duoshuo_id: 1597
 ---
 

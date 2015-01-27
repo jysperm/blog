@@ -1,4 +1,5 @@
 title: 推荐及链接
+permalink: links
 duoshuo_id: 1196
 ---
 

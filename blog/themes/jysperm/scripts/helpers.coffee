@@ -8,3 +8,7 @@ hexo.extend.helper.register 'duoshuoKey', (post) ->
 
   if post_permalink
     return post_permalink[1]
+
+hexo.extend.helper.register 'sourceOfPost', (post) ->
+  path = post.source.replace(/#/m, '%23').replace(/\ /m, '%20')
+  return "https://github.com/jysperm/meta/tree/master/blog/source/#{path}"

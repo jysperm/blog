@@ -3,11 +3,15 @@ extends base
 mixin article(post)
   article
     header
-      if is_post()
-        h2= post.title
-      else
+      if page.posts
         h2
           a(href=url_for(post.path))= post.title
+      else
+        h2.clearfix
+          = post.title
+          small.pull-right
+            small
+              a(target='_blank', href=sourceOfPost(post)) 查看源代码
       
     .article-meta.clearfix
       time.pull-left= post.date.format(config.date_format)
@@ -28,13 +32,29 @@ mixin article(post)
       
     div!= post.content
         
-    if !page.posts
+    unless page.posts
       .ds-thread(data-thread-key=duoshuoKey(post), data-title=post.title, data-url=post.permalink)
 
 block body
+  if is_tag()
+    .archive-title
+      strong 标签 ##{page.tag}
+      
+  if page.category
+    .archive-title
+      strong 分类 ##{page.category}
+      
+  if page.year && page.month
+    .archive-title
+      strong 归档 #{page.year} 年 #{page.month} 月
+  
   if page.posts
     - page.posts.each(function(post) {
       +article(post)
     - });
+    
+    .archive-pagination
+      .paginator!= paginator({prev_text: '&laquo;', next_text: '&raquo;'})
+        
   else
     +article(page)

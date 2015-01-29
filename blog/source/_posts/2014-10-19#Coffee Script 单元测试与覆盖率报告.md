@@ -1,7 +1,5 @@
 title: Coffee Script 单元测试与覆盖率报告
 permalink: 1909
-categories:
-  - 技术
 tags:
   - Node.js
 date: 2014-10-19

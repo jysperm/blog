@@ -1,10 +1,8 @@
 title: LightPHP v5: 闲聊PHP框架
-categories:
-  - 技术
+permalink: 1132
 tags:
   - LightPHP
   - PHP
-  - PHP进阶
   - RP主机
 date: 2013-07-05
 ---

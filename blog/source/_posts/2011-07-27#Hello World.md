@@ -1,7 +1,5 @@
 title: Hello World
 permalink: 1
-categories:
-  - 随笔
 tags:
   - 博客
 date: 2011-07-27

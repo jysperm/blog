@@ -3,8 +3,6 @@ permalink: profile
 duoshuo_id: 1147
 ---
 
-该页面上次更新于 2015.1.7.
-
 目前工作于 [Hackplan](http://hackplan.com), 我们的主要产品是 [番茄土豆](https://pomotodo.com)。
 
 ## Node.js

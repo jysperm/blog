@@ -9,3 +9,6 @@
     apt-get install screen wget zip unzip iftop vim curl htop iptraf nethogs ntp
 
     npm install coffee-script http-server hexo gulp mocha harp bower -g
+
+    useradd -m jysperm
+    usermod -G jysperm -a www-data

@@ -42,7 +42,7 @@ category_map:
   随笔: note
   精子的故事: story
 tag_map:
-  软件工程: 软件工程
+  软件工程: software-engineering
   PHP: php
   C++: cpp
   C++讲稿: cpp-ppt
@@ -53,6 +53,7 @@ tag_map:
   Node.js: nodejs
   计划: plans
   计算机网络: network
+  互联网: internet
   笔记: reading-notes
   价值观: values
   RP主机: rpvhost
@@ -98,7 +99,7 @@ exclude_generator:
 # Deployment
 deploy:
   type: rsync
-  host: jysperm.me
+  host: spawn.rpvhost.net
   user: jysperm
   root: /home/jysperm/blog-public
 

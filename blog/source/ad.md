@@ -3,8 +3,6 @@ permalink: ad
 duoshuo_id: 1597
 ---
 
-**警告：若你点击本页面中的链接，将会使我获得直接的收入。**
-
 ## 我运营的服务
 
 * [RP 主机](http://rpvhost.net)：全功能 Linux 虚拟主机
@@ -20,11 +18,11 @@ duoshuo_id: 1597
 
 * [Linode](https://www.linode.com/?r=a196912d910d9eefa806a2f2a00e5991811f85ef)
 
-Linode 几乎是世界上最好的 Linux VPS, 具有功能强大的面板，支持多个机房，及时的客服支持。
+    Linode 几乎是世界上最好的 Linux VPS, 具有功能强大的面板，支持多个机房，及时的客服支持。
 
 * [DigitalOcean](https://www.digitalocean.com/?refcode=3adfb872a7c3)
 
-也不失为 VPS 提供商的另一个选择。
+    也不失为 VPS 提供商的另一个选择。
 
 ## 书籍
 

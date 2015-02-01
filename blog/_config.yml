@@ -42,6 +42,7 @@ category_map:
   随笔: note
   精子的故事: story
 tag_map:
+  信息安全: information-security
   软件工程: software-engineering
   PHP: php
   C++: cpp
@@ -52,6 +53,7 @@ tag_map:
   Linux: linux
   Node.js: nodejs
   计划: plans
+  技术: technology
   计算机网络: network
   互联网: internet
   笔记: reading-notes
@@ -63,8 +65,14 @@ tag_map:
   总结: summary
   教育: education
   作品: works
+  随笔: note
   单元测试: unit-test
+  生活: live
+  PHP进阶: php-advanced
+  互联网资讯: news
+  购物: shopping
   生活记录: live
+  物理: physical
   MongoDB: mongodb
   计算机科学: computer-science
   电影: movie

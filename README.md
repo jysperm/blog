@@ -1,7 +1,7 @@
-## meta
+## Meta
 Structured meta data for myself.
 
-* My [Blog](https://jysperm.me)
+* My [Blog](https://jysperm.me) ([Source](https://github.com/jysperm/meta/tree/master/blog))
 * My [Fans Group](https://jybox.net)
 * [Homepage](https://github.com/jysperm/meta/blob/master/homepage.md)
 

@@ -88,7 +88,7 @@ logger: false
 logger_format: dev
 
 # Date / Time format
-date_format: YYYY MMM D
+date_format: YYYY M 月 D 日
 time_format: H:mm:ss
 
 # Pagination

@@ -1,1 +1,1 @@
-## jysperm hexo thmem
+## jysperm hexo theme

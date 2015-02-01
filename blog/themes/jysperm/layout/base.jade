@@ -58,6 +58,18 @@ html
               
             .widget.archives
               != list_archives()
+              
+            .widget.copyrigth
+              p
+                | 该博客使用基于 &nbsp;
+                a(href='http://hexo.io') Hexo
+                | &nbsp; 的 &nbsp;
+                a(href='https://github.com/jysperm/meta/tree/master/blog/themes/jysperm') hexo-theme-jysperm
+                | &nbsp; 主题。源文件托管于 Github 的 &nbsp;
+                a(href='https://github.com/jysperm/meta/tree/master/blog') jysperm/meta
+                | , 文字内容使用 &nbsp;
+                a(href='http://creativecommons.org/licenses/by-nc-sa/3.0/cn/') CC BY-NC-SA 3.0
+                | &nbsp; 授权发布。最后生成于 #{date(Date.now(), 'YYYY-MM-DD')}.
 
     if theme.google_analytics
       script.

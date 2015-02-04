@@ -1,5 +1,17 @@
 extends base
 
+block head
+  if is_tag()
+    title 标签 ##{page.tag} | #{config.title}
+  else if page.category
+    title 分类 ##{page.category} | #{config.title}
+  else if page.year && page.month
+    title 档 #{page.year} 年 #{page.month} 月 | #{config.title}
+  else if !page.posts
+    title= page.title
+  else
+    title= config.title
+
 mixin article(post)
   article
     header
@@ -7,11 +19,9 @@ mixin article(post)
         h2
           a(href=url_for(post.path))= post.title
       else
-        h2.clearfix
-          = post.title
-          small.pull-right
-            small
-              a(target='_blank', href=sourceOfPost(post)) 查看源代码
+        small.pull-right
+          a(target='_blank', href=sourceOfPost(post)) 查看源代码
+        h2.clearfix= post.title
       
     .article-meta.clearfix
       time.pull-left= post.date.format(config.date_format)

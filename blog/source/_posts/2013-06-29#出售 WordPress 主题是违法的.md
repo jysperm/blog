@@ -1,8 +1,8 @@
 title: 出售WordPress主题是违法的
+permalink: 1127
 tags:
-  - 技术
   - 冷知识
-date: 2013-06-29 19:52:15
+date: 2013-06-29
 ---
 
 标题党了，应为：出售WordPress主题，并禁止二次分发的行为是违反协议的。
@@ -54,7 +54,8 @@ WordPress在其官网[注5]委婉地写道“我们认为主题和插件作为�
 
 参考：
 
-*   [注1]: http://wordpress.org/about/license/*   [注2]: GPL原文 http://www.gnu.org/licenses/gpl.html
+*   [注1]: http://wordpress.org/about/license/
+*   [注2]: GPL原文 http://www.gnu.org/licenses/gpl.html
 *   [注3]: http://wordpress.org/news/2009/07/themes-are-gpl-too/
 *   [注4]: http://article.yeeyan.org/view/pestwave/118084
 *   [注5]: http://wordpress.org/about/license/

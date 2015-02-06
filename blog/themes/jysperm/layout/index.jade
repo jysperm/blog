@@ -2,11 +2,11 @@ extends base
 
 block head
   if is_tag()
-    title 标签 ##{page.tag} | #{config.title}
+    title 标签：#{page.tag} | #{config.title}
   else if page.category
-    title 分类 ##{page.category} | #{config.title}
+    title 分类：#{page.category} | #{config.title}
   else if page.year && page.month
-    title 档 #{page.year} 年 #{page.month} 月 | #{config.title}
+    title 归档：#{page.year} 年 #{page.month} 月 | #{config.title}
   else if !page.posts
     title= page.title
   else

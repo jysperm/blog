@@ -64,7 +64,7 @@ block body
     - });
     
     .archive-pagination
-      .paginator!= paginator({prev_text: '&laquo;', next_text: '&raquo;'})
+      .paginator!= fixPaginator(paginator({prev_text: '&laquo;', next_text: '&raquo;'}))
         
   else
     +article(page)

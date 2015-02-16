@@ -12,3 +12,6 @@ hexo.extend.helper.register 'duoshuoKey', (post) ->
 hexo.extend.helper.register 'sourceOfPost', (post) ->
   path = post.source.replace(/#/m, '%23').replace(/\ /m, '%20')
   return "https://github.com/jysperm/meta/tree/master/blog/source/#{path}"
+
+hexo.extend.helper.register 'fixPaginator', (html) ->
+  return html.replace /\/\//m, '/'

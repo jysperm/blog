@@ -13,9 +13,10 @@ duoshuo_id: 1685
 
 ## 软件工程和算法
 
-* 编程珠玑
+* <a href="http://www.amazon.cn/gp/product/B00SFZH0DC/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00SFZH0DC&linkCode=as2&tag=jysperm07-23">编程珠玑</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00SFZH0DC" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B003BY6PLK/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B003BY6PLK&linkCode=as2&tag=jysperm07-23">重构：改善既有代码的设计</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B003BY6PLK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B008B4DTG4/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B008B4DTG4&linkCode=as2&tag=jysperm07-23">编写可读代码的艺术</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B008B4DTG4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+* <a href="http://www.amazon.cn/gp/product/B004GV08CY/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B004GV08CY&linkCode=as2&tag=jysperm07-23">程序员修炼之道:从小工到专家</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B004GV08CY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * 集体智慧编程
 
 ## 计算机技术
@@ -28,6 +29,7 @@ duoshuo_id: 1685
 
 ## JavaScript
 
+* <a href="http://www.amazon.cn/gp/product/B007VISQ1Y/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B007VISQ1Y&linkCode=as2&tag=jysperm07-23">JavaScript 权威指南 </a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B007VISQ1Y" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B0097CON2S/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B0097CON2S&linkCode=as2&tag=jysperm07-23">JavaScript 语言精粹</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B0097CON2S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B0082226FU/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B0082226FU&linkCode=as2&tag=jysperm07-23">JavaScript Web Applications 中文版</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B0082226FU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B00CYM0Z8Y/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00CYM0Z8Y&linkCode=as2&tag=jysperm07-23">JavaScript 异步编程</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00CYM0Z8Y" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

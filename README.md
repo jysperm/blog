@@ -1,5 +1,5 @@
 ## Meta
-Structured meta data for myself.
+Structured meta data of myself.
 
 * My [Blog](https://jysperm.me) ([Source](https://github.com/jysperm/meta/tree/master/blog))
 * My [Fans Group](https://jybox.net)
@@ -12,9 +12,9 @@ Structured meta data for myself.
 
 ### Digital Assets
 
-* [Domains](https://github.com/jysperm/meta/blob/master/domains.yml)
-* [Email](https://github.com/jysperm/meta/blob/master/emails.yml)
-* [Servers](https://github.com/jysperm/meta/blob/master/servers.yml)
+* [Domains](https://github.com/jysperm/meta/blob/master/domains.yaml)
+* [Email](https://github.com/jysperm/meta/blob/master/emails.yaml)
+* [Servers](https://github.com/jysperm/meta/blob/master/servers.yaml)
 
 ### Software Development
 
@@ -26,7 +26,7 @@ Structured meta data for myself.
 
 ### Personal Tracking Data
 
-* [Footprints](https://github.com/jysperm/meta/blob/master/footprints.yml)
+* [Footprints](https://github.com/jysperm/meta/blob/master/footprints.yaml)
 * [Sleeping](https://github.com/jysperm/meta/blob/master/sleeping.csv)
 
 ### Todo

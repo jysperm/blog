@@ -70,6 +70,10 @@ html
                 | , 文字内容使用 &nbsp;
                 a(href='http://creativecommons.org/licenses/by-nc-sa/3.0/cn/') CC BY-NC-SA 3.0
                 | &nbsp; 授权发布。最后生成于 #{date(Date.now(), 'YYYY-MM-DD')}.
+      
+    if theme.duoshuo_short_name
+      script.
+        window.duoshuoQuery = {short_name: '#{theme.duoshuo_short_name}'}
 
     if theme.google_analytics
       script.
@@ -79,7 +83,7 @@ html
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
         ga('create', '#{theme.google_analytics}', 'auto');
         ga('send', 'pageview');
+        
     script(src='/vendor.js')
-    script(src='/theme.js')
     script(src='https://static.duoshuo.com/embed.js')
     block footer

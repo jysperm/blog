@@ -1,5 +1,4 @@
 /bower_components
 /source/*
 !/source/style/*
-!/source/script/*
 !/source/image/*

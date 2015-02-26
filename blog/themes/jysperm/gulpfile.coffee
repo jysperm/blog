@@ -38,10 +38,6 @@ gulp.task 'vendor', ->
 gulp.task 'theme.js', ->
   gulp.src 'source/script/*.coffee'
   .pipe coffee()
-  .pipe order [
-    '**/base.js'
-    '**/*.js'
-  ]
   .pipe concat 'theme.js'
   .pipe minifyJs()
   .pipe gulp.dest 'source'

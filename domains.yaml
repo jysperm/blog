@@ -1,8 +1,3 @@
-- jyprince.me:
-  provider: godaddy
-  expire: 2015.1.21
-  NS: dnspod
-  deprecated: true
 - rpvhost.net:
   provider: godaddy
   expire: 2015.5.15

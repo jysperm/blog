@@ -49,6 +49,6 @@ duoshuo_id: 1147
 
 * 高中退学。
 * 自有收入开始没有使用过任何盗版软件。
-* 活跃于 [V2EX](https://www.v2ex.com/member/jybox), [SegmentFault](http://segmentfault.com/u/jysperm), [知乎](http://www.zhihu.com/people/jysperm) 等社区。
+* 活跃于 [V2EX](https://www.v2ex.com/member/jybox)、[SegmentFault](http://segmentfault.com/u/jysperm)、[知乎](http://www.zhihu.com/people/jysperm) 等社区。
 * 自 2002 年创建了一个[博客](https://jysperm.me)，目前有高质量原创文章百余篇，其中技术文章大概占一半。  
-* 常年接入世界性互联网, 能阅读技术方面的英文资料，熟练使用 git 并用 [Github](https://github.com/jysperm) 分享代码。
+* 常年接入世界性互联网，能阅读技术方面的英文资料，熟练使用 git 并用 [Github](https://github.com/jysperm) 分享代码。

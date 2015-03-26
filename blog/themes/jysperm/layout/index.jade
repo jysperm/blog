@@ -46,6 +46,10 @@ mixin article(post)
       .ds-thread(data-thread-key=duoshuoKey(post), data-title=post.title, data-url=post.permalink)
 
 block body
+  .archive-title
+    p(style='margin-bottom: 0;')
+      a(href='http://hackplan.com/jobs', target='_blank') 赢得与精子一同工作的机会！
+  
   if is_tag()
     .archive-title
       strong 标签 ##{page.tag}

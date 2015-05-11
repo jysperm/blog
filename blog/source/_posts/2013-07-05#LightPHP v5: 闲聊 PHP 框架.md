@@ -1,4 +1,4 @@
-title: LightPHP v5: 闲聊PHP框架
+title: 'LightPHP v5: 闲聊PHP框架'
 permalink: 1132
 tags:
   - LightPHP

@@ -10,15 +10,17 @@ language: zh-CN
 url: https://jysperm.me
 root: /
 permalink: :year/:month/:title/
-tag_dir: tag
-archive_dir: ''
-category_dir: ''
-code_dir: downloads/code
 permalink_defaults:
 
 # Directory
 source_dir: source
 public_dir: public
+tag_dir: tag
+archive_dir: ''
+category_dir: ''
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
 
 # Writing
 new_post_name: :year-:month-:day#:title.md
@@ -29,6 +31,7 @@ filename_case: 0
 render_drafts: false
 post_asset_folder: false
 relative_link: false
+future: true
 highlight:
   enable: true
   line_number: true
@@ -93,17 +96,6 @@ tag_map:
   Qt: qt
   SICP: sicp
 
-# Archives
-archive: 2
-category: 2
-tag: 2
-
-# Server
-port: 4000
-server_ip: localhost
-logger: false
-logger_format: dev
-
 # Date / Time format
 date_format: YYYY M 月 D 日
 time_format: H:mm:ss
@@ -112,12 +104,8 @@ time_format: H:mm:ss
 per_page: 3
 pagination_dir: page
 
-# Disqus
-disqus_shortname:
-
 # Extensions
 theme: jysperm
-exclude_generator:
 
 # Deployment
 deploy:

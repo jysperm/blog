@@ -18,19 +18,11 @@
   provider: QingCloud
   zone: ap1
 
-  RAM: 1G
+  RAM: 2G
   Disk: 20G
   OS: Ubuntu 14.04 x64
 
 - gs1.rpvhost.net:
-  provider: Linode
-  zone: tokyo
-
-  RAM: 2G
-  Disk: 48G
-  OS: Ubuntu 14.04 x64
-
-- jybox.rpvhost.net:
   provider: Linode
   zone: tokyo
 

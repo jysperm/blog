@@ -1,5 +1,5 @@
 title: 链接
-permalink: links
+permalink: links/
 duoshuo_id: 1196
 ---
 

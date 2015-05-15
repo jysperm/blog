@@ -1,5 +1,5 @@
 title: 碎语
-permalink: tweets
+permalink: tweets/
 duoshuo_id: 1778
 ---
 

@@ -1,5 +1,5 @@
 title: 关于精子
-permalink: about
+permalink: about/
 duoshuo_id: 29
 ---
 

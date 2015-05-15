@@ -1,5 +1,5 @@
 title: 推荐书单
-permalink: booklist
+permalink: booklist/
 duoshuo_id: 1685
 ---
 

@@ -1,5 +1,5 @@
 title: 简历
-permalink: profile
+permalink: profile/
 duoshuo_id: 1147
 ---
 

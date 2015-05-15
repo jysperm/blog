@@ -1,5 +1,5 @@
 title: 所有网站
-permalink: websites
+permalink: websites/
 duoshuo_id: 1805
 ---
 

@@ -1,5 +1,5 @@
 title: 所有日志
-permalink: list
+permalink: list/
 duoshuo_id: 1272
 ---
 

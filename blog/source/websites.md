@@ -6,7 +6,6 @@ duoshuo_id: 1805
 ## jysperm.me
 
 * 王子亭的博客：[jysperm.me](https://jysperm.me)
-* 静态资源(头像等)：[static.jysperm.me](http://static.jysperm.me)
 
 ## newsbee.io
 
@@ -26,7 +25,6 @@ duoshuo_id: 1805
 ## jybox.net
 
 * 精子粉丝团：[jybox.net](https://jybox.net)
-* Gitlab: [git.jybox.net](https://git.jybox.net)
 * 原精英盒子论坛镜像：[old-bbs.jybox.net](https://old-bbs.jybox.net)
 
 ## jyprince.me

@@ -8,7 +8,7 @@ duoshuo_id: 1597
 * [RP 主机](http://rpvhost.net)：全功能 Linux 虚拟主机
 * [GreenShadow](http://greenshadow.net): 按量付费的 ShadowSocks 代理
 * [小黄鸭代码分析调试服务](http://item.taobao.com/item.htm?id=40108038667)
-* 我的博客的 [「商业授权」与「软文」](/about#licence)
+* 博客的 [「商业授权」与「软文」](/about#licence)
 
 ## 我的公司的产品
 

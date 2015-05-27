@@ -26,7 +26,7 @@ duoshuo_id: 29
 
 ## 兴趣爱好
 
-* 精子喜欢玩游戏：炉石传说，[星际争霸 Ⅱ](http://www.battlenet.com.cn/sc2/zh/profile/2652667/1/%E7%B2%BE%E8%8B%B1%E7%8E%8B%E5%AD%90/)，[英雄联盟](http://lolbox.duowan.com/playerDetail.php?serverName=%E7%BD%91%E9%80%9A%E4%BA%94&playerName=%E7%B2%BE%E8%8B%B1%E7%8E%8B%E5%AD%90)，[暗黑破坏神 Ⅲ](http://tw.battle.net/d3/zh/profile/%E7%8E%8B%E5%AD%90%E4%BA%AD-3125/hero/29124274)，[风暴英雄](http://fb.tuwan.com/fblx/personal.html?playername=%E7%B2%BE%E8%8B%B1%E7%8E%8B%E5%AD%90%235202)
+* 精子喜欢玩游戏：炉石传说，[星际争霸 Ⅱ](http://www.battlenet.com.cn/sc2/zh/profile/2652667/1/%E7%B2%BE%E8%8B%B1%E7%8E%8B%E5%AD%90/)，[暗黑破坏神 Ⅲ](http://tw.battle.net/d3/zh/profile/%E7%8E%8B%E5%AD%90%E4%BA%AD-3125/hero/29124274)，[风暴英雄](http://fb.tuwan.com/fblx/personal.html?playername=%E7%B2%BE%E8%8B%B1%E7%8E%8B%E5%AD%90%235202)
 * 精子喜欢哆啦 A 梦、阿狸、[cry 姐姐](http://www.guokr.com/i/1872381934/)，以及各种萌萌的东西
 * 精子喜欢 [看书](http://book.douban.com/people/jyprince/collect)，偶尔 [看看电影](http://movie.douban.com/people/jyprince/collect)，精子推荐大家看 [这些书](/booklist)
 * 精子喜欢黑中医，黑血型或星座论，黑富二代
@@ -34,7 +34,7 @@ duoshuo_id: 29
 
 ## 博客内容
 这个博客创建于精子 7 岁第一天上学的时候，之后的十几年里精子的成长和价值观的改变是很大的。  
-所有的日志发布之后除了错别字都不会再修改，因此他可能并不完全同意我早期日志中的观点。
+所有的日志发布之后除了错别字都不会再修改，因此他可能并不完全同意早期日志中的观点。
 
 <a id='licence'></a>
 ## 版权声明

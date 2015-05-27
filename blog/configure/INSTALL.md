@@ -8,7 +8,7 @@
     apt-get install python g++ make nodejs git nginx redis-server supervisor mongodb mariadb-server
     apt-get install screen wget zip unzip iftop vim curl htop iptraf nethogs ntp
 
-    npm install coffee-script http-server hexo gulp mocha harp bower -g
+    npm install coffee-script http-server hexo-cli gulp mocha harp bower -g
 
     useradd -m jysperm
     usermod -G jysperm -a www-data

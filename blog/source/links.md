@@ -14,7 +14,6 @@ duoshuo_id: 1196
 精子的朋友们：
 
 * JmPotato: [iPotato](http://ipotato.me/)
-* Ricter: [初心を忘れず](http://www.ricter.me/)
 * Librazy: [Dr.Lib](http://im.librazy.org/)
 * cry 姐姐：[Not ready yet](http://infinnie.github.io/)
 * Parthas: [ParBlog](http://blog.xparthas.com/)
@@ -24,9 +23,6 @@ duoshuo_id: 1196
 * [faceair](http://lucy.faceair.me/)
 * [Ivan Cai](http://www.ivancai.me/)
 * [orzFly](http://orzfly.com/)
-* [whtsky](http://whouz.com/)
 * [Abreto](http://blog.abreto.net/)
-* [Oyiadin](http://oyiadin.com/)
 * [Dimpurr Cheny](http://im.dimpurr.com/)
-* [Oran](http://oran.pw/)
 * [Dacer](http://blog.dacer.im/)

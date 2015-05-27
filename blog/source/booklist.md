@@ -13,19 +13,12 @@ duoshuo_id: 1685
 
 ## 软件工程和算法
 
+* <a href="http://www.amazon.cn/gp/product/B0061XKRXA/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B0061XKRXA&linkCode=as2&tag=jysperm07-23">代码大全</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B0061XKRXA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B00SFZH0DC/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00SFZH0DC&linkCode=as2&tag=jysperm07-23">编程珠玑</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00SFZH0DC" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B003BY6PLK/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B003BY6PLK&linkCode=as2&tag=jysperm07-23">重构：改善既有代码的设计</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B003BY6PLK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B008B4DTG4/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B008B4DTG4&linkCode=as2&tag=jysperm07-23">编写可读代码的艺术</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B008B4DTG4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B004GV08CY/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B004GV08CY&linkCode=as2&tag=jysperm07-23">程序员修炼之道:从小工到专家</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B004GV08CY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-* 集体智慧编程
-
-## 计算机技术
-
-* <a href="http://www.amazon.cn/gp/product/B008A4XZRI/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B008A4XZRI&linkCode=as2&tag=jysperm07-23">C++ Primer Plus 中文版</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B008A4XZRI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-* <a href="http://www.amazon.cn/gp/product/B00163LU68/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00163LU68&linkCode=as2&tag=jysperm07-23">C 和指针</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00163LU68" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-* <a href="http://www.amazon.cn/gp/product/B008041DUY/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B008041DUY&linkCode=as2&tag=jysperm07-23">七周七语言：理解多种编程范型</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B008041DUY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-* <a href="http://www.amazon.cn/gp/product/B005N4L03E/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B005N4L03E&linkCode=as2&tag=jysperm07-23">SQL反模式</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B005N4L03E" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-* Pro Git
+* <a href="http://www.amazon.cn/gp/product/B00UI93JD8/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00UI93JD8&linkCode=as2&tag=jysperm07-23">集体智慧编程</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00UI93JD8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ## JavaScript
 
@@ -33,10 +26,6 @@ duoshuo_id: 1685
 * <a href="http://www.amazon.cn/gp/product/B0097CON2S/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B0097CON2S&linkCode=as2&tag=jysperm07-23">JavaScript 语言精粹</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B0097CON2S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B0082226FU/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B0082226FU&linkCode=as2&tag=jysperm07-23">JavaScript Web Applications 中文版</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B0082226FU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B00CYM0Z8Y/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00CYM0Z8Y&linkCode=as2&tag=jysperm07-23">JavaScript 异步编程</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00CYM0Z8Y" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
-## 观点
-
-* <a href="http://www.amazon.cn/gp/product/B00G1ZT2C0/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00G1ZT2C0&linkCode=as2&tag=jysperm07-23">黑客与画家：来自计算机时代的高见</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00G1ZT2C0" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ## 科普
 

@@ -24,5 +24,6 @@ duoshuo_id: 1196
 * [Ivan Cai](http://www.ivancai.me/)
 * [orzFly](http://orzfly.com/)
 * [Abreto](http://blog.abreto.net/)
+* [Oyiadin](http://oyiadin.farbox.com/)
 * [Dimpurr Cheny](http://im.dimpurr.com/)
 * [Dacer](http://blog.dacer.im/)

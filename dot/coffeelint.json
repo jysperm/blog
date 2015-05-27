@@ -27,11 +27,6 @@
     "value": 2,
     "level": "error"
   },
-  "line_endings": {
-    "name": "line_endings",
-    "value": "unix",
-    "level": "error"
-  },
   "max_line_length": {
     "name": "max_line_length",
     "value": 120,

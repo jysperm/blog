@@ -6,6 +6,7 @@
     "version": "3.0.1"
   },
   "dependencies": {
+    "coffee-script": "^1.8.0",
     "hexo": "^3.0.0",
     "hexo-deployer-rsync": "0.0.2",
     "hexo-generator-archive": "^0.1.0",

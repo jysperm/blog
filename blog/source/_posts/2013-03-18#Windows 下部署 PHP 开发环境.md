@@ -1,17 +1,17 @@
 title: Windows下部署 Apache2 + PHP + XDebug + MySQL 开发环境
+permalink: 752
 tags:
-  - 技术
   - PHP
   - 教程
-date: 2013-03-18 22:04:24
+date: 2013-03-18
 ---
 
 ## 为什么选择这几个软件？
 
-*   Apache2是老牌的Web服务器, 兼容性和功能都很强大, 因为我们只是开发环境, 不需要考虑性能问题.
-*   PHP我们选择了比较新的5.4版本, 丢掉了不少历史包袱, 提供了更多的新特征(如数组简写形式).
-*   XDebug是调试利器, 在代码中可以用XDebug提供的函数来追踪调用栈等等. 还可以配合IDE进行断点调试甚至远程调试.
-*   MySQL仍是目前与PHP配合最紧密的数据库.
+* Apache2是老牌的Web服务器, 兼容性和功能都很强大, 因为我们只是开发环境, 不需要考虑性能问题.
+* PHP我们选择了比较新的5.4版本, 丢掉了不少历史包袱, 提供了更多的新特征(如数组简写形式).
+* XDebug是调试利器, 在代码中可以用XDebug提供的函数来追踪调用栈等等. 还可以配合IDE进行断点调试甚至远程调试.
+* MySQL仍是目前与PHP配合最紧密的数据库.
 
 ## 测试环境
 
@@ -77,80 +77,76 @@ Thread Safe是线程安全的意思, 因为Windows版的Apache2是线程模型, 
     zend_extension = D:\PHP\ext\php_xdebug-2.2.1-5.4-vc9.dll
     xdebug.remote_enable = 1
     xdebug.profiler_enable = 1
-    `</pre>
 
-    这样就打开了远程调试, 只要配置一下IDE就可以进行断点调试了.
+这样就打开了远程调试, 只要配置一下IDE就可以进行断点调试了.
 
-    ### 其他扩展
+### 其他扩展
 
-    然后我们还需要把常用的扩展打开(如MySQL), 在php.ini中查找`Dynamic Extensions`, 然后取消你需要的扩展前的分号(注释符), 我开启了这些扩展:
+然后我们还需要把常用的扩展打开(如MySQL), 在php.ini中查找`Dynamic Extensions`, 然后取消你需要的扩展前的分号(注释符), 我开启了这些扩展:
 
-    <pre>`extension=php_curl.dll
+    extension=php_curl.dll
     extension=php_gd2.dll
     extension=php_mysql.dll
     extension=php_mysqli.dll
     extension=php_pdo_mysql.dll
     extension=php_pdo_sqlite.dll
-    `</pre>
 
-    分别是: CURL(强大的数据传输工具, 支持HTTP在内的多种协议), GD2(图像处理库), MySQL(经典C风格MySQL接口), MySQLi(面向对象风格MySQL接口), PDO的MySQL和SQLite驱动.
+分别是: CURL(强大的数据传输工具, 支持HTTP在内的多种协议), GD2(图像处理库), MySQL(经典C风格MySQL接口), MySQLi(面向对象风格MySQL接口), PDO的MySQL和SQLite驱动.
 
-    ## 配置Apache2
+## 配置Apache2
 
-    Apache2安装过程没啥好说的, 途中会让你输入服务器名和管理员邮箱, 随便填就行.
+Apache2安装过程没啥好说的, 途中会让你输入服务器名和管理员邮箱, 随便填就行.
 
-    安装好之后会在你的Windows上安装成一个服务, 你可以在服务里面设置它是否开机启动, 同时右下角通知区域会有个Apache2的托盘图标.
+安装好之后会在你的Windows上安装成一个服务, 你可以在服务里面设置它是否开机启动, 同时右下角通知区域会有个Apache2的托盘图标.
 
-    ### PHP支持
+### PHP支持
 
-    然后我们需要配置Apache2使其支持PHP脚本.
+然后我们需要配置Apache2使其支持PHP脚本.
 
-    打开Apache2的主配置文件(如`D:\Apache2\conf\httpd.conf`), 末尾追加:
+打开Apache2的主配置文件(如`D:\Apache2\conf\httpd.conf`), 末尾追加:
 
-    <pre>`LoadModule php5_module D:/php/php5apache2_2.dll
+    LoadModule php5_module D:/php/php5apache2_2.dll
     PHPIniDir "D:/php"
 
     AddType application/x-httpd-php .php
-    `</pre>
 
-    第一行中具体的DLL名称要取决于你的Apache2版本.
+第一行中具体的DLL名称要取决于你的Apache2版本.
 
-    ### URL重写和.htaccess
+### URL重写和.htaccess
 
-    除此之外还建议开启rewrite模块(URL重写), 以及 .htaccess 支持:
+除此之外还建议开启rewrite模块(URL重写), 以及 .htaccess 支持:
 
-    搜索`LoadModule rewrite_module`, 去掉之前的井号.
+搜索`LoadModule rewrite_module`, 去掉之前的井号.
 
-    搜索`&lt;Directory /&gt;`, 改为:
+搜索`<Directory />`, 改为:
 
-    <pre>`&lt;Directory /&gt;
+    <Directory />
         Options FollowSymLinks
         AllowOverride All
         Order deny,allow
         Allow from 127.0.0.1
-    &lt;/Directory&gt;
-    `</pre>
+    </Directory>
 
-    这里设置成了允许本机访问任何目录.
+这里设置成了允许本机访问任何目录.
 
-    ### 虚拟主机
+### 虚拟主机
 
-    然后我们可以考虑打开虚拟主机支持, 这样我们可以在本机上依靠域名来建立多个站点.
+然后我们可以考虑打开虚拟主机支持, 这样我们可以在本机上依靠域名来建立多个站点.
 
-    在httpd.conf中搜索`Include conf/extra/httpd-vhosts.conf`, 去除该行前的井号.
+在httpd.conf中搜索`Include conf/extra/httpd-vhosts.conf`, 去除该行前的井号.
 
-    显而易见, 我们在这里包含了另一个文件, 虚拟主机的配置就保存在这个文件中.
+显而易见, 我们在这里包含了另一个文件, 虚拟主机的配置就保存在这个文件中.
 
-    打开该文件(如`D:\Apache2\conf\extra\httpd-vhosts.conf`), 可以看到默认已经有两个虚拟主机示例了(每个`&lt;VirtualHost&gt;`就是一个虚拟主机).
+打开该文件(如`D:\Apache2\conf\extra\httpd-vhosts.conf`), 可以看到默认已经有两个虚拟主机示例了(每个`<VirtualHost>`就是一个虚拟主机).
 
-    我们可以不理会它, 当然删除它们也可以.
+我们可以不理会它, 当然删除它们也可以.
 
-    然后建立我们自己的虚拟主机, 如添加:
+然后建立我们自己的虚拟主机, 如添加:
 
-    <pre>`&lt;VirtualHost *:80&gt;
+    <VirtualHost *:80>
         DocumentRoot "D:/Web/Test"
         ServerName test.2local.tk
-    &lt;/VirtualHost&gt;
+    </VirtualHost>
 
 可以看到我们建了一个虚拟主机, 根目录是`D:/Web/Test`, 对应域名是`test.2local.tk`.
 

@@ -20,6 +20,7 @@ duoshuo_id: 1147
 * [Cichorium](https://github.com/jysperm/Cichorium): 基于中间件的 Promise 风格的路由框架。
 * [pomo-mailer](https://github.com/jysperm/pomo-mailer): 多语言邮件渲染和邮件队列。
 * [RootPanel](https://github.com/jysperm/RootPanel): 一个插件化的 PaaS 开发框架。
+* [mysql-querier](https://github.com/jysperm/mysql-querier): 用 JSON 格式的查询语法生成 SQL.
 
 ## Web
 

@@ -8,8 +8,14 @@ duoshuo_id: 1685
 ## 计算机科学
 
 * <a href="http://www.amazon.cn/gp/product/B004BJ18KM/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B004BJ18KM&linkCode=as2&tag=jysperm07-23">深入理解计算机系统</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B004BJ18KM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-* <a href="http://www.amazon.cn/gp/product/B001TCBSJ0/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B001TCBSJ0&linkCode=as2&tag=jysperm07-23">计算机网络：自顶向下方法</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B001TCBSJ0" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+    这本书从一个程序员角度描述了计算机底层的工作原理，例如信息的储存、算数计算、汇编和链接、处理器、编译优化、存储器、输入输出、并发编程等话题。对于 C 等系统编程语言的使用者来讲，这是一本必读的书，这本书会让你对你的写下的每一行代码的执行过程有一个比较系统的了解。对于应用级编程来讲，这本书也有很大价值，因为了解底层实现会有助于你更深刻地理解高抽象层次的编程语言是如何实现的。
+
 * <a href="http://www.amazon.cn/gp/product/B0011AP7RY/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B0011AP7RY&linkCode=as2&tag=jysperm07-23">计算机程序的构造和解释</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B0011AP7RY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+    这本书以 Lisp 为例系统性地介绍了用于在构建大型软件时控制代码的复杂度的技巧 —— 将复杂的事物，通过隐藏细节的方式进行组合和抽象。
+
+* <a href="http://www.amazon.cn/gp/product/B001TCBSJ0/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B001TCBSJ0&linkCode=as2&tag=jysperm07-23">计算机网络：自顶向下方法</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B001TCBSJ0" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ## 软件工程和算法
 

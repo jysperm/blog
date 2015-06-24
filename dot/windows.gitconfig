@@ -1,0 +1,11 @@
+[core]
+  autocrlf = input
+  safecrlf = true
+  filemode = false
+  ignoreCase = false
+  excludesfile = "C:\\Users\\jysperm\\Git\\meta\\dot\\.gitignore"
+[user]
+	name = jysperm
+	email = jysperm@gmail.com
+[push]
+	default = simple

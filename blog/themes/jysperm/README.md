@@ -1,1 +1,0 @@
-## jysperm hexo theme

@@ -105,7 +105,7 @@ per_page: 3
 pagination_dir: page
 
 # Extensions
-theme: jysperm
+theme: simpleblock
 
 # Deployment
 deploy:

@@ -1,7 +1,0 @@
-{
-  "name": "hexo-theme-jysperm",
-  "dependencies": {
-    "bootstrap": "~3.3.1",
-    "jquery": "~2.1.2"
-  }
-}

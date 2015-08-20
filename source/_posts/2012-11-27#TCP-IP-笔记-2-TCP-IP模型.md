@@ -1,8 +1,9 @@
 title: TCP/IP 笔记(2.TCP/IP模型)
+permalink: 659
 tags:
   - 技术
   - 计算机网络
-date: 2012-11-27 19:47:44
+date: 2012-11-27
 ---
 
 上一篇提到的TCP/IP模型：

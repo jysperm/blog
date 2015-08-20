@@ -6,7 +6,7 @@ duoshuo: 'jyprince'
 rss: https://jysperm.me/atom.xml
 favicon: /avatars/v5.png
 icon: /avatars/v5.png
-source_url: 'https://github.com/jysperm/meta/tree/master/blog/source/'
+source_url: 'https://github.com/jysperm/blog/blob/master/source/'
 license:
   name: 'CC BY-NC-SA 3.0'
   url: 'http://creativecommons.org/licenses/by-nc-sa/3.0/cn'
@@ -25,7 +25,7 @@ right_menus:
   'RSS': /atom.xml
   'fork on Github':
     target: '_blank'
-    href: 'https://github.com/jysperm/meta'
+    href: 'https://github.com/jysperm/blog'
 
 ## Banners && Widgets
 banners:

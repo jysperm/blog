@@ -1,7 +1,8 @@
-- atom-china.org
+- atom-china.org:
   provider: paomi
   expire: 2016.4.8
   NS: linode
+  MX: fastmail
 - rpvhost.net:
   provider: paomi
   expire: 2016.5.15
@@ -20,7 +21,7 @@
   NS: linode
 - greenshadow.net:
   provider: paomi
-  expire: 2015.8.24
+  expire: 2016.8.24
   NS: linode
 - rootpanel.io:
   provider: paomi
@@ -28,8 +29,9 @@
   NS: linode
 - jysperm.me:
   provider: paomi
-  expire: 2015.10.15
+  expire: 2017.10.15
   NS: linode
+  MX: fastmail
 - 0-ms.org:
   provider: paomi
   expire: 2015.11.1

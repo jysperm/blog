@@ -1,3 +1,4 @@
+---
 title: 出售WordPress主题是违法的
 permalink: 1127
 tags:

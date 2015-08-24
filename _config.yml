@@ -45,15 +45,23 @@ category_map:
   随笔: note
   精子的故事: story
 tag_map:
-  信息安全: information-security
-  软件工程: software-engineering
-  PHP: php
+  Atom: atom
   C++: cpp
   C++讲稿: cpp-ppt
   Golang: golang
   HTML: html
+  Hexo: hexo
+  JavaScript: javascript
   LightPHP: lightphp
   Linux: linux
+  MongoDB: mongodb
+  PHP: php
+  RP主机: rpvhost
+  RootPanel: rootpanel
+  SICP: sicp
+
+  信息安全: information-security
+  软件工程: software-engineering
   Node.js: nodejs
   计划: plans
   技术: technology
@@ -61,7 +69,6 @@ tag_map:
   互联网: internet
   笔记: reading-notes
   价值观: values
-  RP主机: rpvhost
   教程: tutorials
   读书: reading
   小璐: xiaolu
@@ -71,12 +78,10 @@ tag_map:
   随笔: note
   单元测试: unit-test
   生活: live
-  PHP进阶: php-advanced
   互联网资讯: news
   购物: shopping
   生活记录: live
   物理: physical
-  MongoDB: mongodb
   计算机科学: computer-science
   电影: movie
   博客: blog
@@ -94,7 +99,6 @@ tag_map:
   中考: 中考
   自传: 自传
   Qt: qt
-  SICP: sicp
 
 # Date / Time format
 date_format: YYYY M 月 D 日

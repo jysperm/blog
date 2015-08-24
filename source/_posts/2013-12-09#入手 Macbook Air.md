@@ -1,3 +1,4 @@
+---
 title: 入手 Macbook Air
 permalink: 1413
 tags:

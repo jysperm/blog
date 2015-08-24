@@ -1,5 +1,5 @@
 - atom-china.org:
-  provider: paomi
+  provider: gandi
   expire: 2016.4.8
   NS: linode
   MX: fastmail
@@ -11,24 +11,32 @@
   provider: gandi
   expire: 2016.5.21
   NS: linode
+- pidan.cat:
+  provider: gandi
+  expire: 2017.7.27
+  NS: linode
+- doufu.cat:
+  provider: gandi
+  expire: 2017.7.27
+  NS: linode
 - ziting.wang:
   provider: xinnet
-  expire: 2015.8.11
+  expire: 2017.8.11
   NS: dnspod
 - jybox.net:
-  provider: paomi
-  expire: 2015.8.18
+  provider: gandi
+  expire: 2017.8.18
   NS: linode
 - greenshadow.net:
-  provider: paomi
+  provider: gandi
   expire: 2016.8.24
   NS: linode
 - rootpanel.io:
-  provider: paomi
-  expire: 2015.9.30
+  provider: gandi
+  expire: 2016.9.30
   NS: linode
 - jysperm.me:
-  provider: paomi
+  provider: gandi
   expire: 2017.10.15
   NS: linode
   MX: fastmail

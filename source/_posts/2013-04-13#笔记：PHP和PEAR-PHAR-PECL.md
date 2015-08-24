@@ -1,3 +1,4 @@
+---
 title: "笔记：PHP和PEAR, PHAR, PECL"
 permalink: 790
 tags:

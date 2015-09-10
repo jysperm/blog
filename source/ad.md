@@ -10,10 +10,6 @@ duoshuo_id: 1597
 * [小黄鸭代码分析调试服务](http://item.taobao.com/item.htm?id=40108038667)
 * 博客的 [「商业授权」与「软文」](/about#licence)
 
-## 我的公司的产品
-
-* [番茄土豆](https://pomotodo.com)：番茄工作法与 Todo List
-
 ## 互联网服务
 
 * [Linode](https://www.linode.com/?r=a196912d910d9eefa806a2f2a00e5991811f85ef)

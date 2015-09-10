@@ -3,14 +3,12 @@ permalink: about/
 duoshuo_id: 29
 ---
 
-精子真名叫「王子亭」，生于 1995.11.25, 19 岁，现居江苏苏州，英文 ID 「jysperm」。
+精子真名叫「王子亭」，生于 1995.11.25, 19 岁，英文 ID 「jysperm」。
 
 * 高中退学
 * [独立博客](https://jysperm.me) 作者
 * 有一个 [精子粉丝团](https://jybox.net)
-* [RP 主机](http://rpvhost.net) 和 [GreenShadow](http://greenshadow.net) 维护者
 * 积极参与开源社区，深度 [Github](https://github.com) 用户
-* [番茄土豆](https://pomotodo.com) 维护者之一，[Hackplan](http://hackplan.com/) 成员
 
 ## 编程
 精子的绝大多数作品开源于 [Github](https://github.com/jysperm).  

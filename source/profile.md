@@ -4,8 +4,6 @@ permalink: profile/
 duoshuo_id: 1147
 ---
 
-目前工作于 [Hackplan](https://hackplan.com), 我们的主要产品是 [番茄土豆](https://pomotodo.com)，我们目前也在 [招募新成员](http://hackplan.com/jobs)。
-
 * 高中退学。
 * 熟练使用 git 并用 [Github](https://github.com/jysperm) 分享代码。
 * 自有收入开始没有使用过任何盗版软件。

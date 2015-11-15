@@ -115,8 +115,8 @@ theme: simpleblock
 deploy:
   type: rsync
   host: spawn.rpvhost.net
-  user: jysperm
-  root: /home/jysperm/blog-public
+  user: docker
+  root: /home/docker/sites/blog
 
 feed:
   type: atom

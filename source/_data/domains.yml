@@ -44,3 +44,6 @@
   provider: gandi
   expire: 2016.11.1
   NS: linode
+- stream.pub:
+  provider: gandi
+  expire: 2016.11.18

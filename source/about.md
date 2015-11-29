@@ -4,7 +4,7 @@ permalink: about/
 duoshuo_id: 29
 ---
 
-精子真名叫「王子亭」，生于 1995.11.25, 19 岁，英文 ID 是 jysperm.
+精子真名叫「王子亭」，生于 1995.11.25, 20 岁，英文 ID 是 jysperm.
 
 * 精子是一名 [独立博客](https://jysperm.me) 作者
 * 精子创建了 [Atom 中文社区](https://atom-china.org)

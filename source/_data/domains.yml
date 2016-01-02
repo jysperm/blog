@@ -7,6 +7,7 @@
   provider: gandi
   expire: 2017.5.15
   NS: linode
+  MX: fastmail
 - newsbee.io:
   provider: gandi
   expire: 2016.5.21
@@ -22,7 +23,8 @@
 - ziting.wang:
   provider: xinnet
   expire: 2017.8.11
-  NS: dnspod
+  NS: linode
+  MX: fastmail
 - jybox.net:
   provider: gandi
   expire: 2017.8.18

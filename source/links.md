@@ -7,8 +7,7 @@ duoshuo_id: 1196
 
 * 陈皓：[酷壳](http://coolshell.cn/)
 * localhost404: [考据癖](http://localhost-8080.com/)
-* 西乔：[西乔的九卦](http://blog.xiqiao.info/)
-* 王垠：[当然我在扯淡](http://www.yinwang.org/)
+* 王垠：[当然我在扯淡](http://www.yinwang.org/) [正义的花生](http://www.jianshu.com/users/b1dd2b2c87a8)
 * 赵劼：[老赵点滴](http://blog.zhaojie.me/)
 
 精子的朋友们：
@@ -24,6 +23,4 @@ duoshuo_id: 1196
 * [Ivan Cai](http://www.ivancai.me/)
 * [orzFly](http://orzfly.com/)
 * [Abreto](http://blog.abreto.net/)
-* [Oyiadin](http://oyiadin.farbox.com/)
 * [Dimpurr Cheny](http://im.dimpurr.com/)
-* [Dacer](http://blog.dacer.im/)

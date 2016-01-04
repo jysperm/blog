@@ -38,12 +38,6 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: 随笔
-category_map:
-  技术: technology
-  生活: live
-  随笔: note
-  精子的故事: story
 tag_map:
   Atom: atom
   C++: cpp
@@ -63,7 +57,6 @@ tag_map:
   信息安全: information-security
   软件工程: software-engineering
   Node.js: nodejs
-  计划: plans
   技术: technology
   计算机网络: network
   互联网: internet
@@ -94,11 +87,11 @@ tag_map:
   徐雪丽: xuxueli
   冷知识: cold-knowledge
   精子的故事: story-of-sperm
-  转载: 转载
-  科普: 科普
-  中考: 中考
-  自传: 自传
+  科普: science
+  精子的故事: story-of-sperm
   Qt: qt
+  年度小结: summary-of-year
+  哆啦A梦: doraemon
 
 # Date / Time format
 date_format: YYYY M 月 D 日

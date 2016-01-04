@@ -13,6 +13,43 @@ duoshuo_id: 1272
 这个博客创建于精子 7 岁第一天上学的时候，之后的十几年里精子的成长和价值观的改变是很大的。  
 所有的日志发布之后除了错别字都不会再修改，因此他可能并不完全同意早期日志中的观点。
 
+## 2015 年（21 篇）
+
+### 观点
+* [为什么 PHP 不好用](https://jysperm.me/2015/01/1992)
+* [标准化商品构成的世界](https://jysperm.me/2015/08/standardized-world)
+
+### 经历分享
+* [哆啦 A 梦：伴我同行](https://jysperm.me/2015/05/stand-by-me-doraemon)
+* [从初中开始编程](https://jysperm.me/2015/02/programming-from-middle-school)
+* [建立一个自己的粉丝团是怎样的体验](https://jysperm.me/2015/12/maintain-a-fans-group)
+
+### Node.js
+* [更换博客系统到 Hexo](https://jysperm.me/2015/02/move-to-hexo)
+* [Promise：抽象的异步任务](https://jysperm.me/2015/04/promise-abstract-of-async-task)
+* [Mabolo: 轻量级的 MongoDB ORM](https://jysperm.me/2015/06/mabolo-mongodb-orm)
+* [Cichorium: 基于 Promise 的中间件路由框架](https://jysperm.me/2015/05/cichorium-routing-framework)
+* [与精子同款的博客主题 Simple Block 现已发布！](https://jysperm.me/2015/07/hexo-theme-simpleblock)
+
+### Atom
+* [Atom 体验报告](https://jysperm.me/2015/04/atom-getting-started)
+* [Atom 中文社区！](https://jysperm.me/2015/04/atom-china-community)
+
+### RP 主机
+* [RP 主机免费计划](https://jysperm.me/2015/05/rpvhost-will-be-free)
+* [RP 主机和 GreenShadow 关闭计划](https://jysperm.me/2015/10/rpvhost-shutdown-plan)
+
+### 生活记录
+* [最新的时间追踪成果](https://jysperm.me/2015/02/result-of-time-tracking)
+* [离开 HackPlan](https://jysperm.me/2015/09/leaving-hackplan)
+* [加入 LeanCloud](https://jysperm.me/2015/11/join-leancloud)
+* [2015 年度小结](https://jysperm.me/2015/12/summary-of-2015)
+* [2014 年度小结（技术方面）](https://jysperm.me/2015/01/1976)
+
+### 技术随笔
+* [抽象的构件](https://jysperm.me/2015/03/unit-of-abstract)
+* [读代码是好的学习方式么](https://jysperm.me/2015/02/reading-code)
+
 ## 2014 年（24 篇）
 
 ### 观点
@@ -130,7 +167,7 @@ duoshuo_id: 1272
 
 ### 技术教程
 * [利用 Bitcoin 网络进行时间区间证明](/2013/12/1443)
-* [为 PHP 构建可读的错误报告](/2010/06/1079)
+* [为 PHP 构建可读的错误报告](/2013/06/1079)
 * [Ubuntu 12.04 通过 apt 部署 Nginx + PHP-FPM 5.4 + APC](/2013/02/721)
 * [Windows 下部署 Apache2 + PHP + XDebug + MySQL 开发环境](/2013/03/752)
 * [如何成为一名 Geek](/2013/02/710)

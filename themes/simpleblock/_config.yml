@@ -48,6 +48,11 @@ widgets:
     tags: true
 
   -
+    jade: |
+      h2 关注精子的微信公众号
+      img(alt='weixin-qrcode', style='width: 100%', src='http://7xkmw1.com1.z0.glb.clouddn.com/weixin-qrcode.png')
+      p 公众号会推送精子的博客日志、精子的产品和项目的最新动态，以及皮蛋和豆腐的照片。
+  -
     archives: true
 
   -

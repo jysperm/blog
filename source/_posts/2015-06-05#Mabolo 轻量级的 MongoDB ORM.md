@@ -35,7 +35,7 @@ app.coffee
     mabolo = new Mabolo 'mongodb://localhost/test'
     User = mabolo.bind require './User'
 
-即使 Model 还没被绑定到 Mabolo 实例上，也是可以执行查询的，这些插件会被阻塞，直到 Model 被绑定到一个数据库连接上。
+即使 Model 还没被绑定到 Mabolo 实例上，也是可以执行查询的，这些查询会被阻塞，直到 Model 被绑定到一个数据库连接上。
 
 实现上，`Mabolo.model` 会创建一个继承（CoffeeScript 的 extends）自 `AbstractModel` 的类，作为 Model 来使用。在绑定时，`Mabolo.bind` 会调用 Model 上的 `bindCollection` 函数，这个函数会 resolve 一个内部的 Promise, 让对数据库的操作开始执行。
 

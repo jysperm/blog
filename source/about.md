@@ -25,9 +25,9 @@ duoshuo_id: 29
 
 * 精子在无聊的时候喜欢刷 [知乎](http://www.zhihu.com/people/jysperm)
 * 精子喜欢 [看书](http://book.douban.com/people/jyprince/collect)，精子推荐大家看 [这些书](https://jysperm.me/booklist)
-* 精子喜欢 [哆啦 A 梦](https://jysperm.me/2015/05/stand-by-me-doraemon)、阿狸、[cry 姐姐](http://www.guokr.com/i/1872381934) 等各种萌萌的东西
+* 精子喜欢 [哆啦 A 梦](https://jysperm.me/2015/05/stand-by-me-doraemon)、[皮蛋](http://pidan.cat)[豆腐](http://doufu.cat) 等各种萌萌的东西
 * 精子喜欢睡觉睡到自然醒，喝咖啡，喝牛奶，吃羊肉火锅
-* 精子也喜欢玩游戏：风暴英雄、星际争霸 Ⅱ、暗黑破坏神 Ⅲ, 以及 [Stream](https://steamcommunity.com/id/jysperm) 上一些独立游戏
+* 精子也喜欢玩游戏：风暴英雄、星际争霸Ⅱ、暗黑破坏神Ⅲ, 以及 [Steam](https://steamcommunity.com/id/jysperm) 上一些独立游戏
 
 ## 观点
 
@@ -64,10 +64,10 @@ duoshuo_id: 29
 * 邮箱：jysperm@gmail.com
 * QQ：184300584
 * QQ 粉丝群：61137226
-* 手机：18501537884
 * V2EX: [jybox](https://www.v2ex.com/member/jybox)
 * Github: [jysperm](https://github.com/jysperm)
 * Keybase: [jysperm](https://keybase.io/jysperm)
+* Linkedin: [jysperm](https://cn.linkedin.com/in/jysperm)
 * 知乎：[王子亭](http://www.zhihu.com/people/jysperm)
 * SegmentFault: [jysperm](http://segmentfault.com/u/jysperm)
 * Twitter: [jysperm](https://twitter.com/jysperm)

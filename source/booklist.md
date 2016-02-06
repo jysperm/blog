@@ -16,6 +16,7 @@ duoshuo_id: 1685
     这本书以 Lisp 为例系统性地介绍了用于在构建大型软件时控制代码的复杂度的技巧 —— 将复杂的事物，通过隐藏细节的方式进行组合和抽象。
 
 * <a href="http://www.amazon.cn/gp/product/B001TCBSJ0/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B001TCBSJ0&linkCode=as2&tag=jysperm07-23">计算机网络：自顶向下方法</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B001TCBSJ0" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+* <a rel="nofollow" href="http://www.amazon.cn/gp/product/B00PG0MM3C/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00PG0MM3C&linkCode=as2&tag=jysperm07-23">计算的本质：深入剖析程序和计算机</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00PG0MM3C" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ## 软件工程和算法
 

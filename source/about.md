@@ -6,12 +6,13 @@ duoshuo_id: 29
 
 精子真名叫「王子亭」，生于 1995.11.25, 20 岁，英文 ID 是 jysperm.
 
-* 精子是一名 [独立博客](https://jysperm.me) 作者
-* 精子创建了 [Atom 中文社区](https://atom-china.org)
+* 精子是一名 [独立博客](https://jysperm.me) 作者。
+* 精子创建了 [Atom 中文社区](https://atom-china.org)。
 * 精子是 [皮蛋](http://pidan.cat) 和 [豆腐](http://doufu.cat) 的主人。
-* 精子在高中退学，进入互联网行业工作，目前在 [LeanCloud](https://leancloud.cn) 任 Node.js 服务器端开发工程师。
-* 精子有 [很多粉丝](https://jybox.net/members)，还有一个 [粉丝团主页](https://jybox.net)
 * 精子在 [Github](https://github.com/jysperm) 上积极地参与开源社区
+* 精子有 [很多粉丝](https://jybox.net/members)，还有一个 [粉丝团主页](https://jybox.net)
+* 精子曾创建了 [RP 主机](http://rpvhost.net/) 和 GreenShadow.
+* 精子在高中退学，进入互联网行业工作，目前在 [LeanCloud](https://leancloud.cn) 任 Node.js 服务器端开发工程师。
 
 ## 价值观
 
@@ -27,7 +28,7 @@ duoshuo_id: 29
 * 精子喜欢 [看书](http://book.douban.com/people/jyprince/collect)，精子推荐大家看 [这些书](https://jysperm.me/booklist)
 * 精子喜欢 [哆啦 A 梦](https://jysperm.me/2015/05/stand-by-me-doraemon)、[皮蛋](http://pidan.cat)[豆腐](http://doufu.cat) 等各种萌萌的东西
 * 精子喜欢睡觉睡到自然醒，喝咖啡，喝牛奶，吃羊肉火锅
-* 精子也喜欢玩游戏：风暴英雄、星际争霸Ⅱ、暗黑破坏神Ⅲ, 以及 [Steam](https://steamcommunity.com/id/jysperm) 上一些独立游戏
+* 精子也喜欢玩游戏：风暴英雄、星际争霸Ⅱ，以及 [Steam](https://steamcommunity.com/id/jysperm) 上一些独立游戏
 
 ## 观点
 

@@ -5,10 +5,12 @@ duoshuo_id: 1597
 
 ## 我运营的服务
 
-* [RP 主机](http://rpvhost.net)：全功能 Linux 虚拟主机
-* [GreenShadow](http://greenshadow.net): 按量付费的 ShadowSocks 代理
 * [小黄鸭代码分析调试服务](http://item.taobao.com/item.htm?id=40108038667)
 * 博客的 [「商业授权」与「软文」](/about#licence)
+
+## 我所在的公司
+
+* [LeanCloud](https://leancloud.cn/?source=45Y9GRFP): 提供结构化数据存储服务来代替传统后端，亦可运行普通的 Node.js 和 Python 程序
 
 ## 互联网服务
 

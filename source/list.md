@@ -1,6 +1,5 @@
 title: 所有日志
 permalink: list/
-duoshuo_id: 1272
 ---
 
 * [推荐及链接](/links)

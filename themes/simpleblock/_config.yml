@@ -1,6 +1,5 @@
 ## Services
 google_analytics: 'UA-49193300-1'
-duoshuo: 'jyprince'
 
 ## Meta
 rss: https://jysperm.me/atom.xml
@@ -30,7 +29,10 @@ right_menus:
 ## Banners && Widgets
 banners:
   jade: |
-    a(target='_blank', href='https://github.com/jysperm/hexo-theme-simpleblock') 与精子同款的博客主题 simpleblock 现已发布！
+    a(target='_blank', href='https://atom.io/') Atom
+    | &nbsp; 是一个开箱即用却又可以充分拓展的的编辑器，不如来精子的 &nbsp;
+    a(target='_blank', href='https://atom-china.org/') Atom 中文社区
+    | &nbsp; 瞧瞧？
 
 widgets:
   -
@@ -43,15 +45,19 @@ widgets:
       * 坚持十余年的 [独立博客](https://jysperm.me) 作者
       * 高中退学，就职于 [LeanCloud](https://leancloud.cn)
       * 在 [Github](https://github.com/jysperm) 上积极参与开源社区
-
-  -
-    tags: true
-
   -
     jade: |
-      h2 关注精子的微信公众号
-      img(alt='weixin-qrcode', style='width: 100%', src='http://7xkmw1.com1.z0.glb.clouddn.com/weixin-qrcode.png')
-      p 公众号会推送精子的博客日志、精子的产品和项目的最新动态，以及皮蛋和豆腐的照片。
+      h2 订阅动态
+      #mc_embed_signup
+        form#mc-embedded-subscribe-form.validate(action='//jybox.us13.list-manage.com/subscribe/post?u=f4c7c26ec1a5dc400a7a7373e&id=e2136d8929', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+          #mc_embed_signup_scroll.input-group
+            input#mce-EMAIL.form-control(type='email', value='', name='EMAIL', placeholder='email address', required='')
+            input(type='hidden', name='b_f4c7c26ec1a5dc400a7a7373e_e2136d8929', value='')
+            span.input-group-button
+              .form-actions
+                button#mc-embedded-subscribe.btn(type='submit', value='Subscribe', name='subscribe') 订阅
+  -
+    tags: true
   -
     archives: true
 

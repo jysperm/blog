@@ -1,6 +1,5 @@
 title: 链接
 permalink: links/
-duoshuo_id: 1196
 ---
 
 精子的朋友们：

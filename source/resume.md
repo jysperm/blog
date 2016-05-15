@@ -1,7 +1,6 @@
 ---
 title: 简历
 permalink: resume/
-duoshuo_id: 1147
 ---
 
 王子亭，1995 年生于辽宁沈阳，现居江苏苏州，目前在 [LeanCloud](https://leancloud.cn/) 任 Node.js 服务器端开发工程师。

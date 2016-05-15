@@ -1,6 +1,5 @@
 title: 碎语
 permalink: tweets/
-duoshuo_id: 1778
 ---
 
 欢迎关注我的 [Twitter](https://twitter.com/jysperm).

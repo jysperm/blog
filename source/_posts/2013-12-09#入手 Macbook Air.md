@@ -5,6 +5,10 @@ tags:
   - 生活
   - 购物
 date: 2013-12-09
+reviews:
+  -
+    author: 黄黄
+    body: 我也刚买的imac 桌面环境还是win比较好，只不过因为程序员的特性太依赖一个好用的shell 有apple送的magic mouse和键盘，便捷性方面比较接近触摸板。不过肯定没有触摸板好用
 ---
 
 已经用了半个月了。

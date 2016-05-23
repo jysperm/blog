@@ -1,6 +1,13 @@
 ---
 title: 简历
 permalink: resume/
+reviews:
+  -
+    author: nodejh
+    body: 然而并不觉得厉害，包装而已。
+  -
+    author: shane
+    body: 个人觉得精通两门语言已经足够了。
 ---
 
 王子亭，1995 年生于辽宁沈阳，现居江苏苏州，目前在 [LeanCloud](https://leancloud.cn/) 任 Node.js 服务器端开发工程师。

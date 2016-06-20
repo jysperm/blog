@@ -12,7 +12,7 @@ permalink: list/
 这个博客创建于精子 7 岁第一天上学的时候，之后的十几年里精子的成长和价值观的改变是很大的。  
 所有的日志发布之后除了错别字都不会再修改，因此他可能并不完全同意早期日志中的观点。
 
-## 2015 年（21 篇）
+## 2015 年（22 篇）
 
 ### 观点
 * [为什么 PHP 不好用](https://jysperm.me/2015/01/1992)
@@ -48,6 +48,9 @@ permalink: list/
 ### 技术随笔
 * [抽象的构件](https://jysperm.me/2015/03/unit-of-abstract)
 * [读代码是好的学习方式么](https://jysperm.me/2015/02/reading-code)
+
+### 技术分享
+* [编码：二进制的世界](https://jysperm.me/2015/11/encoding-to-binary)
 
 ## 2014 年（24 篇）
 

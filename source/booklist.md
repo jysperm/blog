@@ -22,11 +22,13 @@ permalink: booklist/
 
     这本书同时介绍了「状态机」和「Lambda 验算」这两种计算模型，深入地介绍了高层次的编译语言如何被编译到上述的计算模型，但本书并没有太多理论性的介绍，而是用比较易于接受的例子来进行讲解。这本书会让你了解到计算机是如何拥有计算能力的，以及平时所使用的高级语言如何映射到基本的计算模型，也会教会你如何自己实现一个简单的编译器。
 
+* <a  href="http://www.amazon.cn/gp/product/B007KYSEZC/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B007KYSEZC&linkCode=as2&tag=jysperm07-23">数据库系统概念</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B007KYSEZC" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 ## 软件工程
 
 * <a href="http://www.amazon.cn/gp/product/B0061XKRXA/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B0061XKRXA&linkCode=as2&tag=jysperm07-23">代码大全</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B0061XKRXA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-    这本书通过上百个例子来介绍在具体编码工作中的「最佳实践」，这是一本当之无愧的「代码大全」，因为每一节都是相对独立的话题，因此本书很适合碎片实践阅读。这本书可能需要你有一定软件工程的实践才能理解其巧妙之处，因此建议每隔一段时间就重温一遍。
+    这本书通过上百个例子来介绍在具体编码工作中的「最佳实践」，这是一本当之无愧的「代码大全」，因为每一节都是相对独立的话题，因此本书很适合碎片时间阅读。这本书可能需要你有一定软件工程的实践才能理解其巧妙之处，因此建议每隔一段时间就重温一遍。
 
 * <a href="http://www.amazon.cn/gp/product/B003BY6PLK/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B003BY6PLK&linkCode=as2&tag=jysperm07-23">重构：改善既有代码的设计</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B003BY6PLK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B008B4DTG4/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B008B4DTG4&linkCode=as2&tag=jysperm07-23">编写可读代码的艺术</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B008B4DTG4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
@@ -44,17 +46,32 @@ permalink: booklist/
 ## JavaScript
 
 * <a href="http://www.amazon.cn/gp/product/B007VISQ1Y/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B007VISQ1Y&linkCode=as2&tag=jysperm07-23">JavaScript 权威指南 </a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B007VISQ1Y" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+    这本书事无巨细地介绍了 JasvaScript 语言核心、标准库以及浏览器提供的 DOM 和 BOM. 本书并没有由浅入深的结构，而是通篇平铺直叙地介绍，因此适合有一定 JavaScript 基础的人从头至尾阅读来掌握一些相对细节的 JavaScript 知识，或遇到具体问题时查阅相关章节。
+
 * <a href="http://www.amazon.cn/gp/product/B0097CON2S/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B0097CON2S&linkCode=as2&tag=jysperm07-23">JavaScript 语言精粹</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B0097CON2S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+    这本书用相对简短的篇幅介绍了如何使用 JavaScript 中最精华的部分编写优雅的代码。这本书适合对 JavaScript 仅有些许了解的人快速上手 JavaScript, 避免陷入 JavaScript 语法中的那些糟粕。
+
 * <a href="http://www.amazon.cn/gp/product/B0082226FU/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B0082226FU&linkCode=as2&tag=jysperm07-23">JavaScript Web Applications 中文版</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B0082226FU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+    这本书通过从零设计一个 MVC 架构的 JavaScript Web 应用框架来介绍了如何控制大型 Web 应用的复杂度，也介绍了几个常见的开源 Web 框架。这本书适合 Web 前端开发者了解常见的 Web 框架的基本设计思路和工作原理。
+
 * <a href="http://www.amazon.cn/gp/product/B00CYM0Z8Y/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00CYM0Z8Y&linkCode=as2&tag=jysperm07-23">JavaScript 异步编程</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00CYM0Z8Y" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+    这本书介绍了 JavaScript 中事件模型、Promise、async.js 等异步抽象的设计和实现，同时也介绍了 Web Woerk 等在浏览器中优化性能的技巧。这本书适合所有 JavaScript 程序员增加对 Promise 等异步模型的理解，并在实践中挑选合适的异步模型。
 
 ## 数据库
 
 * <a  href="http://www.amazon.cn/gp/product/B00COG3W58/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00COG3W58&linkCode=as2&tag=jysperm07-23">SQL 必知必会</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00COG3W58" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-* <a  href="http://www.amazon.cn/gp/product/B007KYSEZC/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B007KYSEZC&linkCode=as2&tag=jysperm07-23">数据库系统概念</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B007KYSEZC" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+    这本书由浅入深，概览式地介绍了 SQL 中和具体实现无关的那些语法，非常适合快速入门，了解 SQL 所提供的功能。
+
 * <a  href="http://www.amazon.cn/gp/product/B00C1W58DE/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00C1W58DE&linkCode=as2&tag=jysperm07-23">高性能 MySQL</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00C1W58DE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a  href="http://www.amazon.cn/gp/product/B00HLX035Q/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00HLX035Q&linkCode=as2&tag=jysperm07-23">MongoDB 权威指南</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00HLX035Q" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a  href="http://www.amazon.cn/gp/product/B00X65PE3E/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00X65PE3E&linkCode=as2&tag=jysperm07-23">Redis 入门指南</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00X65PE3E" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+    这本书从 Redis 的各种数据类型入手，介绍了常见的命令，其间穿插着数据结构设计的实例，后半部分也介绍了事务、脚本和持久化等高级话题。这本书非常时候新手入门 Redis 或有一定 Redis 使用经验的人了解一些细节知识。
 
 ## 科普
 
@@ -64,6 +81,7 @@ permalink: booklist/
 
 ## 小说
 
+* <a  href="http://www.amazon.cn/gp/product/B0099MU5JQ/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B0099MU5JQ&linkCode=as2&tag=jysperm07-23">一九八四</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B0099MU5JQ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B00ANFMU8W/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00ANFMU8W&linkCode=as2&tag=jysperm07-23">小王子</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00ANFMU8W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B0011C5FC4/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B0011C5FC4&linkCode=as2&tag=jysperm07-23">三重门</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B0011C5FC4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B008QM2476/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B008QM2476&linkCode=as2&tag=jysperm07-23">疯狂的程序员</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B008QM2476" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

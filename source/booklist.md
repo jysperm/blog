@@ -20,7 +20,7 @@ permalink: booklist/
 
 * <a rel="nofollow" href="http://www.amazon.cn/gp/product/B00PG0MM3C/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00PG0MM3C&linkCode=as2&tag=jysperm07-23">计算的本质：深入剖析程序和计算机</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00PG0MM3C" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-    这本书同时介绍了「状态机」和「Lambda 验算」这两种计算模型，深入地介绍了高层次的编译语言如何被编译到上述的计算模型，但本书并没有太多理论性的介绍，而是用比较易于接受的例子来进行讲解。这本书会让你了解到计算机是如何拥有计算能力的，以及平时所使用的高级语言如何映射到基本的计算模型，也会教会你如何自己实现一个简单的编译器。
+    这本书同时介绍了「状态机」和「Lambda 验算」这两种计算模型，深入地介绍了高层次的编译型语言如何被编译到上述的计算模型，但本书并没有太多理论性的介绍，而是用比较易于接受的例子来进行讲解。这本书会让你了解到计算机是如何拥有计算能力的，以及平时所使用的高级语言如何映射到基本的计算模型，也会教会你如何自己实现一个简单的编译器。
 
 * <a  href="http://www.amazon.cn/gp/product/B007KYSEZC/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B007KYSEZC&linkCode=as2&tag=jysperm07-23">数据库系统概念</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B007KYSEZC" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
@@ -30,10 +30,12 @@ permalink: booklist/
 
     这本书通过上百个例子来介绍在具体编码工作中的「最佳实践」，这是一本当之无愧的「代码大全」，因为每一节都是相对独立的话题，因此本书很适合碎片时间阅读。这本书可能需要你有一定软件工程的实践才能理解其巧妙之处，因此建议每隔一段时间就重温一遍。
 
-* <a href="http://www.amazon.cn/gp/product/B003BY6PLK/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B003BY6PLK&linkCode=as2&tag=jysperm07-23">重构：改善既有代码的设计</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B003BY6PLK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B008B4DTG4/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B008B4DTG4&linkCode=as2&tag=jysperm07-23">编写可读代码的艺术</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B008B4DTG4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-* <a href="http://www.amazon.cn/gp/product/B004GV08CY/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B004GV08CY&linkCode=as2&tag=jysperm07-23">程序员修炼之道:从小工到专家</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B004GV08CY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
+    这本书通过大量的代码示例和讲解，从标识符、注释、变量、流程控制、排版、组织代码、自动测试的角度细致地介绍了什么才是「优雅」的代码风格。这本书会让你重新注意起代码中不起眼的小细节，适合所有希望写出优雅的代码的人。
+
+* <a href="http://www.amazon.cn/gp/product/B003BY6PLK/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B003BY6PLK&linkCode=as2&tag=jysperm07-23">重构：改善既有代码的设计</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B003BY6PLK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+* <a href="http://www.amazon.cn/gp/product/B004GV08CY/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B004GV08CY&linkCode=as2&tag=jysperm07-23">程序员修炼之道:从小工到专家</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B004GV08CY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ## 算法
 
@@ -67,17 +69,19 @@ permalink: booklist/
 
     这本书由浅入深，概览式地介绍了 SQL 中和具体实现无关的那些语法，非常适合快速入门，了解 SQL 所提供的功能。
 
-* <a  href="http://www.amazon.cn/gp/product/B00C1W58DE/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00C1W58DE&linkCode=as2&tag=jysperm07-23">高性能 MySQL</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00C1W58DE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-* <a  href="http://www.amazon.cn/gp/product/B00HLX035Q/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00HLX035Q&linkCode=as2&tag=jysperm07-23">MongoDB 权威指南</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00HLX035Q" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a  href="http://www.amazon.cn/gp/product/B00X65PE3E/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00X65PE3E&linkCode=as2&tag=jysperm07-23">Redis 入门指南</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00X65PE3E" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
     这本书从 Redis 的各种数据类型入手，介绍了常见的命令，其间穿插着数据结构设计的实例，后半部分也介绍了事务、脚本和持久化等高级话题。这本书非常时候新手入门 Redis 或有一定 Redis 使用经验的人了解一些细节知识。
 
+* <a  href="http://www.amazon.cn/gp/product/B00C1W58DE/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00C1W58DE&linkCode=as2&tag=jysperm07-23">高性能 MySQL</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00C1W58DE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+* <a  href="http://www.amazon.cn/gp/product/B00HLX035Q/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00HLX035Q&linkCode=as2&tag=jysperm07-23">MongoDB 权威指南</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00HLX035Q" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 ## 科普
 
+* <a href="http://www.amazon.cn/gp/product/B009RSXIB4/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B009RSXIB4&linkCode=as2&tag=jysperm07-23">编码：隐匿在计算机软硬件背后的语言</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B009RSXIB4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B00116OR88/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00116OR88&linkCode=as2&tag=jysperm07-23">时间简史</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00116OR88" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * <a href="http://www.amazon.cn/gp/product/B00116OSKK/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00116OSKK&linkCode=as2&tag=jysperm07-23">果壳中的宇宙</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B00116OSKK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-* <a href="http://www.amazon.cn/gp/product/B009RSXIB4/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B009RSXIB4&linkCode=as2&tag=jysperm07-23">编码：隐匿在计算机软硬件背后的语言</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B009RSXIB4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+* <a  href="http://www.amazon.cn/gp/product/B008MIGAI8/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B008MIGAI8&linkCode=as2&tag=jysperm07-23">自私的基因</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=jysperm07-23&l=as2&o=28&a=B008MIGAI8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ## 小说
 

@@ -106,7 +106,7 @@ theme: simpleblock
 # Deployment
 deploy:
   type: rsync
-  host: spawn.rpvhost.net
+  host: jysperm.me
   user: docker
   root: /home/docker/sites/blog
 

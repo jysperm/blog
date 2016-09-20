@@ -91,6 +91,13 @@ tag_map:
   Qt: qt
   年度小结: summary-of-year
   哆啦A梦: doraemon
+  国际象棋: international-chess
+  中医: traditional-medicine
+  AI: ai
+  播客: podcast
+  Docker: docker
+  Bitcoin: bitcoin
+  BlockChain: blockchain
 
 # Date / Time format
 date_format: YYYY M 月 D 日

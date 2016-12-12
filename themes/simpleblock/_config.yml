@@ -46,7 +46,10 @@ widgets:
   -
     jade: |
       h2 订阅推送
-      p 通过邮件订阅精子的博客日志、产品和项目的最新动态，精子承诺每一封邮件都会认真撰写，且每周不会超过一封。有想和精子说的话可以直接回复邮件。
+      p
+        | 通过邮件订阅精子的博客日志、产品和项目的最新动态，精子承诺每一封邮件都会认真撰写（
+        a(href='http://us13.campaign-archive1.com/home/?u=f4c7c26ec1a5dc400a7a7373e&id=e2136d8929') 历史邮件
+        | ），有想和精子说的话也可以直接回复邮件。
       #mc_embed_signup
         form#mc-embedded-subscribe-form.validate(action='//jybox.us13.list-manage.com/subscribe/post?u=f4c7c26ec1a5dc400a7a7373e&id=e2136d8929', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
           #mc_embed_signup_scroll.input-group

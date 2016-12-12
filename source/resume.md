@@ -1,13 +1,6 @@
 ---
 title: 简历
 permalink: resume/
-reviews:
-  -
-    author: nodejh
-    body: 然而并不觉得厉害，包装而已。
-  -
-    author: shane
-    body: 个人觉得精通两门语言已经足够了。
 ---
 
 王子亭，1995 年生于辽宁沈阳，现居江苏苏州，目前在 [LeanCloud](https://leancloud.cn/) 任 Node.js 服务器端开发工程师。
@@ -38,17 +31,12 @@ reviews:
 * 提供了一个 Web UI 去配置 Nginx 反向代理来共用 80 端口、配置 MySQL 和 MongoDB 数据库、配置 Supervisor 和 Shadowsocks 等服务；通过 coreutils, procps, iptables 等工具和系统交互来进行 CPU、内存和流量的统计。
 * 实现了一个设计良好的插件化架构，通过 Registry 和 Hook 的模式允许插件去修改主程序的行为、添加新的功能，上述的功能都是以插件的形式实现的。
 
-### 番茄土豆
-
-2013 年 8 月至 2015 年 9 月，番茄土豆是一个番茄工作法和 Todolist 的实现，支持多平台间的数据同步。我在这两年中部分地参与了这个项目，包括使用 Node.js 配合 Express, Mongoose, Redis, Node-Resque 重构原 PHP 版的番茄土豆等工作。
-
 ## 技术栈
-
 ### Node.js
 
-自 2013 年末开始使用 Node.js, 参与了数十个线上项目，包括自动交易（比特币）、交易所（比特币）、账户系统、订单系统、运维和监控系统、Web 图表后端、多语言模板渲染、邮件队列、命令行工具、实时消息推送、插件化架构等场景。
+自 2013 年末开始使用 Node.js, 精通 JavaScript。参与了数十个线上项目，包括自动交易（比特币）、交易所（比特币）、账户系统、订单系统、运维和监控系统、Web 图表后端、多语言模板渲染、邮件队列、命令行工具、实时消息推送、插件化架构等场景。
 
-配合 Node.js 使用过 MySQL、MongoDB、Redis 等数据后端；对 JavaScript 有较为深入的了解，同时也在使用 CoffeeScript 和 ES6/Babel.
+配合 Node.js 使用过 MySQL、MongoDB、Redis、Influx 等数据库；精通 JavaScript，同时也在使用 ES2016/Babel、TypeScript 和 CoffeeScript。
 
 在 Node.js 方面的开源项目：
 
@@ -60,15 +48,23 @@ reviews:
 
 ### PHP
 
-早期热衷于设计 Web 框架和 ORM，有较为扎实的 PHP 基础，后因开发 Node.js 离开 PHP 社区一段时间，最近重回 PHP 社区使用 Laravel 做 Web 开发，对 PHP7、自动测试、异常收集、指标采集均有一些实践。
+早期热衷于设计 Web 框架和 ORM，有较为扎实的 PHP 基础，后因开发 Node.js 离开 PHP 社区，对 Laravel、PHP7、自动测试、异常收集、指标采集均有一些实践。
 
-### Web
+### Web 前端
 
-对 HTML、CSS 和浏览器端 JavaScript 有基本的了解，有一些 Bootstrap 和 React 开发经验，对 Less 和 Jade 等替代语言也有些使用经验，对前端工程化亦有很多实践。
+对 HTML、CSS 和浏览器端 JavaScript 有基本的了解，能够使用 Bootstrap 和 React 开发 Web 应用；对 Less 和 Pug 等替代语言也有些使用经验，对前端工程化亦有很多实践。
 
 在 Web 前端方面的开源项目：
 
 * [hexo-theme-simpleblock](https://github.com/jysperm/hexo-theme-simpleblock)：为 [个人博客](https://jysperm.me/) 设计的简洁风格博客主题。
+
+## 主题演讲
+
+* Atom 背后的故事（杭州 Node Party）：[文章](https://jysperm.me/2016/11/behind-atom/)、[幻灯片](https://pek3a.qingstor.com/jysperm-blog/slides/Behind%20Atom.pdf)
+* Node.js 错误处理实践（杭州 Node Party）：[文章](https://jysperm.me/2016/10/nodejs-error-handling/)、[幻灯片](https://pek3a.qingstor.com/jysperm-blog/slides/Node%20Error%20Handling.pdf)
+* GPG 与端到端加密（稀土杭州 Meetup）：文章、[幻灯片](https://pek3a.qingstor.com/jysperm-blog/slides/GPG%20and%20E2EE.pdf)
+* Docker 与容器化技术实践（Connext 2016）：[文章](https://jysperm.me/2016/08/docker-and-containerization/)、[幻灯片](https://pek3a.qingstor.com/jysperm-blog/slides/Docker%20on%20PaaS.pdf)
+* 区块链与 Ethereum 原理解析：[文章](https://jysperm.me/2016/05/blockchain-slides/)
 
 ## 技术之外
 

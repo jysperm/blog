@@ -1,6 +1,8 @@
 ---
 title: 给初入门程序员的建议
 permalink: suggestions-for-beginners
+tags:
+  - 编程
 date: 2016-07-01
 ---
 

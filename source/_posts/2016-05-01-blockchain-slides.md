@@ -1,8 +1,9 @@
 ---
 title: BlockChain 与 Ethereum 介绍
 tags:
-  - Bitcoin
-  - BlockChain
+  - 比特币
+  - 区块链
+  - 密码学
 permalink: blockchain-slides
 date: 2016-05-01
 reviews:

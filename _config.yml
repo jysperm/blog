@@ -53,10 +53,23 @@ tag_map:
   RP主机: rpvhost
   RootPanel: rootpanel
   SICP: sicp
+  区块链: blockchain
+  Web: web
+  服务器端: server-side
+  编程: programming
+  编程语言: programming-language
+  比特币: bitcoin
+  年度小结: summary-of-year
+  生活记录: live
+  彩排: caipai
+  Docker: docker
+  博客: blog
+  Node.js: nodejs
+  密码学: cryptography
+  中医: traditional-medicine
 
   信息安全: information-security
   软件工程: software-engineering
-  Node.js: nodejs
   技术: technology
   计算机网络: network
   互联网: internet
@@ -73,31 +86,19 @@ tag_map:
   生活: live
   互联网资讯: news
   购物: shopping
-  生活记录: live
   物理: physical
   计算机科学: computer-science
   电影: movie
-  博客: blog
   学校考试: exam
   黑客: hacker
   零毫秒: zeroms
   学校周记: school-weekly
-  密码学: cryptography
-  比特币: bitcoin
   徐雪丽: xuxueli
   冷知识: cold-knowledge
   精子的故事: story-of-sperm
   科普: science
   Qt: qt
-  年度小结: summary-of-year
   哆啦A梦: doraemon
-  国际象棋: international-chess
-  中医: traditional-medicine
-  AI: ai
-  播客: podcast
-  Docker: docker
-  Bitcoin: bitcoin
-  BlockChain: blockchain
 
 # Date / Time format
 date_format: YYYY M 月 D 日

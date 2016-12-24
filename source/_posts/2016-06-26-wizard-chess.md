@@ -1,8 +1,8 @@
 ---
 title: 'WizardChess: 一个国际象棋 AI 的实现'
 tags:
-  - AI
-  - 国际象棋
+  - Web
+  - Node.js
 permalink: wizard-chess
 date: 2016-06-26
 ---

@@ -1,6 +1,10 @@
 ---
 title: QPS 和并发：如何衡量服务器端性能
 permalink: qps-and-concurrent-connections
+tags:
+  - LeanCloud
+  - Web
+  - 服务器端
 date: 2016-12-15
 ---
 

@@ -2,7 +2,7 @@
 title: Atom 背后的故事
 tags:
   - Atom
-  - JavaScript
+  - Web
   - Node.js
 permalink: behind-atom
 date: 2016-11-10

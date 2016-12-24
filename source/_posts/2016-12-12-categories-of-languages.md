@@ -1,6 +1,8 @@
 ---
 title: 强弱类型、动静类型、GC 和 VM
 permalink: categories-of-languages
+tags:
+  - 编程语言
 date: 2016-12-12
 ---
 

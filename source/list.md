@@ -12,45 +12,82 @@ permalink: list/
 这个博客创建于精子 7 岁第一天上学的时候，之后的十几年里精子的成长和价值观的改变是很大的。  
 所有的日志发布之后除了错别字都不会再修改，因此他可能并不完全同意早期日志中的观点。
 
+## 2016 年（19 篇）
+
+### 主题分享
+
+* [BlockChain 与 Ethereum 介绍](/2016/05/blockchain-slides)
+* [Docker 与容器化技术实践](/2016/08/docker-and-containerization)
+* [Node.js 错误处理实践](/2016/10/nodejs-error-handling)
+* [Atom 背后的故事](/2016/11/behind-atom)
+
+### 技术随笔
+
+* [semver：语义化版本规范在 Node.js 中的实现](/2016/04/node-package-semver)
+* [从被误解到最流行：论 JavaScript 如何完成华丽转身](/2016/06/interesting-javascript)
+* [给初入门程序员的建议](/2016/07/suggestions-for-beginners)
+* [强弱类型、动静类型、GC 和 VM](/2016/12/categories-of-languages)
+* [QPS 和并发：如何衡量服务器端性能](/2016/12/qps-and-concurrent-connections)
+* [我的 JavaScript 学习之路](/2016/10/learning-javascript)
+
+### 作品发布
+
+* [WizardChess: 一个国际象棋 AI 的实现](/2016/06/wizard-chess)
+* [在 LeanCloud 中使用 GraphQL](/2016/12/leancloud-graphql)
+
+### 生活记录
+
+* [2015 年度小结（技术方面）](/2016/02/programming-of-2015)
+* [2016 年度小结](/2016/12/summary-of-2016)
+* [20 岁的我在想些什么](/2016/11/thinking-about-my-20)
+
+### 价值观
+
+* [我看「刷月饼」事件](/2016/09/alibaba-yuebing)
+* [为什么我不相信中医](/2016/06/why-not-traditional-medicine)
+
+### 博客和播客
+
+* [移除博客评论和微信公众号](/2016/05/remove-comments-and-wechat)
+* [我录了一档叫「彩排」的播客](/2016/09/caipai-fm)
+
 ## 2015 年（22 篇）
 
 ### 观点
-* [为什么 PHP 不好用](https://jysperm.me/2015/01/1992)
-* [标准化商品构成的世界](https://jysperm.me/2015/08/standardized-world)
+* [为什么 PHP 不好用](/2015/01/1992)
+* [标准化商品构成的世界](/2015/08/standardized-world)
 
 ### 经历分享
-* [哆啦 A 梦：伴我同行](https://jysperm.me/2015/05/stand-by-me-doraemon)
-* [从初中开始编程](https://jysperm.me/2015/02/programming-from-middle-school)
-* [建立一个自己的粉丝团是怎样的体验](https://jysperm.me/2015/12/maintain-a-fans-group)
+* [哆啦 A 梦：伴我同行](/2015/05/stand-by-me-doraemon)
+* [从初中开始编程](/2015/02/programming-from-middle-school)
+* [建立一个自己的粉丝团是怎样的体验](/2015/12/maintain-a-fans-group)
 
 ### Node.js
-* [更换博客系统到 Hexo](https://jysperm.me/2015/02/move-to-hexo)
-* [Promise：抽象的异步任务](https://jysperm.me/2015/04/promise-abstract-of-async-task)
-* [Mabolo: 轻量级的 MongoDB ORM](https://jysperm.me/2015/06/mabolo-mongodb-orm)
-* [Cichorium: 基于 Promise 的中间件路由框架](https://jysperm.me/2015/05/cichorium-routing-framework)
-* [与精子同款的博客主题 Simple Block 现已发布！](https://jysperm.me/2015/07/hexo-theme-simpleblock)
+* [更换博客系统到 Hexo](/2015/02/move-to-hexo)
+* [Promise：抽象的异步任务](/2015/04/promise-abstract-of-async-task)
+* [Mabolo: 轻量级的 MongoDB ORM](/2015/06/mabolo-mongodb-orm)
+* [Cichorium: 基于 Promise 的中间件路由框架](/2015/05/cichorium-routing-framework)
+* [与精子同款的博客主题 Simple Block 现已发布！](/2015/07/hexo-theme-simpleblock)
 
 ### Atom
-* [Atom 体验报告](https://jysperm.me/2015/04/atom-getting-started)
-* [Atom 中文社区！](https://jysperm.me/2015/04/atom-china-community)
+* [Atom 体验报告](/2015/04/atom-getting-started)
+* [Atom 中文社区！](/2015/04/atom-china-community)
 
 ### RP 主机
-* [RP 主机免费计划](https://jysperm.me/2015/05/rpvhost-will-be-free)
-* [RP 主机和 GreenShadow 关闭计划](https://jysperm.me/2015/10/rpvhost-shutdown-plan)
+* [RP 主机免费计划](/2015/05/rpvhost-will-be-free)
+* [RP 主机和 GreenShadow 关闭计划](/2015/10/rpvhost-shutdown-plan)
 
 ### 生活记录
-* [最新的时间追踪成果](https://jysperm.me/2015/02/result-of-time-tracking)
-* [离开 HackPlan](https://jysperm.me/2015/09/leaving-hackplan)
-* [加入 LeanCloud](https://jysperm.me/2015/11/join-leancloud)
-* [2015 年度小结](https://jysperm.me/2015/12/summary-of-2015)
-* [2014 年度小结（技术方面）](https://jysperm.me/2015/01/1976)
+* [最新的时间追踪成果](/2015/02/result-of-time-tracking)
+* [离开 HackPlan](/2015/09/leaving-hackplan)
+* [加入 LeanCloud](/2015/11/join-leancloud)
+* [2015 年度小结](/2015/12/summary-of-2015)
+* [2014 年度小结（技术方面）](/2015/01/1976)
 
 ### 技术随笔
-* [抽象的构件](https://jysperm.me/2015/03/unit-of-abstract)
-* [读代码是好的学习方式么](https://jysperm.me/2015/02/reading-code)
-
-### 技术分享
-* [编码：二进制的世界](https://jysperm.me/2015/11/encoding-to-binary)
+* [抽象的构件](/2015/03/unit-of-abstract)
+* [读代码是好的学习方式么](/2015/02/reading-code)
+* [编码：二进制的世界](/2015/11/encoding-to-binary)
 
 ## 2014 年（24 篇）
 

@@ -17,6 +17,8 @@
     "hexo-renderer-marked": "^0.2.4",
     "hexo-server": "^0.1.2",
     "jade": "^1.11.0",
-    "marked": "^0.3.6"
+    "lodash": "^4.17.4",
+    "marked": "^0.3.6",
+    "moment": "^2.17.1"
   }
 }

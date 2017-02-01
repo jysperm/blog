@@ -28,14 +28,14 @@ right_menus:
 ## Banners && Widgets
 banners:
   jade: |
-    | 精子创办了一档播客节目，大家可以在 iTunes 搜索「彩排」，或访问 &nbsp;
-    a(target='_blank', href='https://caipai.fm/') caipai.fm
-    | &nbsp; 来收听。
+    | 精子新上线了一个名为 &nbsp;
+    a(target='_blank', href='https://stream.pub/') Stream
+    | &nbsp; 的服务，希望提供一个基于发布、订阅模型的消息服务，提供 HTTP API 并传输结构化的 JSON 数据。
 
 widgets:
   -
     markdown: |
-      精子生于 1995.11.25, 20 岁，英文 ID jysperm.
+      精子生于 1995.11.25, 21 岁，英文 ID jysperm.
 
       * 有一个 [精子粉丝团](https://jybox.net)
       * [皮蛋](http://pidan.cat) 和 [豆腐](http://doufu.cat) 的主人

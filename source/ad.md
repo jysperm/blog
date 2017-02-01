@@ -1,3 +1,4 @@
+---
 title: 广告
 permalink: ad/
 ---
@@ -11,7 +12,7 @@ permalink: ad/
 
 * [LeanCloud](https://leancloud.cn/?source=45Y9GRFP): 提供结构化数据存储服务来代替传统后端，亦可运行普通的 Node.js 和 Python 程序
 
-## 互联网服务
+## 云计算
 
 * [Linode](https://www.linode.com/?r=a196912d910d9eefa806a2f2a00e5991811f85ef)
 

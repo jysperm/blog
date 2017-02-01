@@ -1,13 +1,21 @@
+---
 title: 所有日志
 permalink: list/
 ---
 
-* [推荐及链接](/links)
-* [推荐书单](/booklist)
+* [404](/404)
 * [关于精子](/about)
-* [碎语](/tweets)
-* [简历](/profile)
 * [广告](/ad)
+* [推荐书单](/booklist)
+* [足迹](/footprints)
+* [Identity of Cryptography](/keys)
+* [关键词](/keywords)
+* [推荐及链接](/links)
+* [Love](/love)
+* [物品转让](/on-sale)
+* [简历](/resume)
+* [碎语](/tweets)
+* [所有站点](/websites)
 
 这个博客创建于精子 7 岁第一天上学的时候，之后的十几年里精子的成长和价值观的改变是很大的。  
 所有的日志发布之后除了错别字都不会再修改，因此他可能并不完全同意早期日志中的观点。

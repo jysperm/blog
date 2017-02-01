@@ -1,26 +1,21 @@
+---
 title: 链接
 permalink: links/
 ---
 
 精子的朋友们：
 
-* JmPotato: [iPotato](http://ipotato.me/)
-* Librazy: [Dr.Lib](http://im.librazy.org/)
-* cry 姐姐：[Not ready yet](http://infinnie.github.io/)
-* Parthas: [ParBlog](http://blog.xparthas.com/)
-* 张子怿: [Bitche Haters](http://brightsaul.me/)
-* liam0205.me: [始终](http://liam0205.me/)
-* [愤怒的泡面](http://powman.org/)
-* [starriv](http://starriv.com)
-* [faceair](http://lucy.faceair.me/)
-* [Ivan Cai](http://www.ivancai.me/)
-* [orzFly](http://orzfly.com/)
-* [Abreto](http://blog.abreto.net/)
-* [Dimpurr Cheny](http://im.dimpurr.com/)
-
-精子喜欢这些人的博客，可惜他们并不认识精子：
-
-* 陈皓：[酷壳](http://coolshell.cn/)
-* localhost404: [考据癖](http://localhost-8080.com/)
-* 王垠：[当然我在扯淡](http://www.yinwang.org/) [正义的花生](http://www.jianshu.com/users/b1dd2b2c87a8)
-* 赵劼：[老赵点滴](http://blog.zhaojie.me/)
+* JmPotato: [iPotato](http://ipotato.me)
+* Librazy: [Dr.Lib](https://im.librazy.org)
+* cry 姐姐：[Not ready yet](http://infinnie.github.io)
+<!-- * Parthas: [ParBlog](http://blog.xparthas.com) -->
+* 张子怿: [讲道义的馒头](https://brightsaul.me)
+* [IntPtr](https://www.intptr.im)
+* L: [始终](http://liam0205.me)
+* [愤怒的泡面](http://powman.org)
+* [starriv](https://starriv.com)
+* [faceair](http://lucy.faceair.me)
+* [Ivan Cai](https://www.ivancai.me)
+* [orzFly](https://orzfly.com)
+* [Abreto](http://blog.abreto.net)
+<!-- * [Dimpurr Cheny](http://im.dimpurr.com) -->

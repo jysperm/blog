@@ -11,7 +11,6 @@ permalink: list/
 * [Identity of Cryptography](/keys)
 * [关键词](/keywords)
 * [推荐及链接](/links)
-* [Love](/love)
 * [物品转让](/on-sale)
 * [简历](/resume)
 * [碎语](/tweets)

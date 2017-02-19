@@ -8,7 +8,7 @@ permalink: links/
 * JmPotato: [iPotato](http://ipotato.me)
 * Librazy: [Dr.Lib](https://im.librazy.org)
 * cry 姐姐：[Not ready yet](http://infinnie.github.io)
-<!-- * Parthas: [ParBlog](http://blog.xparthas.com) -->
+* Parthas: [ParBlog](http://blog.xparthas.com)
 * 张子怿: [讲道义的馒头](https://brightsaul.me)
 * [IntPtr](https://www.intptr.im)
 * L: [始终](http://liam0205.me)

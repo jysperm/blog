@@ -10,6 +10,7 @@ permalink: list/
 * [足迹](/footprints)
 * [Identity of Cryptography](/keys)
 * [关键词](/keywords)
+* [技能树](/skill)
 * [推荐及链接](/links)
 * [物品转让](/on-sale)
 * [简历](/resume)

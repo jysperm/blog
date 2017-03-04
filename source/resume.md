@@ -60,10 +60,10 @@ permalink: resume/
 
 ## 主题演讲
 
-* Atom 背后的故事（杭州 Node Party）：[文章](https://jysperm.me/2016/11/behind-atom/)、[幻灯片](https://pek3a.qingstor.com/jysperm-blog/slides/Behind%20Atom.pdf)
-* Node.js 错误处理实践（杭州 Node Party）：[文章](https://jysperm.me/2016/10/nodejs-error-handling/)、[幻灯片](https://pek3a.qingstor.com/jysperm-blog/slides/Node%20Error%20Handling.pdf)
-* GPG 与端到端加密（稀土杭州 Meetup）：文章、[幻灯片](https://pek3a.qingstor.com/jysperm-blog/slides/GPG%20and%20E2EE.pdf)
-* Docker 与容器化技术实践（Connext 2016）：[文章](https://jysperm.me/2016/08/docker-and-containerization/)、[幻灯片](https://pek3a.qingstor.com/jysperm-blog/slides/Docker%20on%20PaaS.pdf)
+* Atom 背后的故事（杭州 Node Party）：[文章](https://jysperm.me/2016/11/behind-atom/)、[幻灯片](https://cdn.ziting.wang/slides/Behind%20Atom.pdf)
+* Node.js 错误处理实践（杭州 Node Party）：[文章](https://jysperm.me/2016/10/nodejs-error-handling/)、[幻灯片](https://cdn.ziting.wang/slides/Node%20Error%20Handling.pdf)
+* GPG 与端到端加密（稀土杭州 Meetup）：文章、[幻灯片](https://cdn.ziting.wang/slides/GPG%20and%20E2EE.pdf)
+* Docker 与容器化技术实践（Connext 2016）：[文章](https://jysperm.me/2016/08/docker-and-containerization/)、[幻灯片](https://cdn.ziting.wang/slides/Docker%20on%20PaaS.pdf)
 * 区块链与 Ethereum 原理解析：[文章](https://jysperm.me/2016/05/blockchain-slides/)
 
 ## 技术之外

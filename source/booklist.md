@@ -75,7 +75,7 @@ permalink: booklist/
 
 * [JavaScript 异步编程](http://www.amazon.cn/gp/product/B00CYM0Z8Y/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00CYM0Z8Y&linkCode=as2&tag=jysperm07-23)
 
-    这本书介绍了 JavaScript 中事件模型、Promise、async.js 等异步抽象的设计和实现，同时也介绍了 Web Woerk 等在浏览器中优化性能的技巧。这本书适合所有 JavaScript 程序员增加对 Promise 等异步模型的理解，并在实践中挑选合适的异步模型。
+    这本书介绍了 JavaScript 中事件模型、Promise、async.js 等异步抽象的设计和实现，同时也介绍了 Web Worker 等在浏览器中优化性能的技巧。这本书适合所有 JavaScript 程序员增加对 Promise 等异步模型的理解，并在实践中挑选合适的异步模型。
 
 ## 数据库
 

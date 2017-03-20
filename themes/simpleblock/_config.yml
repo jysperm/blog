@@ -28,9 +28,9 @@ right_menus:
 ## Banners && Widgets
 banners:
   jade: |
-    | 精子新上线了一个名为 &nbsp;
-    a(target='_blank', href='https://stream.pub/') Stream
-    | &nbsp; 的服务，希望提供一个基于发布、订阅模型的消息服务，提供 HTTP API 并传输结构化的 JSON 数据。
+    | 精子又要搬家了，来 &nbsp;
+    a(href='/on-sale') 看一看有什么正在甩卖
+    | &nbsp; 吧。
 
 widgets:
   -

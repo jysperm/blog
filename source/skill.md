@@ -9,24 +9,24 @@ permalink: skill/
 - `[######____]` JavaScript (React)
 - `[#####_____]` PHP (Laravel)
 - `[#####_____]` HTML/CSS (Bootstrap)
-- `[####______]` Lua (Redis)
 - `[####______]` Lua (Openresty)
+- `[####______]` Lua (Redis)
 - `[####______]` Golang (Web)
 - `[###_______]` C++ (Qt)
 
 ## 数据库
 
-- `[#########_]` MySQL
-- `[#########_]` MongoDB
-- `[#########_]` Redis
+- `[########__]` MySQL
+- `[########__]` MongoDB
+- `[########__]` Redis
 - `[######____]` Influx
 - `[####______]` Etcd
 
 ## 服务器
 
 - `[########__]` Docker
-- `[########__]` Nginx
-- `[#######___]` Linux
+- `[#######___]` Nginx
+- `[######____]` Linux
 
 ## 工具
 

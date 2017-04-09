@@ -27,6 +27,7 @@ permalink: skill/
 - `[########__]` Docker
 - `[#######___]` Nginx
 - `[######____]` Linux
+- `[####______]` Ansible
 
 ## 工具
 

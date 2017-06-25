@@ -28,9 +28,9 @@ right_menus:
 ## Banners && Widgets
 banners:
   jade: |
-    | 精子又要搬家了，来 &nbsp;
-    a(href='/on-sale') 看一看有什么正在甩卖
-    | &nbsp; 吧。
+    | LeanCloud 又在 &nbsp;
+    a(href='https://leancloud.cn/jobs/') 招募新的小伙伴
+    | &nbsp; 了，来和精子一起工作吧。
 
 widgets:
   -

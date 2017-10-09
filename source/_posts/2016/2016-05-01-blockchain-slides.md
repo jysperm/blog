@@ -42,7 +42,7 @@ reviews:
 
 Blockchain 也叫区块链，可以认为它是 HashTree（散列树）的一种，也正因如此它有着一些和 HashTree 相同的性质：
 
-![blockchain-hash-tree](https://o5eoc29h5.qnssl.com/blockchain-hash-tree.jpg)
+![blockchain-hash-tree](https://jysperm-blog.pek3a.qingstor.com/blockchain-hash-tree.jpg)
 
 > 图片来自 <http://happypeter.github.io/bitcoin_basics/book/017_merkle_tree.html>
 
@@ -50,7 +50,7 @@ Blockchain 也叫区块链，可以认为它是 HashTree（散列树）的一种
 
 我可以举一个有关 HashTree 的应用：「100% 准备金证明」，它属于「零知识证明（Zero-knowledge proofs）」的这一类问题。我们可以考虑这样一个场景，Bitcion 的持有者为了进行交易，需要将 Bitcoin 寄存在交易所，理论上交易所可以将这笔钱（所有用户寄存的账户余额）挪作它用，这是用户们不希望看到的，而交易所也希望自证清白：交易所首先公布一个自己所持有的 Bitcoin 地址，供大家确认交易所确实持有这么多 Bitcoin 作为准备金，但如何证明这笔钱确实大于所有用户余额的总和呢？换句话说，如何在不公布每个用户的余额（会泄露用户的隐私）的情况下，让每个用户都认可自己的余额被包含在了总的准备金中呢？
 
-![blockchain-proof-of-reserves](https://o5eoc29h5.qnssl.com/blockchain-proof-of-reserves.png)
+![blockchain-proof-of-reserves](https://jysperm-blog.pek3a.qingstor.com/blockchain-proof-of-reserves.png)
 
 > 图片来自 <http://blog.bifubao.com/2014/03/16/proof-of-reserves>
 
@@ -60,7 +60,7 @@ Blockchain 也叫区块链，可以认为它是 HashTree（散列树）的一种
 
 接下来我们来看一下 Git，其实 Git 是一个非常典型的 Blockchain 应用：
 
-![blockchain-git-objects-example](https://o5eoc29h5.qnssl.com/blockchain-git-objects-example.png)
+![blockchain-git-objects-example](https://jysperm-blog.pek3a.qingstor.com/blockchain-git-objects-example.png)
 
 > 图片来自 <http://gitbook.liuhui998.com/1_2.html> （GPL v2）
 
@@ -70,7 +70,7 @@ Git 借助 Blockchain 为仓库来确定了一个唯一的历史 ———— �
 
 另一个 Blockchain 的经典应用就是 Bitcoin 了，也正是 Bitcoin 将 Blockchain 这个词传播开来（而这个概念其实是一直都有的）：
 
-![blockchain-bitcoin-block-data](https://o5eoc29h5.qnssl.com/blockchain-bitcoin-block-data.png)
+![blockchain-bitcoin-block-data](https://jysperm-blog.pek3a.qingstor.com/blockchain-bitcoin-block-data.png)
 
 > 图片来自 <https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png>（CC-BY-SA-3.0）
 
@@ -88,7 +88,7 @@ Bitcoin 被设计成每 10 分钟生成一个新的 Block, 这个时间是由大
 
 正常来说，每一个 Bitcoin 节点都需要存储完整的 Blockchain 数据才能去确认一笔交易是否合法 —— 交易的发起者是否拥有足够的余额发起这笔交易。但现在完整的 blockchain 已有 66G，而且还在以每天 0.1G 左右的速度增长。如果要求 Bitcoin 的每个用户都存储完整的区块链未免过于苛刻，因此 Bitcoin 拥有一个「简化确认（SPV, Simplified payment verification）」的机制，所谓的「轻量级客户端」可以选择不存储完整的区块链，而是附着到一个或几个完整节点上，只存储所有 Block 的元信息（Hash、包含交易的 Hash、工作量证明），然后验证每个块的工作量证明，每当需要验证交易时便向完整节点查询这个交易所在的 Block，然后获取这个 Block 中必要的信息（Block 中的交易也是以 HashTree 的方式存储的），以便校验这笔交易是否包含在 Blockchain 中。
 
-![blockchain-bitcoin-state-machine](https://o5eoc29h5.qnssl.com/blockchain-bitcoin-state-machine.png)
+![blockchain-bitcoin-state-machine](https://jysperm-blog.pek3a.qingstor.com/blockchain-bitcoin-state-machine.png)
 
 > 图片来自 <https://github.com/ethereum/wiki/wiki/White-Paper>
 
@@ -111,7 +111,7 @@ Bitocin 也提供了一个 [Bitcoin Script](https://en.bitcoin.it/wiki/Script) �
 
 ## Ethereum
 
-![blockchain-ethereum](https://o5eoc29h5.qnssl.com/blockchain-ethereum.png)
+![blockchain-ethereum](https://jysperm-blog.pek3a.qingstor.com/blockchain-ethereum.png)
 
 > 图片来自 <https://www.ethereum.org/assets> （CC 3.0）
 
@@ -131,7 +131,7 @@ Bitocin 也提供了一个 [Bitcoin Script](https://en.bitcoin.it/wiki/Script) �
 
 首先举一个「多人共同持有的钱包」的例子，在 Ethereum 的官方客户端中便有一个创建多人钱包的功能：
 
-![blockchain-ethereum-multi-sig-wallet](https://o5eoc29h5.qnssl.com/blockchain-ethereum-multi-sig-wallet.jpg)
+{% cdnimage '2016/ethereum-multi-sig-wallet.jpg' %}
 
 如图，通过这个功能可以创建出一个与其他 2 个人共同拥有的钱包地址，每个人每天最多使用其中的 100 Ether，如果超过了这个限制，则必须经过另外一个人的同意。
 
@@ -184,13 +184,13 @@ Bitocin 也提供了一个 [Bitcoin Script](https://en.bitcoin.it/wiki/Script) �
 
 当一个矿工 A 挖到一个新的块的时候，他会将这个 Block 广播出去，其他人一旦收到了这个消息，就会立刻基于这个新的块开始工作。而其他人在「A 挖到新的块」和「收到 A 广播的消息」之间这段时间之间的计算实际上是被浪费掉了的，而中心化矿池中的其他矿工则不会有这个问题，因为他们可以更快地得到新产生的块的信息，立刻在新的块的基础上开始工作。
 
-![blockchain-ethereum-without-uncles](https://o5eoc29h5.qnssl.com/blockchain-ethereum-without-uncles.png)
+![blockchain-ethereum-without-uncles](https://jysperm-blog.pek3a.qingstor.com/blockchain-ethereum-without-uncles.png)
 
 这个广播的时间可能需要十几秒，对于 10 分钟来讲这点时间并不是十分重要，但如果去缩短共识间隔，中心化矿池的优势将会越来越明显。但 Ethereum 通过引入「叔块（Uncle Block）」的概念解决了这个问题，将共识间隔减少到了 15 秒钟，在支付确认速度上较 Bitcoin 有了很大的提升。
 
 在 Bitcoin 的 Blockchain 中，一个 Block 只能有一个父块，也只能有一个子块。但在 Ethereum 中，一个新产生的块可以有一个父块和若干个叔块。回到上面的例子，如果在 A 挖到新的块但其他人尚未收到广播的时间中，如果有人挖出了一个新的块，但因为广播较晚没有被大家接受，那么这个块有可能成为下个块的「叔块」—— 这个块所代表的工作量证明会被认为是下一个块的一部分（即这个人挖出下一个块的难度降低了），叔块也仅仅提供工作量证明，其中所包含的交易是无效的。这样一来便补偿了较晚收到广播的客户端在低出块间隔情况下的劣势，具体来讲，直接的叔块提供 50% 的工作量证明、二代叔块提供 25% 的工作量证明以此类推，最多会承认最多五代的叔块。
 
-![blockchain-ethereum-uncles](https://o5eoc29h5.qnssl.com/blockchain-ethereum-uncles.png)
+![blockchain-ethereum-uncles](https://jysperm-blog.pek3a.qingstor.com/blockchain-ethereum-uncles.png)
 
 > 图片来自 <https://blog.ethereum.org/2014/07/11/toward-a-12-second-block-time>
 
@@ -288,17 +288,17 @@ contract Coin {
 
 我们还声明了一个名为 `Sent` 的事件，事件其实并不会有什么实际的作用，只是便于调试时打印关键性事件，未来也会方便轻量级客户端的实现（轻量级客户端只接受事件而不实际执行 Contract）。
 
-![blockchain-ethereum-mix](https://o5eoc29h5.qnssl.com/blockchain-ethereum-mix.jpg)
+{% cdnimage '2016/ethereum-mix.jpg' %}
 
 Ethereum 提供了一个叫 Mix 的 IDE 来调试这段代码，在 Mix 的右侧你可以虚构一些 Block 和账户来测试你的 Contract，也可以看到在执行过程中每个状态变量的值的变化情况。值得一提的是 Contract 一旦发布便无法修改，此后的运行完全靠其他人的交易触发，对于每天都在写 Bug 的程序员来讲这一点会令人非常不爽，但是 Contract 的语义本来就是「合约」，一旦你发布了一个合约自然不能去修改它，否则谁还会信任你的合约呢。当然你可以在 Contract 中给自己一些特权（就像前面的 Coin 中那样，只有创建者可以凭空创造代币），但这些代码也存在于 Blockchain 上，其他使用者也是知晓的。
 
 编写完成后我们就可以用 Ethereum 钱包将这个 Contract 发布到网络上了：
 
-![blockchain-ethereum-create-contract](https://o5eoc29h5.qnssl.com/blockchain-ethereum-create-contract.jpg)
+{% cdnimage '2016/ethereum-create-contract.jpg' %}
 
 发布之后你可以关注这个 Contract，随时点到 Contract 的详情界面：
 
-![blockchain-ethereum-wallet-contract](https://o5eoc29h5.qnssl.com/blockchain-ethereum-wallet-contract.jpg)
+{% cdnimage '2016/ethereum-wallet-contract.jpg' %}
 
 在左侧可以看到两个状态变量的值，`minter` 的值就是我自己的地址，`balances` 因为是一个映射表，所以你可以输入一个地址去查询它的余额。在右侧你可以向这个 Contract 发起新的交易，有一个下拉菜单可以选择 `send` 或是 `mint` 函数，你可以填写传递给 Contract 的参数。因为在这里我们发交易的目的是传递一个消息，而非传递 Ether，所以我们不必设置交易的金额。
 

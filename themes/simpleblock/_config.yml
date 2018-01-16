@@ -27,10 +27,13 @@ right_menus:
 
 ## Banners && Widgets
 banners:
-  jade: |
-    | LeanCloud 又在 &nbsp;
-    a(href='https://leancloud.cn/jobs/') 招募新的小伙伴
-    | &nbsp; 了，来和精子一起工作吧。
+  -
+    jade: |
+      我正在 SegmentFault 上录制一些 #[a(href='https://segmentfault.com/u/jysperm/lives?type=started') 视频课程]，欢迎购买收看，这是支持我创作更多技术内容的好机会哦。
+
+  -
+    jade: |
+      基于业界最成熟的加密和版本控制工具 —— GPG 和 Git 的密码管理器：#[a(href='https://github.com/jysperm/elecpass') Elecpass]
 
 widgets:
   -

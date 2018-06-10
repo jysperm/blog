@@ -42,64 +42,66 @@ tag_map:
   Atom: atom
   C++: cpp
   C++讲稿: cpp-ppt
+  Docker: docker
   Golang: golang
-  HTML: html
   Hexo: hexo
+  HTML: html
   JavaScript: javascript
   LightPHP: lightphp
   Linux: linux
   MongoDB: mongodb
+  Node.js: nodejs
   PHP: php
-  RP主机: rpvhost
+  Qt: qt
   RootPanel: rootpanel
+  RP主机: rpvhost
   SICP: sicp
-  区块链: blockchain
   Web: web
+  中医: traditional-medicine
+  互联网: internet
+  互联网资讯: news
+  价值观: values
+  作品: works
+  信息安全: information-security
+  冷知识: cold-knowledge
+  区块链: blockchain
+  单元测试: unit-test
+  博客: blog
+  去中心化: decentralization
+  哆啦A梦: doraemon
+  学校周记: school-weekly
+  学校考试: exam
+  密码学: cryptography
+  小璐: xiaolu
+  年度小结: summary-of-year
+  年度技术小结: programming-of-year
+  彩排: caipai
+  徐雪丽: xuxueli
+  总结: summary
+  技术: technology
+  教程: tutorials
+  教育: education
   服务器端: server-side
+  比特币: bitcoin
+  游戏: gaming
+  物理: physical
+  生活: live
+  生活记录: live
+  电影: movie
+  科普: science
+  笔记: reading-notes
+  精子的故事: story-of-sperm
   编程: programming
   编程语言: programming-language
-  比特币: bitcoin
-  年度小结: summary-of-year
-  生活记录: live
-  彩排: caipai
-  Docker: docker
-  博客: blog
-  Node.js: nodejs
-  密码学: cryptography
-  中医: traditional-medicine
-
-  信息安全: information-security
-  软件工程: software-engineering
-  技术: technology
-  计算机网络: network
-  互联网: internet
-  笔记: reading-notes
-  价值观: values
-  教程: tutorials
-  读书: reading
-  小璐: xiaolu
-  总结: summary
-  教育: education
-  作品: works
-  随笔: note
-  单元测试: unit-test
-  生活: live
-  互联网资讯: news
-  购物: shopping
-  物理: physical
+  蛋黄: yellow-bud
   计算机科学: computer-science
-  电影: movie
-  学校考试: exam
-  黑客: hacker
+  计算机网络: network
+  读书: reading
+  购物: shopping
+  软件工程: software-engineering
+  随笔: note
   零毫秒: zeroms
-  学校周记: school-weekly
-  徐雪丽: xuxueli
-  冷知识: cold-knowledge
-  精子的故事: story-of-sperm
-  科普: science
-  Qt: qt
-  哆啦A梦: doraemon
-  去中心化: decentralization
+  黑客: hacker
 
 # Date / Time format
 date_format: YYYY M 月 D 日
@@ -115,9 +117,9 @@ theme: simpleblock
 # Deployment
 deploy:
   type: rsync
-  host: jysperm.me
-  user: docker
-  root: /home/docker/sites/blog
+  host: ap-home
+  user: www-data
+  root: /home/www-data/blog
 
 # Hexo RSS
 feed:

@@ -1,7 +1,7 @@
 ---
 title: 2016 年度小结（技术方面）
 tags:
-  - 年度小结
+  - 年度技术小结
   - PHP
   - Docker
 permalink: programming-of-2016

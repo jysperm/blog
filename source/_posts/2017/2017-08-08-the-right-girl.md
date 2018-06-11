@@ -2,7 +2,7 @@
 title: '谈恋爱'
 tags:
   - 生活记录
-  - 'Yellow Bud'
+  - 蛋黄
 permalink: the-right-girl
 date: 2017-08-08
 ---

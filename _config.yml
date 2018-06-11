@@ -47,6 +47,7 @@ tag_map:
   Hexo: hexo
   HTML: html
   JavaScript: javascript
+  LeanCloud: leancloud
   LightPHP: lightphp
   Linux: linux
   MongoDB: mongodb

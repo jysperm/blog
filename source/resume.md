@@ -3,7 +3,7 @@ title: 简历
 permalink: resume/
 ---
 
-王子亭，1995 年生于辽宁沈阳，现居江苏苏州，目前在 [LeanCloud](https://leancloud.cn/) 任 Node.js 服务器端开发工程师。
+王子亭，1995 年生于辽宁沈阳，现居江苏苏州，目前在 [LeanCloud](https://leancloud.cn/) 任服务器端开发工程师。
 
 * Github: [jysperm](https://github.com/jysperm)
 * 博客: [jysperm.me](https://jysperm.me/)

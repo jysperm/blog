@@ -16,7 +16,7 @@ menus:
   '简历': /resume
   '链接': /links
   '推荐书单': /booklist
-  '日志列表': /list
+  '所有日志': /list
   '广告': /ad
 
 right_menus:
@@ -30,11 +30,11 @@ right_menus:
 banners:
   -
     jade: |
-      我正在 SegmentFault 上录制一些 #[a(href='https://segmentfault.com/u/jysperm/lives?type=started') 视频课程]，欢迎购买收看，这是支持我创作更多技术内容的好机会哦。
+      | 我正在 SegmentFault 上录制一些 #[a(href='https://segmentfault.com/u/jysperm/lives?type=started') 视频课程]，欢迎购买收看，这是支持我创作更多技术内容的好机会哦。
 
   -
     jade: |
-      基于业界最成熟的加密和版本控制工具 —— GPG 和 Git 的密码管理器：#[a(href='https://github.com/jysperm/elecpass') Elecpass]
+      | 基于业界最成熟的加密和版本控制工具 —— GPG 和 Git 的密码管理器：#[a(href='https://github.com/jysperm/elecpass') Elecpass]
 
 widgets:
   -

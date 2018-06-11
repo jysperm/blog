@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title><%= site.data.caipai.channel.title %></title>
+    <itunes:subtitle><%= site.data.caipai.channel.subtitle %></itunes:subtitle>
+    <link><%= site.data.caipai.channel.link %></link>
+    <atom:link href="<%= site.data.caipai.channel.feed %>" rel="self" type="application/rss+xml"/>
+    <itunes:new-feed-url><%= site.data.caipai.channel.feed %></itunes:new-feed-url>
+    <description><%= site.data.caipai.channel.description %></description>
+    <language><%= site.data.caipai.channel.language %></language>
+    <itunes:category text="<%= site.data.caipai.channel.category %>"/>
+    <itunes:image href="<%= site.data.caipai.channel.image %>"/>
+    <itunes:keywords><%= site.data.caipai.channel.keywords.join() %></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:author><%= site.data.caipai.channel.author %></itunes:author>
+    <itunes:owner>
+      <itunes:name><%= site.data.caipai.channel.author %></itunes:name>
+      <itunes:email><%= site.data.caipai.channel.email %></itunes:email>
+    </itunes:owner>
+
+    <% site.data.caipai.episodes.forEach(function(episode) { %>
+      <item>
+        <title>#<%= episode.no %>: <%= episode.title %></title>
+        <description>
+          <![CDATA[ <%- episode.description %> ]]>
+        </description>
+        <link>https://caipai.fm/#episode<%= episode.no %></link>
+        <guid isPermaLink="true">https://caipai.fm/#episode<%= episode.no %></guid>
+        <author>feedback@caipai.fm (Caipai)</author>
+        <pubDate><%= episode.publishedAt %></pubDate>
+        <enclosure type="audio/x-m4a" url="<%= episode.enclosure %>" length="<%= episode.length %>"></enclosure>
+        <itunes:duration><%= episode.duration %></itunes:duration>
+      </item>
+    <% }) %>
+  </channel>
+</rss>

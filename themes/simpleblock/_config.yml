@@ -20,6 +20,7 @@ menus:
   '广告': /ad
 
 right_menus:
+  '彩排': /caipai
   'RSS': /atom.xml
   'fork on Github':
     target: '_blank'

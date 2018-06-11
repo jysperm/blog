@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="alternate" type="application/rss+xml" title="<%= site.data.caipai.channel.title %>" href="/caipai.xml" />
+        <title><%= site.data.caipai.channel.title %></title>
+        <style type="text/css">
+          body {
+            font-family: 'Georgia', 'Source Han Sans CN', 'Xin Gothic', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 14px;
+            color: #545454;
+            background: #E5E5E5;
+            line-height: 1.5;
+          }
+          a, a:link, a:visited {
+            color: #005C82;
+            text-decoration: none;
+          }
+          a:hover {
+            color: #000;
+          }
+          h1, h2, h3, p {
+            margin-top: 0;
+            margin-bottom: 20px;
+          }
+          #content {
+            width: 768px;
+            margin: 0 auto;
+            background: #FFF;
+            padding: 30px;
+            border-radius: 1em;
+            box-shadow: 0px 0px 2px #5D5D5D;
+            box-sizing: border-box;
+          }
+          #channel-header {
+            margin-bottom: 20px;
+          }
+          .channel-item {
+            clear: both;
+            border-top: 1px solid #E5E5E5;
+            padding: 10px;
+          }
+          .meta {
+            font-size: 11px;
+            font-weight: bold;
+          }
+          audio {
+            width:100% !important;
+            min-height: 35px;
+            display:block;
+          }
+          @media (max-width: 768px) {
+            #content {
+              width: 100%;
+              padding: 10px;
+            }
+          }
+        </style>
+    </head>
+    <body>
+      <div id="content">
+        <div id="channel-header">
+          <h1><%= site.data.caipai.channel.title %></h1>
+          <p><%= site.data.caipai.channel.description %></p>
+        </div>
+        <% site.data.caipai.episodes.forEach(function(episode) { %>
+          <div class="channel-item">
+            <h2 id="episode<%= episode.no %>">
+              #<%= episode.no %>: <%= episode.title %>
+            </h2>
+            <p>
+              <%- episode.description %>
+            </p>
+            <p>
+              <audio controls="" preload="metadata" src="<%= episode.enclosure %>"></audio>
+            </p>
+            <p class="meta">
+              <a href="<%= episode.enclosure %>">
+                Download
+              </a> |
+              <%= (episode.length / 1024000).toFixed(1) %>MiB
+              | <%= episode.authors.join() %> | <%= episode.publishedAt %>
+            </p>
+          </div>
+        <% }) %>
+      </div>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-49193300-8', 'auto');
+        ga('send', 'pageview');
+      </script>
+    </body>
+</html>

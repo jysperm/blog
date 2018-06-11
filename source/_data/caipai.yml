@@ -1,0 +1,134 @@
+channel:
+  title: '彩排'
+  subtitle: ''
+  link: 'https://jysperm.me/caipai'
+  feed: 'https://jysperm.me/caipai.xml'
+  author: '王子亭'
+  email: 'jysperm@gmail.com'
+  description: |
+    这个播客的名字叫「彩排」，意思是其中的每一期都是关于一篇文章或者一次演讲的「彩排」。
+    你可以在播客客户端中输入 <a href='https://jysperm.me/caipai.xml'>https://jysperm.me/caipai.xml</a> 来订阅，或者你也可以在 iTunes 上搜索「彩排」。
+    有任何想说的话都可以向 jysperm@gmail.com 发送邮件反馈，在试播期间我们希望听到所有有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。
+  language: 'zh-CN'
+  category: 'Technology'
+  image: 'https://lc-ye7uL3uc.cn-n1.lcfile.com/9a1cf4205da4272b.png'
+  keywords:
+    - '彩排'
+    - '王子亭'
+    - '精子'
+
+episodes:
+  -
+    no: 4
+    guid: 4-About-Me
+    title: '关于我：王子亭'
+    enclosure: 'https://lc-ye7uL3uc.cn-n1.lcfile.com/19234a8e857716e52636.m4a'
+    length: 30099579
+    duration: 1242
+    publishedAt: 'Sat, 19 Nov 2016 20:21:56 +0800'
+    authors:
+      - '王子亭'
+    description: |
+      <p>说起来在前三期的播客里我甚至没有介绍过我自己，告诉大家我是谁，所以准备用这一整期来向大家介绍一下我 —— 王子亭。</p>
+      <p>本期的内容包括我退学的经历、我的业余项目、我学习的方式和方向、我的个人品牌、我的价值观等。</p>
+      <p>参考链接：</p>
+      <ul>
+        <li><a href="https://github.com/Hangzhou-Node-Party/slides">Node Patry 杭州</a></li>
+        <li><a href="https://leancloud.cn/">LeanCloud</a></li>
+        <li><a href="https://pomotodo.com/">番茄土豆</a></li>
+        <li><a href="https://zh.wikipedia.org/zh/%E6%AF%94%E7%89%B9%E5%B8%81">维基百科：比特币</a></li>
+        <li><a href="https://tox.chat/">Tox（去中心化即时通讯）</a></li>
+        <li><a href="http://rpvhost.net/">RP 主机（已关闭）</a></li>
+        <li><a href="https://github.com/HackPlan/RootPanel">RootPanel</a></li>
+        <li><a href="https://atom-china.org/">Atom 中文社区</a></li>
+        <li><a href="https://www.amazon.cn/gp/product/B01M0EHQ43/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B01M0EHQ43&linkCode=as2&tag=jysperm07-23">《SRE：Google 运维解密》</a></li>
+        <li><a href="http://pidan.cat/">皮蛋的博客</a></li>
+        <li><a href="http://doufu.cat/">豆腐的博客</a></li>
+        <li><a href="https://jysperm.me/2002/08/20020829/">第一天上学（博客）</a></li>
+        <li><a href="https://jysperm.me/2015/12/maintain-a-fans-group/">建立一个自己的粉丝团是怎样的体验（博客）</a></li>
+        <li><a href="https://jysperm.me/2016/06/why-not-traditional-medicine/">为什么我不相信中医（博客）</a></li>
+        <li><a href="https://jysperm.me">王子亭的博客</a></li>
+        <li><a href="https://www.zhihu.com/people/jysperm">王子亭的知乎</a></li>
+        <li><a href="https://twitter.com/jysperm">王子亭的 Twitter</a></li>
+        <li><a href="https://github.com/jysperm">王子亭的 GitHub</a></li>
+      </ul>
+      <p>欢迎向 feedback@caipai.fm 发送反馈，包括有关播客内容的意见，以及关于录音或剪辑等技术问题。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>
+
+  -
+    no: 3
+    guid: 2-Password
+    title: '密码与互联网安全（试播）'
+    enclosure: 'https://lc-ye7uL3uc.cn-n1.lcfile.com/8a794cb1de97528e.m4a'
+    length: 87329690
+    duration: 2804
+    publishedAt: 'Sat, 17 Sep 2016 00:21:07 +0800'
+    authors:
+      - '王子亭'
+    description: |
+      <p>我一直都对密码学的应用有着很大的兴趣 —— 但我感兴趣的不是原理，而是如何将前辈们发明的算法应用到日常生活中；我使用着诸如比特币和 GPG 这样基于密码学的软件，也在不断地追求着理论上的「安全」，虽然有些小题大做，但我也乐在其中。</p>
+      <p>本期的内容包括常见的现代密码学算法（对称加密、公钥加密、散列）、如何使用密码分级、两步认证等概念和技术来管理互联网账户的密码、端到端加密是如何保证通讯安全的、什么是密码学账户等。</p>
+      <p>参考链接：</p>
+      <ul>
+        <li><a href="https://www.amazon.cn/gp/product/B00GX5EX1S/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B00GX5EX1S&linkCode=as2&tag=jysperm07-23">《应用密码学：协议、算法与 C 源程序》</a></li>
+        <li><a href="https://zh.wikipedia.org/wiki/%E5%AF%86%E7%A0%81%E5%AD%A6">维基百科：密码学</a></li>
+        <li><a href="https://jysperm.me/2014/02/1476/">王子亭的笔记：散列算法的使用场景</a></li>
+        <li><a href="http://keepass.info/">KeePass</a></li>
+        <li><a href="https://www.v2ex.com/t/301410">V2EX: 国产的密码管理软件，我就问你敢不敢用！</a></li>
+        <li><a href="https://tools.ietf.org/html/rfc6238">TOTP（基于时间的一次性密码）</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Universal_2nd_Factor">Wikipedia: Universal 2nd Factor</a></li>
+        <li><a href="https://www.apple.com/cn/business/docs/iOS_Security_Guide.pdf">iOS 安全保护白皮书</a></li>
+        <li><a href="https://www.wosign.com/report/wosign_incidents_report_09042016.pdf">WoSign Incidents Report</a></li>
+        <li><a href="https://www.yubico.com/products/yubikey-hardware/">Yubikey</a></li>
+        <li><a href="https://jysperm.me">王子亭的博客（主持人）</a></li>
+      </ul>
+      <p>欢迎向 feedback@caipai.fm 发送反馈，在试播期间我们希望听到任何有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>
+
+  -
+    no: 2
+    guid: 2-Pomodoro
+    title: '番茄工作法（试播）'
+    enclosure: 'https://lc-ye7uL3uc.cn-n1.lcfile.com/ef416b9b223820e4.m4a'
+    length: 37287391
+    duration: 1198
+    publishedAt: 'Sun, 21 Aug 2016 19:15:21 +0800'
+    authors:
+      - '王子亭'
+    description: |
+      <p>我的上一份工作就是维护一个叫「番茄土豆」的番茄工作法软件，因此我对番茄工作法有着比较深入的了解，在番茄土豆工作的过程中自己也在实践番茄工作法，也接触到了很多使用番茄工作法的用户。</p>
+      <p>本期的内容包括：什么是 GTD 方法、番茄工作法具体有哪些内容、这些方法如何改善你的工作效率、番茄工作法适合哪些人、不适合哪些人、为什么要使用番茄工作法软件以及番茄土豆的广告等。</p>
+      <p>参考链接：</p>
+      <ul>
+        <li><a href="http://fanqiegongzuofa.com/fan-qie-gong-zuo-fa-tu-jie-suo-jian-ban/">番茄工作法简明教程</a></li>
+        <li><a href="https://www.amazon.cn/gp/product/B004O9F71K/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B004O9F71K&linkCode=as2&tag=jysperm07-23">《番茄工作法图解》</a></li>
+        <li><a href="https://www.zhihu.com/question/23580338">知乎：番茄工作法为什么会这么火？</a></li>
+        <li><a href="https://pomotodo.com/">番茄土豆</a></li>
+        <li><a href="https://jysperm.me">王子亭的博客（主持人）</a></li>
+      </ul>
+      <p>欢迎向 feedback@caipai.fm 发送反馈，在试播期间我们希望听到任何有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>
+
+  -
+    no: 1
+    guid: 1-Free-Software
+    title: '自由软件和自由软件许可证（试播）'
+    enclosure: 'https://lc-ye7uL3uc.cn-n1.lcfile.com/6fae7988a59b4bb0.m4a'
+    length: 55300185
+    duration: 1762
+    publishedAt: 'Tue, 02 Aug 2016 23:20:15 +0800'
+    authors:
+      - '王子亭'
+    description: |
+      <p>我作为一个内容创作者和一名软件工程师、以及一个「政治正确」的人，一直比较关注著作权和自由软件相关的话题。为了准备本期播客我也翻看了中文互联网上大部分相关的资料，以及常见自由软件许可证的条款原文。</p>
+      <p>本期的内容包括：什么是自由软件、Copyleft、GPL 家族、什么是衍生作品、GPL 在法律上的现状、非 Copyleft 许可证、CC 许可证、CLA、著作权和专利的区别等。</p>
+      <p>参考链接：</p>
+      <ul>
+        <li><a href="http://choosealicense.com/">choosealicense.com</a></li>
+        <li><a href="https://www.gnu.org/philosophy/free-sw.html">GNU: 什么是自由软件</a></li>
+        <li><a href="https://zh.wikipedia.org/wiki/GNU%E9%80%9A%E7%94%A8%E5%85%AC%E5%85%B1%E8%AE%B8%E5%8F%AF%E8%AF%81">维基百科：GNU通用公共许可协议</a></li>
+        <li><a href="https://www.gnu.org/philosophy/why-not-lgpl.zh-cn.html">GNU: 为什么不在你的下一个函数库中使用 Library GPL</a></li>
+        <li><a href="http://web.archive.org/web/20101214233906/http://ffmpeg.org/shame.html">FFmpeg: Hall of Shame</a></li>
+        <li><a href="https://creativecommons.org/">creativecommons.org</a></li>
+        <li><a href="https://cla.github.com/">GitHub CLA</a></li>
+        <li><a href="https://zh.wikipedia.org/wiki/%E8%91%97%E4%BD%9C%E6%AC%8A">维基百科：著作权</a></li>
+        <li><a href="https://jysperm.me">王子亭的博客（主持人）</a></li>
+      </ul>
+      <p>欢迎向 feedback@caipai.fm 发送反馈，在试播期间我们希望听到任何有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>

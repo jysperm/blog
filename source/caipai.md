@@ -1,0 +1,4 @@
+---
+permalink: caipai/
+layout: caipai
+---

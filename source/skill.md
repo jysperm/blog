@@ -7,12 +7,12 @@ permalink: skill/
 
 - `[##########]` JavaScript (Node.js)
 - `[######____]` JavaScript (React)
+- `[#####_____]` Golang (Web)
 - `[#####_____]` PHP (Laravel)
 - `[#####_____]` HTML/CSS (Bootstrap)
 - `[####______]` Lua (Openresty)
 - `[####______]` Lua (Redis)
-- `[####______]` Golang (Web)
-- `[###_______]` C++ (Qt)
+- `[##________]` C++ (Qt)
 
 ## 数据库
 
@@ -20,7 +20,7 @@ permalink: skill/
 - `[########__]` MongoDB
 - `[########__]` Redis
 - `[######____]` Influx
-- `[####______]` Etcd
+- `[#####_____]` Etcd
 
 ## 服务器
 
@@ -28,6 +28,7 @@ permalink: skill/
 - `[#######___]` Nginx
 - `[######____]` Linux
 - `[####______]` Ansible
+- `[####______]` Kubernetes
 
 ## 工具
 

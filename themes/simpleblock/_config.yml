@@ -30,11 +30,7 @@ right_menus:
 banners:
   -
     jade: |
-      | 我正在 SegmentFault 上录制一些 #[a(href='https://segmentfault.com/u/jysperm/lives?type=started') 视频课程]，欢迎购买收看，这是支持我创作更多技术内容的好机会哦。
-
-  -
-    jade: |
-      | 基于业界最成熟的加密和版本控制工具 —— GPG 和 Git 的密码管理器：#[a(href='https://github.com/jysperm/elecpass') Elecpass]
+      | 精子最近在开发一个「简单」的容器平台 #[a(href='https://github.com/jysperm/deploybeta') DeployBeta]，目前还在非常早期的阶段。
 
 widgets:
   -

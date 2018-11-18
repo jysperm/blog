@@ -103,6 +103,9 @@ tag_map:
   随笔: note
   零毫秒: zeroms
   黑客: hacker
+  网络: networking
+  硬件: hardware
+  开源: opensource
 
 # Date / Time format
 date_format: YYYY M 月 D 日
@@ -129,4 +132,4 @@ feed:
   limit: 30
 
 # Personal extends
-cdn_prefix: 'https://cdn.rawgit.com/jysperm/blog/master/pictures/'
+cdn_prefix: '/pictures/'

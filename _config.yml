@@ -106,6 +106,7 @@ tag_map:
   网络: networking
   硬件: hardware
   开源: opensource
+  游戏开发: gaming-development
 
 # Date / Time format
 date_format: YYYY M 月 D 日

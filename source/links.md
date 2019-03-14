@@ -17,5 +17,5 @@ permalink: links/
 * [faceair](http://lucy.faceair.me)
 <!-- * [Ivan Cai](https://www.ivancai.me) -->
 * [orzFly](https://orzfly.com)
-* [Abreto](http://blog.abreto.net)
+* [Abreto](https://blog.abreto.net)
 <!-- * [Dimpurr Cheny](http://im.dimpurr.com) -->

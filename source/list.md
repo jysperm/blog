@@ -20,6 +20,24 @@ permalink: list/
 这个博客创建于精子 7 岁第一天上学的时候，之后的十几年里精子的成长和价值观的改变是很大的。  
 所有的日志发布之后除了错别字都不会再修改，因此他可能并不完全同意早期日志中的观点。
 
+## 2018 年（7 篇）
+- [2018 年度小结](/2018/12/summary-of-2018)
+- [2018 年度小结（技术方面）](/2019/01/programming-of-2018)
+- [22 岁的我在想些什么](/2018/11/thinking-about-my-22)
+
+### 主题分享
+
+- [Play Cards: 探索通用的游戏后端方案](/2018/11/play-cards-realtime-game/)
+- [自由软件和开源许可证](/2018/10/freesoftware-opensource-licenses)
+
+### 硬件
+
+- [入手 Tenda Nova MW6（Mesh 路由器）](/2018/09/tenda-nova-mw6)
+
+### 游戏
+
+- [游戏：城市天际线（Cities: Skylines）](/2018/06/cities-skylines/)
+
 ## 2017 年（9 篇）
 - [2017 年度小结](/2017/12/summary-of-2017)
 - [2017 年度小结（技术方面）](/2018/01/programming-of-2017)

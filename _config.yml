@@ -107,6 +107,7 @@ tag_map:
   硬件: hardware
   开源: opensource
   游戏开发: gaming-development
+  太空探索: space-exploration
 
 # Date / Time format
 date_format: YYYY M 月 D 日

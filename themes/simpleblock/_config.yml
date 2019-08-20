@@ -30,7 +30,7 @@ right_menus:
 banners:
   -
     jade: |
-      | 精子最近在开发一个「简单」的容器平台 #[a(href='https://github.com/jysperm/deploybeta') DeployBeta]，目前还在非常早期的阶段。
+      | 皮蛋豆腐最近用上了 #[a(href='https://bestselected.net/cat-litters/') 自动猫砂盆]。
 
 widgets:
   -

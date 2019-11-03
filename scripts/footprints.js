@@ -14,7 +14,7 @@ hexo.extend.tag.register('footprints', function(args, content) {
         } else {
           return day;
         }
-      }).map(day => {
+      }).map( day => {
         return `<li>${day}</li>`
       }).join('')}
       </ul>

@@ -7,8 +7,8 @@ favicon: /avatars/v5.png
 icon: /avatars/v5.png
 source_url: 'https://github.com/jysperm/blog/blob/master/source/'
 license:
-  name: 'CC BY-NC-SA 3.0'
-  url: 'http://creativecommons.org/licenses/by-nc-sa/3.0/cn'
+  name: 'CC BY-NC-ND'
+  url: 'https://creativecommons.org/licenses/by-nc-nd/3.0/cn/'
 
 ## Menus
 menus:

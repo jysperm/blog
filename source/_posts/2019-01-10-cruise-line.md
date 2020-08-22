@@ -3,6 +3,7 @@ title: 游轮之行
 tags:
   - 生活记录
   - 蛋黄
+  - 旅行
 permalink: cruise-line
 date: 2019-01-10
 ---

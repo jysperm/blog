@@ -17,12 +17,12 @@ reviews:
 
 {% cdnimage 'ziting.png' %}
 
-精子真名叫「王子亭」，生于 1995.11.25，21 岁，英文 ID 是 jysperm.
+精子真名叫「王子亭」，生于 1995.11.25，英文 ID 是 jysperm.
 
 * 精子是一名 [独立博客](https://jysperm.me) 作者。
 * 精子创建了 [Atom 中文社区](https://atom-china.org)。
 * 精子是 [皮蛋](http://pidan.cat) 和 [豆腐](http://doufu.cat) 的主人。
-* 精子在 [Github](https://github.com/jysperm) 上积极地参与开源社区
+* 精子在 [GitHub](https://github.com/jysperm) 上积极地参与开源社区
 * 精子有 [很多粉丝](https://jybox.net/members)，还有一个 [粉丝团主页](https://jybox.net)
 * 精子曾创建了 [RP 主机](http://rpvhost.net/) 和 GreenShadow.
 * 精子在高中退学，进入互联网行业工作，目前在 [LeanCloud](https://leancloud.cn) 任 Node.js 服务器端开发工程师。
@@ -54,7 +54,7 @@ reviews:
 * 精子 [曾经使用过 PHP](http://blog.segmentfault.com/jysperm/1190000000403307), 但现在 [不喜欢 PHP](https://jysperm.me/2015/01/1992), 并且认为 [世界上最好的编程语言](https://jysperm.me/2014/01/1468) 绝不是 PHP
 
 ## 博客内容
-这个博客创建于精子 7 岁第一天上学的时候，之后的十几年里精子的成长和价值观的改变是很大的。  
+这个博客创建于精子 7 岁第一天上学的时候，之后的十几年里精子的成长和价值观的改变是很大的。
 所有的日志发布之后除了错别字都不会再修改，因此他可能并不完全同意早期日志中的观点。
 
 <a id='licence'></a>
@@ -72,17 +72,12 @@ reviews:
 
 参考价格：每篇文章 1000 人民币，可以对文章进行修改，不必署名，在同一网站或出版物上具有永久的使用权。
 
-## 联系方式
-以下是精子常用的联系方式。
+## 关注精子
+请优先通过 [粉丝团主页](https://jybox.net) 关注精子或加入粉丝团，单独联系精子请发邮件至 `jysperm@gmail.com`。
 
-* 邮箱：jysperm@gmail.com
-* QQ：184300584
-* QQ 粉丝群：61137226
+<!--
 * V2EX: [jybox](https://www.v2ex.com/member/jybox)
-* Github: [jysperm](https://github.com/jysperm)
 * Keybase: [jysperm](https://keybase.io/jysperm)
 * Linkedin: [jysperm](https://cn.linkedin.com/in/jysperm)
-* 知乎：[王子亭](http://www.zhihu.com/people/jysperm)
 * SegmentFault: [jysperm](http://segmentfault.com/u/jysperm)
-* Twitter: [jysperm](https://twitter.com/jysperm)
-* Bitcoin: [13v2BTCMZMHg5v87susgg86HFZqXERuwUd](https://blockchain.info/address/13v2BTCMZMHg5v87susgg86HFZqXERuwUd)
+-->

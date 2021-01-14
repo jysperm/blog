@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "express": "^4.16.2",
-    "express-http-proxy": "^1.0.7"
+    "express": "^4.16.2"
   },
   "engines": {
     "node": "8.x"

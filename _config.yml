@@ -41,7 +41,7 @@ highlight:
 tag_map:
   Atom: atom
   C++: cpp
-  C++讲稿: cpp-ppt
+  C++讲稿: cpp-slides
   Docker: docker
   Golang: golang
   Hexo: hexo
@@ -54,6 +54,7 @@ tag_map:
   Node.js: nodejs
   PHP: php
   Qt: qt
+  Redis: redis
   RootPanel: rootpanel
   RP主机: rpvhost
   SICP: sicp
@@ -94,7 +95,7 @@ tag_map:
   精子的故事: story-of-sperm
   编程: programming
   编程语言: programming-language
-  蛋黄: yellow-bud
+  蛋黄: bud
   计算机科学: computer-science
   计算机网络: network
   读书: reading
@@ -107,7 +108,9 @@ tag_map:
   硬件: hardware
   开源: opensource
   游戏开发: gaming-development
-  太空探索: space-exploration
+  太空探索: space
+  容器: container
+  旅行: travel
 
 # Date / Time format
 date_format: YYYY M 月 D 日

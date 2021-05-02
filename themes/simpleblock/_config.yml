@@ -30,12 +30,12 @@ right_menus:
 banners:
   -
     jade: |
-      | 皮蛋豆腐最近用上了 #[a(href='https://bestselected.net/cat-litters/') 自动猫砂盆]。
+      | 精子最近在 #[a(href='https://www.bilibili.com/video/av88524247') 第一届烧火节] 中体验了钻木取火，并制作了第一个 Vlog。
 
 widgets:
   -
     markdown: |
-      精子生于 1995.11.25, 21 岁，英文 ID jysperm.
+      精子生于 1995 年，英文 ID jysperm.
 
       * 有一个 [精子粉丝团](https://jybox.net)
       * [皮蛋](http://pidan.cat) 和 [豆腐](http://doufu.cat) 的主人

@@ -3,6 +3,7 @@ title: 广告
 permalink: ad/
 ---
 
+<!--
 ## 我运营的服务
 
 * [小黄鸭代码分析调试服务](http://item.taobao.com/item.htm?id=40108038667)
@@ -11,6 +12,7 @@ permalink: ad/
 ## 我所在的公司
 
 * [LeanCloud](https://leancloud.cn/?source=45Y9GRFP): 提供结构化数据存储服务来代替传统后端，亦可运行普通的 Node.js 和 Python 程序
+-->
 
 ## 云计算
 

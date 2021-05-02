@@ -8,7 +8,7 @@ permalink: resume/
 * Github: [jysperm](https://github.com/jysperm)
 * 博客: [jysperm.me](https://jysperm.me/)
 
-联系方式：[jysperm@gmail.com](mailto:jysperm@gmail.com)
+联系方式：[jysperm@gmail.com](mailto:jysperm@gmail.com)，邮件中请先进行自我介绍或提供社交网络、博客、产品链接，否则不回复。
 
 亮点：
 
@@ -18,10 +18,10 @@ permalink: resume/
 - 在容器平台方面有非常深入的实践经验。
 - 对于测试和自动化有着自己的坚持和追求。
 
-## [LeanCloud](https://leancloud.cn) - 2015-10 至今
+## [LeanCloud](https://leancloud.cn)（被 [心动](https://www.xd.com) 收购） - 2015-10 至今
 ### LeanEngine（容器平台）
 
-LeanEngine 是一个基于 Docker 的容器平台，也即 PaaS，为终端开发者提供在线编辑代码、依赖构建、平滑部署、版本回滚、负载均衡等功能。我在近三年的时间里参与了大部分的功能开发、日常维护和线上运维工作，包括：
+LeanEngine 是一个基于 Docker 的容器平台，也即 PaaS，为终端开发者提供在线编辑代码、依赖构建、平滑部署、版本回滚、负载均衡等功能。我在近五年的时间里参与了大部分的功能开发、日常维护和线上运维工作，包括：
 
 - 使用 Node.js, MySQL 和 Redis 构建 RESTful API.
 - 自动化地构建镜像，在 Docker 上运行和管理容器。
@@ -31,6 +31,14 @@ LeanEngine 是一个基于 Docker 的容器平台，也即 PaaS，为终端开�
 - 开发工具来收集容器的 CPU, 内存用量和输出的日志。
 - 使用 React 和 Bootstrap 开发内部的管理员后台。
 - 维护客户端 SDK 和工具，包括 JavaScript, PHP, Golang 等语言。
+
+### LeanDB（数据库托管平台）
+
+基于容器技术管理 Redis、MongoDB 等数据库，充分利用有限的硬件资源运行大量数据库实例。
+
+### 域名绑定系统
+
+允许用户自助地绑定域名、管理 SSL 证书、CDN、IP 等配置，自动从 Let's Encrypt 申请 SSL 证书。
 
 ## [Pomotodo](https://pomotodo.com/) - 2013-08 至 2015-09
 
@@ -42,11 +50,11 @@ LeanEngine 是一个基于 Docker 的容器平台，也即 PaaS，为终端开�
 
 - [Deploybeta](https://github.com/jysperm/deploybeta) A simple container platform based on Docker Swarm (Golang and Etcd).
 - [Elecpass](https://github.com/jysperm/elecpass) A password manager based on Electron (JavaScript and React).
-- [hexo-theme-simpleblock](https://github.com/jysperm/hexo-theme-simpleblock) 为个人博客开发的 Hexo 主题 (HTML and CSS).
+- [hexo-theme-simpleblock](https://github.com/jysperm/hexo-theme-simpleblock) 为个人博客开发的 Hexo 主题 (HTML 和 CSS).
 - [Mabolo](https://github.com/jysperm/Mabolo) A simple MongoDB ORM (Node.js).
 - [atom-china.org](https://atom-china.org) Atom 编辑器的中文社区。
 
-## 主题演讲
+## 主题演讲和文章
 
 - Atom 背后的故事（杭州 Node Party）：[文章](https://jysperm.me/2016/11/behind-atom/)、[幻灯片](https://cdn.ziting.wang/slides/Behind%20Atom.pdf)
 - Node.js 错误处理实践（杭州 Node Party）：[文章](https://jysperm.me/2016/10/nodejs-error-handling/)、[幻灯片](https://cdn.ziting.wang/slides/Node%20Error%20Handling.pdf)
@@ -54,11 +62,12 @@ LeanEngine 是一个基于 Docker 的容器平台，也即 PaaS，为终端开�
 - Docker 与容器化技术实践（Connext 2016）：[文章](https://jysperm.me/2016/08/docker-and-containerization/)、[幻灯片](https://cdn.ziting.wang/slides/Docker%20on%20PaaS.pdf)
 - 区块链与 Ethereum 原理解析：[文章](https://jysperm.me/2016/05/blockchain-slides/)
 - 自由软件和开源许可证：[文章](https://jysperm.me/2018/10/freesoftware-opensource-licenses/)
+- 我的 NAS 选型与搭建过程（基于开源方案）：[文章](https://jysperm.me/2020/11/my-opensource-nas-build/)
 - 索引是如何加速数据库查询的：[视频课程（上）](https://segmentfault.com/l/1500000012032412)、[视频课程（下）](https://segmentfault.com/l/1500000012119386)
 
 ## 工作之外
 
 - 熟练使用 Git 并用 [GitHub](https://github.com/jysperm) 分享代码。
 - 自有收入开始没有使用过盗版软件和游戏。
-- 活跃于 [V2EX](https://www.v2ex.com/member/jybox)、[SegmentFault](http://segmentfault.com/u/jysperm)、[知乎](http://www.zhihu.com/people/jysperm) 等社区。
+- 活跃于 [V2EX](https://www.v2ex.com/member/jybox)、[SegmentFault](http://segmentfault.com/u/jysperm)、[知乎](http://www.zhihu.com/people/jysperm)、[Twitter](https://twitter.com/jysperm) 等社区。
 - 自 2002 年创建了一个[博客](https://jysperm.me/)，目前有高质量原创文章百余篇。

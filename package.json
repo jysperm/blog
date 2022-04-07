@@ -5,6 +5,9 @@
   "hexo": {
     "version": "3.9.0"
   },
+  "engines": {
+    "node": "*"
+  },
   "dependencies": {
     "hexo": "^3.2.2",
     "hexo-deployer-rsync": "^0.0.2",

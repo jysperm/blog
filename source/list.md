@@ -37,20 +37,20 @@ permalink: list/
 - [2019 年度小结（技术方面）](/2020/01/programming-of-2019)
 - [23 岁的我在想些什么](/2019/11/thinking-about-my-23)
 
-## 生活记录
+### 生活记录
 
 - [游轮之行](/2019/01/cruise-line)
 
-## 经历分享
+### 经历分享
 
 - [流浪地球和大刘的短篇小说](/2019/03/the-wandering-earth)
 - [我和太空探索的故事](/2019/07/space-exploration)
 
-## 游戏
+### 游戏
 
 - [塞尔达传说：旷野之息（The Legend of Zelda: Breath of the Wild）](/2019/10/zelda-breath-of-the-wild)
 
-## 主题分享
+### 技术教程
 
 - [设计基于 Redis 的定时任务系统（ZSET + Scripting）](/2019/08/redis-cronjob-system)
 
@@ -172,7 +172,7 @@ permalink: list/
 - [世界上最好的编程语言](/2014/01/1468)
 
 ### Node.js
-*  **(推荐) [Node.js 体验报告](/2014/10/1866)**
+* **(推荐) [Node.js 体验报告](/2014/10/1866)**
 - [CoffeeScript 单元测试与覆盖率报告](/2014/10/1909)
 - [为什么 Node.js 的异步 IO 具有非常好的性能](/2014/09/1843)
 

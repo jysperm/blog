@@ -17,7 +17,7 @@ reviews:
 
 {% cdnimage 'ziting.png' %}
 
-精子真名叫「王子亭」，生于 1995 年，英文 ID 是 jysperm.
+精子真名叫「王子亭」，生于 1995 年，常用 ID 是 jysperm.
 
 * 精子是一名 [独立博客](https://jysperm.me) 作者。
 * 精子创建了 [Atom 中文社区](https://atom-china.org)。
@@ -41,7 +41,7 @@ reviews:
 * 精子喜欢 [看书](http://book.douban.com/people/jyprince/collect)，精子推荐大家看 [这些书](https://jysperm.me/booklist)
 * 精子喜欢 [哆啦 A 梦](https://jysperm.me/2015/05/stand-by-me-doraemon)、[皮蛋](http://pidan.cat)[豆腐](http://doufu.cat) 等各种萌萌的东西
 * 精子喜欢睡觉睡到自然醒，喝咖啡，喝牛奶，吃羊肉火锅
-* 精子也喜欢玩游戏：风暴英雄、星际争霸Ⅱ，以及 [Steam](https://steamcommunity.com/id/jysperm) 上一些独立游戏
+* 精子是 [Steam](https://steamcommunity.com/id/jysperm) 和 Nintendo Switch 的用户，目前最喜欢的游戏是 Factorio 和 [塞尔达传说：旷野之息](/2019/10/zelda-breath-of-the-wild/)
 
 ## 观点
 

@@ -1,6 +1,6 @@
 ---
 title: Windows下部署 Apache2 + PHP + XDebug + MySQL 开发环境
-permalink: 752
+alias: '752'
 tags:
   - PHP
   - 教程

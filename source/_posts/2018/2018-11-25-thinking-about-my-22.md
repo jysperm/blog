@@ -3,7 +3,7 @@ title: 22 岁的我在想些什么
 tags:
   - 年度小结
   - 生活记录
-permalink: thinking-about-my-22
+alias: thinking-about-my-22
 date: 2018-11-25
 ---
 

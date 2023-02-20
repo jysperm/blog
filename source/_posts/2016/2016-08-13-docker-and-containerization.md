@@ -2,7 +2,7 @@
 title: Docker 与容器化技术实践
 tags:
   - Docker
-permalink: docker-and-containerization
+alias: docker-and-containerization
 date: 2016-08-13
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: TypeScript：重新发明一次 JavaScript
-permalink: typescript-reinvent-javascript
+alias: typescript-reinvent-javascript
 tags:
   - JavaScript
 date: 2020-06-10

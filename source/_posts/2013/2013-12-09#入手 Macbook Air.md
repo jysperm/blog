@@ -1,6 +1,6 @@
 ---
 title: 入手 Macbook Air
-permalink: 1413
+alias: '1413'
 tags:
   - 生活
   - 购物

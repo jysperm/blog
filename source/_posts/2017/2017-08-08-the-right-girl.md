@@ -3,7 +3,7 @@ title: '谈恋爱'
 tags:
   - 生活记录
   - 蛋黄
-permalink: the-right-girl
+alias: the-right-girl
 date: 2017-08-08
 ---
 

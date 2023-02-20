@@ -3,7 +3,7 @@ title: 'WizardChess: 一个国际象棋 AI 的实现'
 tags:
   - Web
   - Node.js
-permalink: wizard-chess
+alias: wizard-chess
 date: 2016-06-26
 ---
 

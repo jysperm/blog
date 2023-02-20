@@ -2,7 +2,7 @@
 title: RP 主机和 GreenShadow 关闭计划
 tags:
   - RP主机
-permalink: rpvhost-shutdown-plan
+alias: rpvhost-shutdown-plan
 date: 2015-10-28
 ---
 

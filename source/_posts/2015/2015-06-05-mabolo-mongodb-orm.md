@@ -1,6 +1,6 @@
 ---
 title: 'Mabolo: 轻量级的 MongoDB ORM'
-permalink: mabolo-mongodb-orm
+alias: mabolo-mongodb-orm
 tags:
   - Node.js
   - MongoDB

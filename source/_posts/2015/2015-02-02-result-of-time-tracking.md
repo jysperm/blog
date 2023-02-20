@@ -1,6 +1,6 @@
 ---
 title: 最新的时间追踪成果
-permalink: result-of-time-tracking
+alias: result-of-time-tracking
 tags:
   - 总结
 date: 2015-02-02

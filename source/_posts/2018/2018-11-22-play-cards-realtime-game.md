@@ -3,7 +3,7 @@ title: 'Play Cards: 探索通用的游戏后端方案'
 tags:
   - LeanCloud
   - 游戏开发
-permalink: play-cards-realtime-game
+alias: play-cards-realtime-game
 date: 2018-11-22
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 出售WordPress主题是违法的
-permalink: 1127
+alias: '1127'
 tags:
   - 冷知识
 date: 2013-06-29

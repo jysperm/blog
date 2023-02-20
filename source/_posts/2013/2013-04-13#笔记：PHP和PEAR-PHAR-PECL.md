@@ -1,6 +1,6 @@
 ---
 title: "笔记：PHP和PEAR, PHAR, PECL"
-permalink: 790
+alias: '790'
 tags:
   - PHP
   - 笔记

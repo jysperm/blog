@@ -3,7 +3,7 @@ title: 2015 年度小结（技术方面）
 tags:
   - 年度小结
   - Node.js
-permalink: programming-of-2015
+alias: programming-of-2015
 date: 2016-02-06
 ---
 从 2014 年末开始开发的一个互联网金融项目终于在今年三月份上线了，这是一个 Node.js 编写的 Web 服务，但上线仅仅是个开始，之后的半年时间我们仍在这个项目上进行着密集地开发。

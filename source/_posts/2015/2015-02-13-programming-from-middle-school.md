@@ -1,6 +1,6 @@
 ---
 title: 从初中开始编程
-permalink: programming-from-middle-school
+alias: programming-from-middle-school
 date: 2015-02-13
 reviews:
   -

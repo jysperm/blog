@@ -1,6 +1,6 @@
 ---
 title: 2014 年度小结（技术方面）
-permalink: 1976
+alias: '1976'
 tags:
   - Node.js
   - 单元测试

@@ -1,6 +1,6 @@
 ---
 title: 加湿器选购指南
-permalink: buying-humidifier
+alias: buying-humidifier
 tags:
   - 购物
 date: 2020-02-07

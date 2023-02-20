@@ -1,6 +1,6 @@
 ---
 title: 抽象的构件
-permalink: unit-of-abstract
+alias: unit-of-abstract
 date: 2015-03-09
 reviews:
   -

@@ -9,8 +9,7 @@ language: zh-CN
 # URL
 url: https://jysperm.me
 root: /
-permalink: :year/:month/:title/
-permalink_defaults:
+permalink: :year/:month/:alias/
 
 # Directory
 source_dir: source
@@ -26,7 +25,8 @@ skip_render:
 new_post_name: :year-:month-:day#:title.md
 default_layout: post
 titlecase: false
-external_link: true
+external_link:
+  enable: true
 filename_case: 0
 render_drafts: false
 post_asset_folder: false

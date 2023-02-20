@@ -1,6 +1,6 @@
 ---
 title: 设计基于 Redis 的定时任务系统（ZSET + Scripting）
-permalink: redis-cronjob-system
+alias: redis-cronjob-system
 date: 2019-08-19
 tags:
   - Node.js

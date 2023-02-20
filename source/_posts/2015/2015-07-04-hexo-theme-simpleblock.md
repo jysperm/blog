@@ -1,6 +1,6 @@
 ---
 title: '与精子同款的博客主题 Simple Block 现已发布！'
-permalink: hexo-theme-simpleblock
+alias: hexo-theme-simpleblock
 tags:
   - Node.js
   - Hexo

@@ -3,7 +3,7 @@ title: 为什么我不相信中医
 tags:
   - 中医
   - 价值观
-permalink: why-not-traditional-medicine
+alias: why-not-traditional-medicine
 date: 2016-06-19
 ---
 

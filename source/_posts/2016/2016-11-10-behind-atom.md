@@ -4,7 +4,7 @@ tags:
   - Atom
   - Web
   - Node.js
-permalink: behind-atom
+alias: behind-atom
 date: 2016-11-10
 ---
 

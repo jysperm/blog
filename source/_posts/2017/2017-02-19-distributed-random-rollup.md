@@ -2,7 +2,7 @@
 title: 'Rollup: 去中心化随机抽奖程序'
 tags:
   - 去中心化
-permalink: distributed-random-rollup
+alias: distributed-random-rollup
 date: 2017-02-19
 ---
 

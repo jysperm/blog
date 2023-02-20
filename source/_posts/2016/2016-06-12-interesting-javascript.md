@@ -1,12 +1,12 @@
 ---
 title: 从被误解到最流行：论 JavaScript 如何完成华丽转身
-permalink: interesting-javascript
+alias: interesting-javascript
 tags:
   - Node.js
 date: 2016-06-12
 ---
 
-有人说「[JavaScript 是花了 10 天时间匆忙被设计出来的语言](http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html)」，也有人说「[凡是能用 JavaScript 写出来的，最终都会用 JavaScript 写出来](https://blog.codinghorror.com/the-principle-of-least-power)」。写这篇文并非要对 JavaScript 做一个全面的优劣分析，而是想与大家分享一些存在于 JavaScript 及其生态系统中的、在我看来比较有趣的闪光点。  
+有人说「[JavaScript 是花了 10 天时间匆忙被设计出来的语言](http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html)」，也有人说「[凡是能用 JavaScript 写出来的，最终都会用 JavaScript 写出来](https://blog.codinghorror.com/the-principle-of-least-power)」。写这篇文并非要对 JavaScript 做一个全面的优劣分析，而是想与大家分享一些存在于 JavaScript 及其生态系统中的、在我看来比较有趣的闪光点。
 
 ### 插件化的语言特征
 

@@ -1,6 +1,6 @@
 ---
 title: Atom 中文社区！
-permalink: atom-china-community
+alias: atom-china-community
 tags:
   - Atom
 date: 2015-04-26

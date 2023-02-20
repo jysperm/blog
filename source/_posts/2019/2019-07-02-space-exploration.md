@@ -1,6 +1,6 @@
 ---
 title: 我和太空探索的故事
-permalink: space-exploration
+alias: space-exploration
 date: 2019-07-02
 tags:
   - 太空探索

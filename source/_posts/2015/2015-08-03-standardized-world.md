@@ -1,6 +1,6 @@
 ---
 title: '标准化商品构成的世界'
-permalink: standardized-world
+alias: standardized-world
 tags:
   - idea
 date: 2015-08-03

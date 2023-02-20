@@ -1,6 +1,6 @@
 ---
 title: 我们并不需要 Deno
-permalink: we-dont-need-deno
+alias: we-dont-need-deno
 tags:
   - Node.js
 date: 2021-05-27

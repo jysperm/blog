@@ -1,6 +1,6 @@
 ---
 title: Promise：抽象的异步任务
-permalink: promise-abstract-of-async-task
+alias: promise-abstract-of-async-task
 tags:
   - JavaScript
 date: 2015-04-26

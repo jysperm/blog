@@ -1,6 +1,6 @@
 ---
 title: 流浪地球和大刘的短篇小说
-permalink: the-wandering-earth
+alias: the-wandering-earth
 date: 2019-03-13
 tags:
   - 电影

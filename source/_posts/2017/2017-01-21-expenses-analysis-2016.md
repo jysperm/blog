@@ -2,7 +2,7 @@
 title: 2016 年度支出分析
 tags:
   - 年度小结
-permalink: expenses-analysis-2016
+alias: expenses-analysis-2016
 date: 2017-01-20
 ---
 

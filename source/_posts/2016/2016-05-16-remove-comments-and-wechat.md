@@ -2,7 +2,7 @@
 title: 移除博客评论和微信公众号
 tags:
   - 博客
-permalink: remove-comments-and-wechat
+alias: remove-comments-and-wechat
 date: 2016-05-16
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 我的 NAS 选型与搭建过程（基于开源方案）
-permalink: my-opensource-nas-build
+alias: my-opensource-nas-build
 tags:
   - NAS
   - Linux

@@ -1,6 +1,6 @@
 ---
 title: Coffee Script 单元测试与覆盖率报告
-permalink: 1909
+alias: '1909'
 tags:
   - Node.js
 date: 2014-10-19
@@ -23,7 +23,7 @@ date: 2014-10-19
         exclude: ['test', 'node_modules', '.git', 'sample', 'static']
         initAll: true
 
-coffee-coverage 的文档上写的 exlude 示例是 `exclude: ['/test', '/node_modules', '/.git']`, 但我在被坑了一个半小时之后才发现前面不能加斜杠.....  
+coffee-coverage 的文档上写的 exlude 示例是 `exclude: ['/test', '/node_modules', '/.git']`, 但我在被坑了一个半小时之后才发现前面不能加斜杠.....
 我发了个 [Pull Request](https://github.com/benbria/coffee-coverage/pull/21), 目前还没被处理。
 
 在 `test/app.coffee` 里写第一个测试，

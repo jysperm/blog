@@ -3,7 +3,7 @@ title: 2017 年度小结（技术方面）
 tags:
   - 年度技术小结
   - Golang
-permalink: programming-of-2017
+alias: programming-of-2017
 date: 2018-01-16
 ---
 

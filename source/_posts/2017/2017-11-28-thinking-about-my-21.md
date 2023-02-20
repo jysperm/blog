@@ -3,7 +3,7 @@ title: 21 岁的我在想些什么
 tags:
   - 年度小结
   - 生活记录
-permalink: thinking-about-my-21
+alias: thinking-about-my-21
 date: 2017-11-28
 ---
 

@@ -4,7 +4,7 @@ tags:
   - 年度技术小结
   - PHP
   - Docker
-permalink: programming-of-2016
+alias: programming-of-2016
 date: 2017-01-07
 ---
 

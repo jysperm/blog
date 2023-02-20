@@ -2,7 +2,7 @@
 title: '我对比特币的信心来自哪里'
 tags:
   - Bitcoin
-permalink: why-i-trade-bitcoin
+alias: why-i-trade-bitcoin
 date: 2017-06-25
 ---
 

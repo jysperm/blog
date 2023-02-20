@@ -1,6 +1,6 @@
 ---
 title: 读代码是好的学习方式么
-permalink: reading-code
+alias: reading-code
 date: 2015-02-24
 reviews:
   -

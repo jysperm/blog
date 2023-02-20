@@ -2,7 +2,7 @@
 title: '游戏：城市天际线（Cities: Skylines）'
 tags:
   - 游戏
-permalink: cities-skylines
+alias: cities-skylines
 date: 2018-06-10
 ---
 

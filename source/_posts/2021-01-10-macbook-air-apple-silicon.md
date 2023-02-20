@@ -1,6 +1,6 @@
 ---
 title: 入手 MacBook Air (Apple Silicon)
-permalink: macbook-air-apple-silicon
+alias: macbook-air-apple-silicon
 tags:
   - 购物
 date: 2021-01-10

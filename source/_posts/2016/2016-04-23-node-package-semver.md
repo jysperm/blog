@@ -2,7 +2,7 @@
 title: semver：语义化版本规范在 Node.js 中的实现
 tags:
   - Node.js
-permalink: node-package-semver
+alias: node-package-semver
 date: 2016-04-23
 ---
 

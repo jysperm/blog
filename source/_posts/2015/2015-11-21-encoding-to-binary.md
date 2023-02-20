@@ -2,7 +2,7 @@
 title: 编码：二进制的世界
 tags:
   - 科普
-permalink: encoding-to-binary
+alias: encoding-to-binary
 date: 2015-11-21
 ---
 

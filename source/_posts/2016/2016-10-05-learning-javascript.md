@@ -2,7 +2,7 @@
 title: 我的 JavaScript 学习之路
 tags:
   - Node.js
-permalink: learning-javascript
+alias: learning-javascript
 date: 2016-10-05
 ---
 

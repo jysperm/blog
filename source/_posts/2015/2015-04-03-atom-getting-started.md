@@ -1,6 +1,6 @@
 ---
 title: Atom 体验报告
-permalink: atom-getting-started
+alias: atom-getting-started
 tags:
   - Atom
 date: 2015-04-03

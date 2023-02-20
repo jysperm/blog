@@ -1,6 +1,6 @@
 ---
 title: 更换博客系统到 Hexo
-permalink: move-to-hexo
+alias: move-to-hexo
 tags:
   - 博客
 date: 2015-02-01

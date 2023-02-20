@@ -4,7 +4,7 @@ tags:
   - 比特币
   - 区块链
   - 密码学
-permalink: blockchain-slides
+alias: blockchain-slides
 date: 2016-05-01
 reviews:
   -
@@ -66,7 +66,7 @@ Blockchain 也叫区块链，可以认为它是 HashTree（散列树）的一种
 
 在 Git 中，无论是文件（Blob）、索引（Tree）还是提交（Commit），都有一个由其内容决定的 Hash，如果两个对象有着一样的内容，则有着一样的 Hash。在 Git 中，整个仓库的历史就是一条 Blockchain，每个 Commit 相当于一个 Block，Commit 中包含了前一个 Commit 的 Hash 以及此次修改相关的对象的 Hash，Commit 本身的 Hash 由其内容和这些元信息来决定。
 
-Git 借助 Blockchain 为仓库来确定了一个唯一的历史 ———— 如果一个 Commit 被修改了，在其之后的所有的 Commit 的 Hash 都会改变。当然，因为 Git 只是一个版本控制工具，所以并没有阻止你去修改历史（毕竟还可以 rebase 然后 `push --force`），但这种修改会被所有协作者察觉到。  
+Git 借助 Blockchain 为仓库来确定了一个唯一的历史 ———— 如果一个 Commit 被修改了，在其之后的所有的 Commit 的 Hash 都会改变。当然，因为 Git 只是一个版本控制工具，所以并没有阻止你去修改历史（毕竟还可以 rebase 然后 `push --force`），但这种修改会被所有协作者察觉到。
 
 另一个 Blockchain 的经典应用就是 Bitcoin 了，也正是 Bitcoin 将 Blockchain 这个词传播开来（而这个概念其实是一直都有的）：
 

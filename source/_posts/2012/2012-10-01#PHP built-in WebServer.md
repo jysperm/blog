@@ -1,6 +1,6 @@
 ---
 title: PHP built-in WebServer
-permalink: 587
+alias: '587'
 tags:
   - PHP
 date: 2012-10-01
@@ -8,12 +8,12 @@ date: 2012-10-01
 
 PHP从5.4开始内置一个轻量级的Web服务器，不支持并发，定位是用于开发和调试环境(以下适用于Linux以及Windows).
 
-不得不说，在开发环境使用它的确非常方便.  
+不得不说，在开发环境使用它的确非常方便.
 很简单，安装好PHP后，切换到你的工程所在目录，执行(确保php.exe在PATH中)：
 
     php -S localhost:8000
 
-这样就在当前目录建立起了一个Web服务器，你可以通过 `http://localhost:8000/` 来访问  
+这样就在当前目录建立起了一个Web服务器，你可以通过 `http://localhost:8000/` 来访问
 其中`localhost`是监听的ip，`8000`是监听的端口，可以自行修改.
 
 每个请求的信息会打印在终端窗口，类似:
@@ -26,7 +26,7 @@ PHP从5.4开始内置一个轻量级的Web服务器，不支持并发，定位�
 
 这样一来，所有的请求都会由`lp-main.php`来处理，大多数MVC框架都会有一个类似的路由脚本.
 
->所以在这里，我有必要给大家介绍一个支持MVC的轻量级的PHP框架——LightPHP：  
+>所以在这里，我有必要给大家介绍一个支持MVC的轻量级的PHP框架——LightPHP：
 >项目地址：<https://github.com/jybox/LightPHP>
 
 ####使用XDebug调试

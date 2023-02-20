@@ -1,6 +1,6 @@
 ---
 title: 'Cichorium: 基于 Promise 的中间件路由框架'
-permalink: cichorium-routing-framework
+alias: cichorium-routing-framework
 tags:
   - Node.js
 date: 2015-05-15

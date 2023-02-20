@@ -2,13 +2,13 @@
 title: '自由软件和开源许可证'
 tags:
   - 开源
-permalink: freesoftware-opensource-licenses
+alias: freesoftware-opensource-licenses
 date: 2018-10-22
 reviews:
   -
     author: gaofei
     body: |
-      AGPL 压根不是最严格的许可证，还有个很冷门的许可证比 AGPL 严格。  
+      AGPL 压根不是最严格的许可证，还有个很冷门的许可证比 AGPL 严格。
       <https://slashmerriam.wordpress.com/2018/10/16/embarras-de-choix-of-software>
 ---
 

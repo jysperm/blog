@@ -1,6 +1,6 @@
 ---
 title: 'Stream: 给机器人用的 Twitter'
-permalink: introducing-stream
+alias: introducing-stream
 date: 2017-01-23
 ---
 

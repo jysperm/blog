@@ -2,7 +2,7 @@
 title: '塞尔达传说：旷野之息（The Legend of Zelda: Breath of the Wild）'
 tags:
   - 游戏
-permalink: zelda-breath-of-the-wild
+alias: zelda-breath-of-the-wild
 date: 2019-10-27
 ---
 

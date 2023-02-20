@@ -2,7 +2,7 @@
 title: 我看「刷月饼」事件
 tags:
   - 价值观
-permalink: alibaba-yuebing
+alias: alibaba-yuebing
 date: 2016-09-17
 reviews:
   -

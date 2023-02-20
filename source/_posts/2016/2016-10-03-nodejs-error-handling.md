@@ -2,7 +2,7 @@
 title: 'Node.js 错误处理实践'
 tags:
   - Node.js
-permalink: nodejs-error-handling
+alias: nodejs-error-handling
 date: 2016-10-03
 ---
 

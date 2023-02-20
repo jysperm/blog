@@ -2,7 +2,7 @@
 title: 建立一个自己的粉丝团是怎样的体验
 tags:
   - 生活记录
-permalink: maintain-a-fans-group
+alias: maintain-a-fans-group
 date: 2015-12-19
 ---
 

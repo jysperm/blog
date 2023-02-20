@@ -1,6 +1,6 @@
 ---
 title: 在 LeanCloud 中使用 GraphQL
-permalink: leancloud-graphql
+alias: leancloud-graphql
 tags:
   - LeanCloud
   - Web

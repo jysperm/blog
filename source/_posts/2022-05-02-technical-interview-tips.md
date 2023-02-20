@@ -1,6 +1,6 @@
 ---
 title: 如何进行技术面试（面试官视角）
-permalink: technical-interview-tips
+alias: technical-interview-tips
 date: 2022-05-02
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 哆啦 A 梦：伴我同行
-permalink: stand-by-me-doraemon
+alias: stand-by-me-doraemon
 tags:
   - 哆啦A梦
 date: 2015-05-30

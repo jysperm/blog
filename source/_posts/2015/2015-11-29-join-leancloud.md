@@ -2,7 +2,7 @@
 title: 加入 LeanCloud
 tags:
   - 生活记录
-permalink: join-leancloud
+alias: join-leancloud
 date: 2015-11-29
 ---
 

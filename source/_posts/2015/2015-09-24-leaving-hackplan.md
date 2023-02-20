@@ -1,6 +1,6 @@
 ---
 title: '离开 HackPlan'
-permalink: leaving-hackplan
+alias: leaving-hackplan
 tags:
   - 生活记录
 date: 2015-09-24

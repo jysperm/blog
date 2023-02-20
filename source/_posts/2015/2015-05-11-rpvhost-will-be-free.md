@@ -1,6 +1,6 @@
 ---
 title: RP 主机免费计划
-permalink: rpvhost-will-be-free
+alias: rpvhost-will-be-free
 tags:
   - RP主机
 date: 2015-05-11

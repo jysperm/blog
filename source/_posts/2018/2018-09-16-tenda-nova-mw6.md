@@ -3,7 +3,7 @@ title: '入手 Tenda Nova MW6（Mesh 路由器）'
 tags:
   - 网络
   - 硬件
-permalink: tenda-nova-mw6
+alias: tenda-nova-mw6
 date: 2018-09-16
 ---
 

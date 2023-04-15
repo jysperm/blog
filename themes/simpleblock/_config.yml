@@ -30,7 +30,7 @@ right_menus:
 banners:
   -
     jade: |
-      | 精子最近在 #[a(href='https://www.bilibili.com/video/av88524247') 第一届烧火节] 中体验了钻木取火，并制作了第一个 Vlog。
+      | 精子最近开发了两个小工具分别是 #[a(href='https://github.com/jysperm/dir2cast') dir2cast] 和 #[a(href='https://github.com/jysperm/homebrew-leftover-scanner') homebrew-leftover-scanner]。
 
 widgets:
   -
@@ -64,6 +64,9 @@ widgets:
     archives: true
   -
     copyright: true
+  -
+    markdown: |
+      [辽 ICP 备 13006298 号](https://beian.miit.gov.cn)
 
 ## SNS
 sns:

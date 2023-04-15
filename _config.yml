@@ -111,6 +111,7 @@ tag_map:
   太空探索: space
   容器: container
   旅行: travel
+  NAS: nas
 
 # Date / Time format
 date_format: YYYY M 月 D 日

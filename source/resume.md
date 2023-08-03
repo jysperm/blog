@@ -3,7 +3,7 @@ title: 简历
 permalink: resume/
 ---
 
-王子亭，1995 年生，现居上海，目前在 [LeanCloud](https://leancloud.cn/) 任服务器端开发工程师。
+王子亭，1995 年生，现居上海。
 
 - 邮件：[jysperm@gmail.com](mailto:jysperm@gmail.com)
 - Github: [jysperm](https://github.com/jysperm)
@@ -28,7 +28,7 @@ permalink: resume/
 - 了解 React.js 等前端生态，用于开发内部的管理界面。
 - 了解 Ethereum 和 Solidity 等智能合约生态。
 
-## [LeanCloud](https://leancloud.cn)（被 [心动](https://www.xd.com) 收购） - 2015-10 至今
+## [LeanCloud](https://leancloud.cn)（被 [心动](https://www.xd.com) 收购） - 2015-10 至 2023-07
 
 - **LeanEngine**（容器平台）一个基于 Docker 的容器平台，为终端开发者提供在线编辑代码、依赖构建、平滑部署、版本回滚、负载均衡等功能。我在近六年的时间里参与了大部分的功能开发、日常维护和线上运维工作。
 - **LeanDB**（数据库托管平台）基于容器技术管理 Redis、MongoDB 等数据库，充分利用有限的硬件资源运行大量数据库实例。我在两年多的时间里从头开发了这个项目并参与了其中绝大部分功能的开发、日常维护和线上运维工作。

@@ -17,7 +17,7 @@ reviews:
 
 {% cdnimage 'ziting.png' %}
 
-精子真名叫「王子亭」，生于 1995 年，常用 ID 是 jysperm.
+王子亭，1995 年生。
 
 * 精子是一名 [独立博客](https://jysperm.me) 作者。
 * 精子创建了 [Atom 中文社区](https://atom-china.org)。

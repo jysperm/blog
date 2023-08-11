@@ -9,11 +9,9 @@ permalink: list/
 - [推荐书单](/booklist)
 - [足迹](/footprints)
 - [Identity of Cryptography](/keys)
-- [关键词](/keywords)
 - [推荐及链接](/links)
 - [物品转让](/on-sale)
 - [简历](/resume)
-- [所有站点](/websites)
 - [彩排](/caipai)
 
 这个博客创建于精子 7 岁第一天上学的时候，之后的十几年里精子的成长和价值观的改变是很大的。

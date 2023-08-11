@@ -12,7 +12,7 @@ license:
 
 ## Menus
 menus:
-  '关于精子': /about
+  '关于我': /about
   '简历': /resume
   '链接': /links
   '推荐书单': /booklist
@@ -22,7 +22,7 @@ menus:
 right_menus:
   '彩排': /caipai
   'RSS': /atom.xml
-  'fork on Github':
+  'Source on Github':
     target: '_blank'
     href: 'https://github.com/jysperm/blog'
 
@@ -30,18 +30,17 @@ right_menus:
 banners:
   -
     jade: |
-      | 精子最近开发了两个小工具分别是 #[a(href='https://github.com/jysperm/dir2cast') dir2cast] 和 #[a(href='https://github.com/jysperm/homebrew-leftover-scanner') homebrew-leftover-scanner]。
+      | 我最近开发了两个小工具分别是 #[a(href='https://github.com/jysperm/dir2cast') dir2cast] 和 #[a(href='https://github.com/jysperm/homebrew-leftover-scanner') homebrew-leftover-scanner]。
 
 widgets:
   -
     markdown: |
       精子生于 1995 年，英文 ID jysperm.
 
-      * 有一个 [精子粉丝团](https://jybox.net)
       * [皮蛋](http://pidan.cat) 和 [豆腐](http://doufu.cat) 的主人
-      * 创建了 [Atom 中文社区](https://atom-china.org)
+      * 创建了 [RP 主机](https://rpvhost.net) 和 [Atom 中文社区](https://atom-china.org)
       * 坚持十余年的 [独立博客](https://jysperm.me) 作者
-      * 高中退学，就职于 [LeanCloud](https://leancloud.cn)
+      * 曾就职于 [LeanCloud](https://leancloud.cn) 和 [番茄土豆](https://pomotodo.com)
       * 在 [Github](https://github.com/jysperm) 上积极参与开源社区
   -
     jade: |

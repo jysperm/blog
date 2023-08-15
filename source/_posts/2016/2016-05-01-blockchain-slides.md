@@ -131,7 +131,7 @@ Bitocin 也提供了一个 [Bitcoin Script](https://en.bitcoin.it/wiki/Script) �
 
 首先举一个「多人共同持有的钱包」的例子，在 Ethereum 的官方客户端中便有一个创建多人钱包的功能：
 
-{% cdnimage '2016/ethereum-multi-sig-wallet.jpg' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/ethereum-multi-sig-wallet.jpg)
 
 如图，通过这个功能可以创建出一个与其他 2 个人共同拥有的钱包地址，每个人每天最多使用其中的 100 Ether，如果超过了这个限制，则必须经过另外一个人的同意。
 
@@ -288,17 +288,17 @@ contract Coin {
 
 我们还声明了一个名为 `Sent` 的事件，事件其实并不会有什么实际的作用，只是便于调试时打印关键性事件，未来也会方便轻量级客户端的实现（轻量级客户端只接受事件而不实际执行 Contract）。
 
-{% cdnimage '2016/ethereum-mix.jpg' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/ethereum-mix.jpg)
 
 Ethereum 提供了一个叫 Mix 的 IDE 来调试这段代码，在 Mix 的右侧你可以虚构一些 Block 和账户来测试你的 Contract，也可以看到在执行过程中每个状态变量的值的变化情况。值得一提的是 Contract 一旦发布便无法修改，此后的运行完全靠其他人的交易触发，对于每天都在写 Bug 的程序员来讲这一点会令人非常不爽，但是 Contract 的语义本来就是「合约」，一旦你发布了一个合约自然不能去修改它，否则谁还会信任你的合约呢。当然你可以在 Contract 中给自己一些特权（就像前面的 Coin 中那样，只有创建者可以凭空创造代币），但这些代码也存在于 Blockchain 上，其他使用者也是知晓的。
 
 编写完成后我们就可以用 Ethereum 钱包将这个 Contract 发布到网络上了：
 
-{% cdnimage '2016/ethereum-create-contract.jpg' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/ethereum-create-contract.jpg)
 
 发布之后你可以关注这个 Contract，随时点到 Contract 的详情界面：
 
-{% cdnimage '2016/ethereum-wallet-contract.jpg' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/ethereum-wallet-contract.jpg)
 
 在左侧可以看到两个状态变量的值，`minter` 的值就是我自己的地址，`balances` 因为是一个映射表，所以你可以输入一个地址去查询它的余额。在右侧你可以向这个 Contract 发起新的交易，有一个下拉菜单可以选择 `send` 或是 `mint` 函数，你可以填写传递给 Contract 的参数。因为在这里我们发交易的目的是传递一个消息，而非传递 Ether，所以我们不必设置交易的金额。
 

@@ -138,4 +138,3 @@ feed:
   limit: 30
 
 # Personal extends
-cdn_prefix: '/pictures/'

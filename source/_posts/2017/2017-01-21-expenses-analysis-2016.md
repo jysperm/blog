@@ -29,7 +29,7 @@ date: 2017-01-20
 旅行娱乐 | 1276 | 1% | 住宿费用和线下娱乐活动
 实体书 | 726 | 0% |
 
-{% cdnimage '2017/expenses-overall.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2017/expenses-overall.png)
 
 ## 数码
 

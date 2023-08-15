@@ -1,0 +1,6 @@
+.git/
+.leancloud/
+node_modules/
+source/
+public/pictures
+db.json

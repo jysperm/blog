@@ -20,7 +20,7 @@ date: 2017-02-19
 
 我将这个算法进行了细化，在浏览器中用 React 实现了客户端，再用 Node.js 实现了一个基于 WebSocket 的服务器来辅助广播。大家可以在 [rollup.leanapp.cn](https://rollup.leanapp.cn) 访问到这个原型（源代码和详细算法位于 [jysperm/rollup](https://github.com/jysperm/rollup)），可以自己开多个浏览器窗口进行测试：
 
-{% cdnimage '2017/rollup-screenshot.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2017/rollup-screenshot.png)
 
 如果有人捣乱会怎么样，比如在第二阶段广播了错误的数字或者根本没有广播呢？在 Ethereum 上这会给参与者带来经济上的惩罚。而在我们的原型中，我们只能做到感知到这些作弊的情况，然后中止抽奖，如果有人执意捣乱，就会导致抽奖一直无法完成了。
 

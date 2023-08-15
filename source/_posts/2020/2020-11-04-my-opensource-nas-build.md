@@ -30,7 +30,7 @@ ZFS 当然也支持快照，快照可以被导出为二进制流，被存储到�
 ## 硬件
 我并不擅长淘硬件，于是就选择了 HPE 的 MicroServer Gen10，一个四盘位的成品微型服务器，CPU 是 AMD X3421 ，8G ECC 内存，也是标准的 x86 通用硬件，应该不太容易遇到坑。
 
-{% cdnimage '2020/nas-gen-10.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2020/nas-gen-10.png)
 
 我用转接卡在 PCI-E 插槽上装了一块 NVME SSD，用作系统盘和 ZFS 的读缓存（L2ARC，不过从后面的统计来看效果并不明显），数据盘则暂时用的是旧的硬盘，最终会升级到四块 4T 的硬盘。这里需要注意的是因为 ZFS 不支持更改 RAID 的结构，所以必须在一开始就配置足够的硬盘来占位，后续再升级容量，我甚至用 USB 接了一块移动硬盘来凑数。
 
@@ -69,7 +69,7 @@ storage  7.27T  3.52T  3.75T        -    10%    48%  1.00x    ONLINE
 
 > 小知识：SMB 是目前应用得最广泛的局域网文件共享协议，在主流的操作系统中都有内建的支持。CIFS 是微软（Windows）对 SMB 的一个实现，而我们会用到的 Samba 是另一个实现了 SMB 协议的自由软件。
 
-{% cdnimage '2020/nas-samba.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2020/nas-samba.png)
 
 作为 NAS 最核心的功能就是通过 SMB 协议向外提供存储服务，所有的成品 NAS 都有丰富的选项来配置 SMB 的功能，但我们就只能直接去编辑 Samba 的配置文件了，Samba 直接采用了 Linux 的用户和文件权限机制，配置起来也不算太麻烦：
 
@@ -144,13 +144,13 @@ storage/shares      615G   286G      609G  /storage/shares
 ## 应用
 首先我安装了 [Netdata](https://github.com/netdata/netdata)，这是一个开箱即用的监控工具，在仅占用少量资源的情况下提供秒级精度的大量统计指标，非常适合用于监控单台服务器的性能瓶颈。
 
-{% cdnimage '2020/nas-netdata.jpg' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2020/nas-netdata.jpg)
 
 其余的应用都被我运行在了 Docker 中（使用 docker-compose 来管理），这样可以隔离应用的运行环境，提升宿主机的稳定性，安装、升级、卸载应用也会更方便。
 
 其中最重要的一个应用是 [NextCloud](https://nextcloud.com/)，这是一个开源的同步盘，我主要看中它的 iOS 应用和 iOS 有不错的整合，可以正确地同步 Live Photo，也可以在 iOS 的文件应用中被调用。
 
-{% cdnimage '2020/nas-nextcloud.jpg' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2020/nas-nextcloud.jpg)
 
 NextCloud 服务端会直接读写文件系统中的文件，而不是将文件存储在数据库里，这意味着 NextCloud 的数据目录同时也可以通过 Samba 来访问，这一点非常方便（不过需要一个定时任务来刷新 NextCloud 数据库中的元信息）。
 

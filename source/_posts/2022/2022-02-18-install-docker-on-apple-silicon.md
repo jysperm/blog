@@ -11,7 +11,7 @@ date: 2022-02-18
 
 在 2021 年 4 月时，Docker for Mac（Docker Desktop）[发布了](https://www.docker.com/blog/released-docker-desktop-for-mac-apple-silicon/) 对 Apple Silicon 的实验性支持，它会使用 QEMU 运行一个 ARM 架构的 Linux 虚拟机，默认运行 ARM 架构的镜像，但也支持运行 x86 的镜像。
 
-{% cdnimage '2022/docker-for-mac.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2022/docker-for-mac.png)
 
 [QEMU](https://www.qemu.org/docs/master/about/index.html) 是一个开源的虚拟机（Virtualizer）和仿真器（Emulator），所谓仿真器是说 QEMU 可以在没有来自硬件或操作系统的虚拟化支持的情况下，去模拟运行一台计算机，包括模拟与宿主机不同的 CPU 架构，例如在 Apple Silicon 上模拟 x86 架构的计算机。而在有硬件虚拟化支持的情况下，QEMU 也可以使用宿主机的 CPU 来直接运行，减少模拟运行的性能开销，例如使用 macOS 提供的 `Hypervisor.Framework`。
 

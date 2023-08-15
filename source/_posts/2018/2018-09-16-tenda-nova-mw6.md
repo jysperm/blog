@@ -14,25 +14,25 @@ RT1900ac 的信号覆盖也并不理想 —— 我仔细想了一下，信号强
 
 于是，我发现了 Mesh Wi-Fi 这项技术，也称作「分布式路由器」、「网状网络」、「多跳网络」，对应 IEEE 的 802.11s 标准。简单来说就是一个网络由多个节点（例如 3 个路由器）构成，任意两个节点之间都通过无线（Wi-Fi）或有线（所谓「有线回程」功能）连接。这些节点提供相同的 SSID，设备会接入最近的节点，网络流量可能会经过多个节点之间的传递，最后到达外网网关（接宽带猫的节点）。与桥接网络相比，在多个节点之间可以无缝漫游（IEEE 802.11v/r）。
 
-{% cdnimage '2018/nova-mw6-mesh.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2018/nova-mw6-mesh.png)
 
 这样的技术解决了前面提到的问题，即提高路由器的密度、提高信号覆盖、缩短接入设备和路由器之间的距离。一开始我是想买 UBNT 的 [AmpliFi](https://amplifi.com/)，可实在太贵了。于是我最后买了 [Tenda Nova MW6](http://www.tenda.com.cn/product/nova%20MW6.html)（3 个节点），大概是 Amplifi 三分之一的价格，算是 Mesh Wi-Fi 解决方案里价格较低的了，其实 Tenda 还有更便宜的 Mesh Wi-Fi，不过是百兆的。
 
 ## 信号覆盖
 为了量化信号覆盖的改善效果，我在切换路由器前先测量了 RT1900ac 的信号覆盖情况（5G 信号）：
 
-{% cdnimage '2018/nova-mw6-rt1900ac-snr.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2018/nova-mw6-rt1900ac-snr.png)
 
 图中的数字是信噪比，越高表示信号越好。可以看到之前的 RT1900ac 因为放在客厅，在卧室中的信号是非常差的。接下来再看一下 Nova MW6 的信号覆盖情况（5G 信号）：
 
-{% cdnimage '2018/nova-mw6-snr.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2018/nova-mw6-snr.png)
 
 我实际上是部署了 3 个节点的，但似乎 [NetSpot](https://www.netspotapp.com/) 只识别出了其中 2 个节点。可以看到因为卧室也有一个节点，所以卧室的信噪比从之前最低的 15% 提高了现在的最低 57%。
 
 ## 带宽测试
 外网表现上，是可以跑满运营商宽带 85Mbps 的下行和 3Mbps 的上行的：
 
-{% cdnimage '2018/nova-mw6-speedtest.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2018/nova-mw6-speedtest.png)
 
 内网表现上，我分别测试了很多情况，需要注意的是受到我手里设备类型的限制，这些测试并没有充分地控制变量：
 

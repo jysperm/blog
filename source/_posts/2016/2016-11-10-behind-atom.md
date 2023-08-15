@@ -61,7 +61,7 @@ app.on('ready', function() {
 
 可以看到，我们就像在使用 NPM 上一个普通的包一样在使用 Electron 来控制 Chromium 来创建窗口、加载页面，你也可以控制 Chromium 来进行截图、管理 Cookie 和 Session 等操作；同时在页面中我们也可以使用 `process.versions` 这样的 Node.js API，最后我们的 Hello World 看起来是这样的：
 
-{% cdnimage '2016/electron-helloworld.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/electron-helloworld.png)
 
 我们都知道 Chromium 使用了一种多进程的架构，当你在使用 Chromium 浏览网页时，你所打开的每一个标签页和插件都对应着一个操作系统中的进程。在 Electron 中也沿用了这样的架构，Electron 程序的入口点是一个 JavaScript 文件，这个文件将会被运行在一个只有 Node.js 环境的主线程中：
 
@@ -73,7 +73,7 @@ app.on('ready', function() {
 
 目前已经有非常多基于 Electron 的应用了，下面是一些我目前正在使用的应用，借助于 Electron，这些应用大部分都是跨平台的：
 
-{% cdnimage '2016/electron-apps.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/electron-apps.png)
 
 - VS Code 是微软的一款文本编辑器，也可以说是 Atom 的主要竞争产品。
 - Slack 是一款即时通讯软件。
@@ -88,11 +88,11 @@ app.on('ready', function() {
 
 对 Electron 的介绍就到此为止了，毕竟今天的主角是 Atom。作为 JavaScript 开发者，当我们听说 Atom 是基于 Web 技术构建起来的，相信大家的第一个反应就是打开 Chromium 的 Developer Tools：
 
-{% cdnimage '2016/developer-tools.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/developer-tools.png)
 
 可以看到，整个 Atom 都是一个网页 —— 文本编辑区域也是通过大量的 DOM 模拟出来的。我们点开 Atom 的主菜单，可以看到几个简单的自定义入口：
 
-{% cdnimage '2016/atom-menu.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/atom-menu.png)
 
 - `Config` 对应 `~/.atom/config.cson` 是 Atom 的主配置文件。
 - `Init Script` 对应 `~/.atom/init.coffee` 其中的代码会在 Atom 启动时被执行。
@@ -114,7 +114,7 @@ atom-text-editor::shadow .cursor {
 
 我们用 `atom-text-editor::shadow .cursor` 这个选择器指定了 Atom 的文本编辑区域中的光标，然后将边框颜色设置为了红色，保存后你马上就可以看到光标变成了红色：
 
-{% cdnimage '2016/cursor-color.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/cursor-color.png)
 
 我们也可以在 Init Script 中编写代码来给 Atom 添加功能。考虑这样一个需求，在写 Markdown 的时候我们经常需要添加一些链接，而链接通常是我们从浏览器上复制到剪贴板里的，如果有个命令可以把剪贴板中的链接自动添加到光标所选的文字上就好了：
 
@@ -129,11 +129,11 @@ atom.commands.add('atom-text-editor', 'markdown:paste-as-link', () => {
 
 在这段代码中，我们用 `atom.commands.add` 向 Atom 的文本编辑区域添加了一个名为 `markdown:paste-as-link` 的命令。我们先从当前激活的文本编辑区域（`getActiveTextEditor`）中获取当前选中的文字（`getLastSelection`），然后使用 Markdown 的语法将剪贴板中的链接插入到当前的位置：
 
-{% cdnimage '2016/paste-as-link.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/paste-as-link.png)
 
 那我们如何执行这个命令呢，虽然 Atom 也提供了一个类似 Sublime Text 的命令面板：
 
-{% cdnimage '2016/command-palette.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/command-palette.png)
 
 但在实际使用中，我们通常会通过快捷键来触发命令，我们可以在 Keymap 中为这个命令映射一个快捷键：
 
@@ -176,7 +176,7 @@ atom.commands.add('atom-text-editor', 'markdown:paste-as-link', () => {
 
 实际上在 Atom 中插件被称为「Package（包）」，而不是「Plugin（插件）」或「Extension（拓展）」，但下文我们还会继续使用「插件」这个词。
 
-{% cdnimage '2016/workspace-packages.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/workspace-packages.png)
 
 在这张图中我标出了一些内建的插件：
 
@@ -190,13 +190,13 @@ atom.commands.add('atom-text-editor', 'markdown:paste-as-link', () => {
 - one-dark-syntax 实现了一个暗色调的语法高亮主题。
 - language-coffee-script 实现了对 CoffeeScipt 的语法高亮方案。
 
-{% cdnimage '2016/dialogs-packages.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/dialogs-packages.png)
 
 - command-palette 实现了一个命令的模糊搜索器。
 - fuzzy-finder 实现了一个文件的模糊搜索器。
 - settings-view 实现了一个 Atom 的设置界面。
 
-{% cdnimage '2016/autocomplete-packages.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/autocomplete-packages.png)
 
 - autocomplete-plus 实现了一个代码补全的列表。
 - autocomplete-css 实现了针对 CSS 的代码补全建议。
@@ -207,7 +207,7 @@ atom.commands.add('atom-text-editor', 'markdown:paste-as-link', () => {
 
 Atom 的插件之间是可以互相交互的，例如 grammar-selector 等很多插件都会调用状态栏的 API，来在状态栏上添加按钮或展示信息：
 
-{% cdnimage '2016/status-bar-packages.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/status-bar-packages.png)
 
 作为插件当然是可以独立地进行更新的，而一旦更新就会不可避免地引入不兼容的 API 修改，如果 grammar-selector 依赖了一个较旧版本的 status-bar 的 API，而在之后 status-bar 更新了，并且引入了不兼容的 API 调整，那么 grammar-selector 对 status-bar 的调用就会失败。
 
@@ -247,7 +247,7 @@ grammar-selector 声明自己依赖 `1.0.0` 版本以上的 status-bar 服务。
 
 正因如此，Atom 的很多插件甚至有了自己的小社区，例如 linter 插件提供了展示语法风格建议的功能，但针对具体语言和工具的只是则是由单独的插件来完成的：
 
-{% cdnimage '2016/linter-community.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/linter-community.png)
 
 对于这样一个严重依赖插件的社区，插件质量的参差不齐也是一个严重的问题，在 Atom 中，如果一个插件抛出了异常，就会出现下面这样的提示：
 
@@ -281,17 +281,17 @@ atom.commands.dispatch(target, 'markdown:paste-as-link')
 
 从上面的代码中我们可以看到，`atom.commands.dispatch` 在执行一个命令时还需要指定一个 DOM 元素，结合前面注册命令和映射快捷键的例子，我们可以发现 Atom 中的快捷键和命令实际上都是被注册到一个 CSS 选择器上的。这是因为在 Atom 这样一个复杂的环境中，一个快捷键可能会被多次映射到不同的命令，例如下图，我在存在代码补全的选单的情况下按了一下 Tab 键：
 
-{% cdnimage '2016/key-bindings.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/key-bindings.png)
 
 Atom 内建的按键映射调试插件（keybinding-resolver）告诉我们 Tab 键被同时映射到了 8 个命令上，每个映射都有一个相关联的 CSS 选择器（上图中间一列）作为约束。Atom 会从当前焦点所在的元素，逐级冒泡，直到找到一个离焦点最近的按键映射，在上面的例子中，因为当前焦点在代码补全的选单上，所以 Tab 键最后被匹配到了 `autocomplete-plus:confirm` 这个命令；而如果当前没有代码补全的选单，Tab 键则会被映射到 `editor:indent`。
 
-{% cdnimage '2016/panes-and-panels.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/panes-and-panels.png)
 
 我为 Atom 主界面中的各个可视组件画了一个示意图，Atom 中最核心的区域叫「窗格（Pane）」，窗格可以横向或纵向被切分为多个窗格，窗格中可以是自定义的 DOM 元素（例如右侧的设置界面），也可以是 TextEditor（当然其实这也是一个 DOM 元素）。在窗格构成的核心区域之外，插件可以从四个方向添加「面板（Panel）」来提供一些次要的功能，面板中包含的也是自定义的 DOM 元素。可以想象，上图中的那样一个界面，是在两个窗格的基础上，先从底部添加一个 find-and-replace 的面板，然后从左侧添加一个 tree-view 的面板，最后再从底部添加一个 status-bar 的面板。
 
 Workspace 对应着 Atom 的一个窗口，TextEdtior 对应着窗格中的一个文本编辑区域，可以算是 Atom 较为核心的组件了，我们来看看它们的 API 文档：
 
-{% cdnimage '2016/api-documents.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/api-documents.png)
 
 Workspace（工作区）和 TextEditor（文本编辑器）算是 Atom 的核心部分。从上图中可以看到，Workspace 和 TextEditor 上首先提供了大量的事件订阅函数（图中仅列出了很少一部分），让插件可以感知到用户在 Workspace 在 TextEditor 中进行的操作，例如 TextEditor 的 `onDidChange` 会在每次用户修改文本时进行回调；然后也提供了大量的函数让插件可以操作 TextEditor 中的文本，例如 `getSelectedText` 可以获取到用户当前选择的文本。
 
@@ -339,13 +339,13 @@ Atom 也做了很多尝试来优化启动速度，首先比如延迟加载插件
 
 显然这个特性非常依赖于插件的作者，如果插件没有在 `package.json` 中做这样的声明，Atom 就不知道它提供了怎样的功能，也就不得不在启动时完整地加载这个插件。为此，Atom 默认捆绑了一个 timecop 插件，可以记录并展示启动阶段的耗时：
 
-{% cdnimage '2016/timecop.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/timecop.png)
 
 Atom 非常善于通过「社会化」的方式维护社区，因为有了 timecop，终端用户也可以感知到导致启动缓慢的插件，并在 GitHub 上向作者反馈（Atom 要求所有插件的源代码必须托管在 GitHub）。在 Atom 1.0 发布时，有一些 API 的行为有调整，Atom 也是通过类似的方式向终端用户展示未迁移到最新的 API 的插件，督促作者来进行修改。
 
 作为 Node.js 开发者我们都知道 `node_modules` 中有着大量的小文件，读取这些小文件要比读取单个大文件慢得多，尤其对于非固态硬盘而言。我做了一个简单的统计，Atom 的代码目录（包括 `node_modules`）中有着 12068 个文件，这些文件的读取显然需要花费启动阶段的很多时间：
 
-{% cdnimage '2016/node-modules.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/node-modules.png)
 
 于是 Atom 借助 Electron 提供的 ASAR 归档格式，将整个 `node_modules` 和其他的代码文件打包成了一个单个的文件，这样 Atom 在启动时只需要读取这一个文件，省下了很多的时间。
 
@@ -366,7 +366,7 @@ Atom 非常善于通过「社会化」的方式维护社区，因为有了 timec
 
 在采用了 Virtual DOM 之后也意味着插件不能够直接操作 Atom 的文本编辑区域的 DOM 了，为此 Atom 提供了 Marker 和 Decoration 这两个机制来允许插件间接地与文本编辑区域交互，Marker 和 Decoration 相当于是对 Virtual DOM 的进一步封装：
 
-{% cdnimage '2016/markers.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2016/markers.png)
 
 Marker 是对一段文本的动态封装，所谓动态是说它并不是单纯地记录「行号」和「列数」，而是即使周围的文本被编辑，Marker 也可以维持在正确的位置，Atom 中文本编辑区域的很多功能都是基于 Marker 实现的，例如光标、选区、高亮、行号左侧 git-diff 的提示、行号右侧 linter 的提示等。
 

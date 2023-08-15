@@ -14,7 +14,7 @@ date: 2021-01-10
 
 在 11 月 17 日的发布会后我又观望了一周才下单，最后在 12 月 4 日拿到了搭载 [M1 处理器](https://www.apple.com.cn/newsroom/2020/11/apple-unleashes-m1/) 的 MacBook Air，我将内存升级到了 16G ，存储则还是低配的 256G。
 
-{% cdnimage '2021/macbook-order.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/2021/macbook-order.png)
 
 选择这一款是因为从测评来看 Air 和 Pro 的性能差别并不显著，也不想为了 Touch Bar 和屏幕亮度支付额外 2000 元的价格，不如把这个钱加到内存上。
 

@@ -15,7 +15,7 @@ reviews:
     body: 没有记错的话，我和你应该在同一个群里呆过（好像是果壳的it群？），记得当时有cry（武汉某大学的女生），一段时间之后我退群了，从faceair的博客跳转过来的。
 ---
 
-{% cdnimage 'ziting.png' %}
+![](https://r2-lc-cn.jysperm.me/pictures/ziting.png)
 
 王子亭，1995 年生。
 

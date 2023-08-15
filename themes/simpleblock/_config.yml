@@ -14,14 +14,15 @@ license:
 menus:
   '关于我': /about
   '简历': /resume
-  '链接': /links
-  '推荐书单': /booklist
   '所有日志': /list
-  '广告': /ad
+  '链接': /links
 
 right_menus:
   '彩排': /caipai
   'RSS': /atom.xml
+  'Blog in English':
+    target: '_blank'
+    href: https://jysperm.medium.com
   'Source on Github':
     target: '_blank'
     href: 'https://github.com/jysperm/blog'
@@ -45,10 +46,14 @@ widgets:
   -
     jade: |
       h2 订阅推送
+      p 通过 Telegram Channel 订阅我的博客日志、产品和项目的动态：
       p
-        | 通过邮件订阅精子的博客日志、产品和项目的最新动态，精子承诺每一封邮件都会认真撰写（
+        button.btn(href='https://t.me/jybox') 王子亭的博客 @ Telegram
+      hr
+      p
+        | 通过邮件订阅订阅我的博客日志、产品和项目的动态（
         a(href='http://us13.campaign-archive1.com/home/?u=f4c7c26ec1a5dc400a7a7373e&id=e2136d8929') 历史邮件
-        | ），有想和精子说的话也可以直接回复邮件。
+        | ）：
       #mc_embed_signup
         form#mc-embedded-subscribe-form.validate(action='//jybox.us13.list-manage.com/subscribe/post?u=f4c7c26ec1a5dc400a7a7373e&id=e2136d8929', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
           #mc_embed_signup_scroll.input-group

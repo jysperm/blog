@@ -11,7 +11,7 @@ channel:
     有任何想说的话都可以向 jysperm@gmail.com 发送邮件反馈，在试播期间我们希望听到所有有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。
   language: 'zh-CN'
   category: 'Technology'
-  image: 'https://lc-ye7uL3uc.cn-n1.lcfile.com/9a1cf4205da4272b.png'
+  image: 'https://r2-lc-cn.jysperm.me/caipai/caipai.png'
   keywords:
     - '彩排'
     - '王子亭'
@@ -22,7 +22,7 @@ episodes:
     no: 4
     guid: 4-About-Me
     title: '关于我：王子亭'
-    enclosure: 'https://lc-ye7uL3uc.cn-n1.lcfile.com/19234a8e857716e52636.m4a'
+    enclosure: 'https://r2-lc-cn.jysperm.me/caipai/4-about-me.m4a'
     length: 30099579
     duration: 1242
     publishedAt: 'Sat, 19 Nov 2016 20:21:56 +0800'
@@ -52,13 +52,13 @@ episodes:
         <li><a href="https://twitter.com/jysperm">王子亭的 Twitter</a></li>
         <li><a href="https://github.com/jysperm">王子亭的 GitHub</a></li>
       </ul>
-      <p>欢迎向 feedback@caipai.fm 发送反馈，包括有关播客内容的意见，以及关于录音或剪辑等技术问题。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>
+      <p>欢迎向 jysperm@gmail.com 发送反馈，包括有关播客内容的意见，以及关于录音或剪辑等技术问题。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>
 
   -
     no: 3
-    guid: 2-Password
+    guid: 3-Password
     title: '密码与互联网安全（试播）'
-    enclosure: 'https://lc-ye7uL3uc.cn-n1.lcfile.com/8a794cb1de97528e.m4a'
+    enclosure: 'https://r2-lc-cn.jysperm.me/caipai/3-password.m4a'
     length: 87329690
     duration: 2804
     publishedAt: 'Sat, 17 Sep 2016 00:21:07 +0800'
@@ -81,13 +81,13 @@ episodes:
         <li><a href="https://www.yubico.com/products/yubikey-hardware/">Yubikey</a></li>
         <li><a href="https://jysperm.me">王子亭的博客（主持人）</a></li>
       </ul>
-      <p>欢迎向 feedback@caipai.fm 发送反馈，在试播期间我们希望听到任何有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>
+      <p>欢迎向 jysperm@gmail.com 发送反馈，在试播期间我们希望听到任何有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>
 
   -
     no: 2
     guid: 2-Pomodoro
     title: '番茄工作法（试播）'
-    enclosure: 'https://lc-ye7uL3uc.cn-n1.lcfile.com/ef416b9b223820e4.m4a'
+    enclosure: 'https://r2-lc-cn.jysperm.me/caipai/2-pomodoro.m4a'
     length: 37287391
     duration: 1198
     publishedAt: 'Sun, 21 Aug 2016 19:15:21 +0800'
@@ -104,13 +104,13 @@ episodes:
         <li><a href="https://pomotodo.com/">番茄土豆</a></li>
         <li><a href="https://jysperm.me">王子亭的博客（主持人）</a></li>
       </ul>
-      <p>欢迎向 feedback@caipai.fm 发送反馈，在试播期间我们希望听到任何有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>
+      <p>欢迎向 jysperm@gmail.com 发送反馈，在试播期间我们希望听到任何有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>
 
   -
     no: 1
     guid: 1-Free-Software
     title: '自由软件和自由软件许可证（试播）'
-    enclosure: 'https://lc-ye7uL3uc.cn-n1.lcfile.com/6fae7988a59b4bb0.m4a'
+    enclosure: 'https://r2-lc-cn.jysperm.me/caipai/1-free-software.m4a'
     length: 55300185
     duration: 1762
     publishedAt: 'Tue, 02 Aug 2016 23:20:15 +0800'
@@ -131,4 +131,4 @@ episodes:
         <li><a href="https://zh.wikipedia.org/wiki/%E8%91%97%E4%BD%9C%E6%AC%8A">维基百科：著作权</a></li>
         <li><a href="https://jysperm.me">王子亭的博客（主持人）</a></li>
       </ul>
-      <p>欢迎向 feedback@caipai.fm 发送反馈，在试播期间我们希望听到任何有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>
+      <p>欢迎向 jysperm@gmail.com 发送反馈，在试播期间我们希望听到任何有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。本期播客以 CC 署名、非商业使用、禁止演绎发布，即你可以以非商业的目的自由地使用和分发本期播客，但在分发过程中你不能够对它进行修改或剪辑，并且需要提供指向 caipai.fm 的链接。</p>

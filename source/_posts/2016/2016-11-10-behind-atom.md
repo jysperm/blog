@@ -31,7 +31,7 @@ Vim 和 Emacs 之所以能在过去几十年始终保持活力，很大程度上
 
 Atom 是基于 Electron，这是一个帮助开发者使用 Web 技术构建跨平台的桌面应用的工具，实际上 Electron 原本叫 Atom Shell，是专门为 Atom 设计的，后来才成为了一个独立的项目。Electron 将 Chromium 和 Node.js 结合到了一起：Chromium 提供了渲染页面和响应用户交互的能力，而 Node.js 提供了访问本地文件系统和网络的能力，也可以使用 NPM 上的几十万个第三方包。在此基础之上，Electron 还提供了 Mac、Windows、Linux 三个平台上的一些原生 API，例如全局快捷键、文件选择框、托盘图标和通知、剪贴板、菜单栏等等。
 
-![behind-atom-electron-overall](https://jysperm-blog.pek3a.qingstor.com/electron-overall.png)
+![](https://r2-lc-cn.jysperm.me/thirdparty/atom-electron-overall.png)
 
 基于 Electron 的应用往往会有很大的体积，即使在打包压缩之后通常也有 40MiB，这是因为 Electron 捆绑了整个 Chromium 和 Node.js。但这也意味着你的应用运行在一个十分确定的环境下 —— 你总是可以使用最新版本 Chromium 和 Node.js 中的特性而不必顾及兼容性，这些新的特性往往会有更好的性能同时提高你的开发效率。
 
@@ -65,7 +65,7 @@ app.on('ready', function() {
 
 我们都知道 Chromium 使用了一种多进程的架构，当你在使用 Chromium 浏览网页时，你所打开的每一个标签页和插件都对应着一个操作系统中的进程。在 Electron 中也沿用了这样的架构，Electron 程序的入口点是一个 JavaScript 文件，这个文件将会被运行在一个只有 Node.js 环境的主线程中：
 
-![electron-process](https://jysperm-blog.pek3a.qingstor.com/electron-process.png)
+![](https://r2-lc-cn.jysperm.me/thirdparty/atom-electron-process.png)
 
 由主进程创建出的每个窗口（页面）都在一个独立的进程（被称作渲染进程）中运行，有着自己的事件循环，和其他窗口互相隔离，渲染进程中同时有 Chromium 和 Node.js 环境，其中 Node.js 的事件循环被整合到了 Chromium 提供的 V8 中，两个环境间可以无缝地、无额外开销地相互调用。
 
@@ -362,7 +362,7 @@ Atom 非常善于通过「社会化」的方式维护社区，因为有了 timec
 
 为了将对 DOM 的操作集中到一起，我们有必要引入一个抽象层，也就是所谓的 Virtual DOM，我们总是在 Virtual DOM 上进行修改，而后再由 Virtual DOM 将我们的多次修改合并，一起更新到真正的 DOM 上。Atom 一开始使用了 React 所提供的 Virtual DOM，不过后来为了更细粒度的控制，切换到了一个自行实现的 Virtual DOM 上：
 
-![virtual-dom](https://jysperm-blog.pek3a.qingstor.com/virtual-dom.png)
+![](https://r2-lc-cn.jysperm.me/thirdparty/atom-virtual-dom.png)
 
 在采用了 Virtual DOM 之后也意味着插件不能够直接操作 Atom 的文本编辑区域的 DOM 了，为此 Atom 提供了 Marker 和 Decoration 这两个机制来允许插件间接地与文本编辑区域交互，Marker 和 Decoration 相当于是对 Virtual DOM 的进一步封装：
 
@@ -404,7 +404,7 @@ Atom 通过 Marker 和 Decoration 这样高层次的抽象，避免了插件直�
 
 因此 Atom 现在会将文本编辑区域的每若干行划分为一个块（Tile），仅去渲染可见的块，而不是渲染整个文件。当用户滚动编辑区域时，新的块会被绘制，不可见的块会被销毁：
 
-![tiles](https://jysperm-blog.pek3a.qingstor.com/tiles.gif)
+![](https://r2-lc-cn.jysperm.me/thirdparty/atom-tiles.gif)
 
 除了渲染导致的卡顿之外，因为 JavaScript 是单线程的，如果进行 CPU 密集的操作（例如在大量文件中进行正则搜索），也会阻塞事件循环，导致卡顿。就像普通的 Node.js 程序一样，如果希望进行 CPU 密集的计算，最好放到单独的进程而不是主进程，Atom 内建的搜索功能就是这样实现的：
 

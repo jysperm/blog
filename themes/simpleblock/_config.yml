@@ -48,7 +48,7 @@ widgets:
       h2 订阅推送
       p 通过 Telegram Channel 订阅我的博客日志、产品和项目的动态：
       p
-        button.btn(href='https://t.me/jybox') 王子亭的博客 @ Telegram
+        a.btn(href='https://t.me/jybox') 王子亭的博客 @ Telegram
       hr
       p
         | 通过邮件订阅订阅我的博客日志、产品和项目的动态（

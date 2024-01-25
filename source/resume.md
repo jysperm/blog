@@ -28,7 +28,7 @@ permalink: resume/
 - 了解 React.js 等前端生态，用于开发内部的管理界面。
 - 了解 Ethereum 和 Solidity 等智能合约生态。
 
-## [LeanCloud](https://leancloud.cn)（被 [心动](https://www.xd.com) 收购） - 2015-10 至 2023-07
+## [LeanCloud](https://leancloud.cn)（2021-03 被 [心动](https://www.xd.com) 收购后并入 TapTap） - 2015-10 至 2023-07
 
 - **LeanEngine**（容器平台）一个基于 Docker 的容器平台，为终端开发者提供在线编辑代码、依赖构建、平滑部署、版本回滚、负载均衡等功能。我在近六年的时间里参与了大部分的功能开发、日常维护和线上运维工作。
 - **LeanDB**（数据库托管平台）基于容器技术管理 Redis、MongoDB 等数据库，充分利用有限的硬件资源运行大量数据库实例。我在两年多的时间里从头开发了这个项目并参与了其中绝大部分功能的开发、日常维护和线上运维工作。
@@ -38,10 +38,11 @@ permalink: resume/
 
 - **P2P 互联网金融项目**（2014-11 至 2015-09）其网站负责接受用户充值、开展运营活动、追踪用户的每一笔投资并计算收益、为用户展示统计信息。在一年中，我参与了服务器端大部分的设计工作，负责了大约一半的编码工作，使用了 Node.js、MySQL、Redis 等技术。
 - **番茄土豆**（2013-08 至 2015-09）一个时间和任务管理应用，支持多平台间的数据同步。在两年多的时间里我部分地参与了这个项目的服务器端工作，早期版本为 PHP + MySQL 实现，后续改为 Node.js + MongoDB.
-- **[RootPanel](https://github.com/HackPlan/RootPanel)**（2012-03 至 2016-03）我在业余时间断断续续地一个人开发这个项目， 是一个开源的插件化 PaaS 开发框架，它提供了用户系统、付费计划管理等功能，以便在此基础上以插件的形式开发服务（如虚拟主机、代理等）。
+- [**RootPanel**](https://github.com/HackPlan/RootPanel)（2012-03 至 2016-03）我在业余时间断断续续地一个人开发这个项目， 是一个开源的插件化 PaaS 开发框架，它提供了用户系统、付费计划管理等功能，以便在此基础上以插件的形式开发服务（如虚拟主机、代理等）。
 
 ## 业余项目
 
+- [HostedBeans](https://www.hostedbeans.io) A SaaS for hosting Beancount ledgers, providing Web UI and Git access (Golang and React).
 - [Deploybeta](https://github.com/jysperm/deploybeta) A simple container platform based on Docker Swarm (Golang and Etcd).
 - [Elecpass](https://github.com/jysperm/elecpass) A password manager based on Electron (JavaScript and React).
 - [hexo-theme-simpleblock](https://github.com/jysperm/hexo-theme-simpleblock) 为个人博客开发的 Hexo 主题 (HTML 和 CSS).

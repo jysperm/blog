@@ -1,5 +1,5 @@
 ---
-title: 关于精子
+title: 关于我
 permalink: about/
 reviews:
   -
@@ -17,67 +17,84 @@ reviews:
 
 ![](https://r2-lc-cn.jysperm.me/pictures/ziting.png)
 
-王子亭，1995 年生。
+王子亭，1995 年生，英文 ID jysperm.
 
-* 精子是一名 [独立博客](https://jysperm.me) 作者。
-* 精子创建了 [Atom 中文社区](https://atom-china.org)。
-* 精子是 [皮蛋](http://pidan.cat) 和 [豆腐](http://doufu.cat) 的主人。
-* 精子在 [GitHub](https://github.com/jysperm) 上积极地参与开源社区
-* 精子有 [很多粉丝](https://jybox.net/members)，还有一个 [粉丝团主页](https://jybox.net)
-* 精子曾创建了 [RP 主机](http://rpvhost.net/) 和 GreenShadow.
-* 精子在高中退学，进入互联网行业工作，目前在 [LeanCloud](https://leancloud.cn) 任 Node.js 服务器端开发工程师。
+- 皮蛋和豆腐的主人
+- 坚持十余年的 [独立博客](https://jysperm.me) 作者
+- 在 [GitHub](https://github.com/jysperm) 上积极参与开源社区
+- 曾创建 [RP 主机](https://rpvhost.net) 和 [Atom 中文社区](https://atom-china.org)
+- 曾就职于 [LeanCloud](https://leancloud.cn) 和 [番茄土豆](https://pomotodo.com)
+- 有 [很多粉丝](https://jybox.net/members)，还有一个 [粉丝团主页](https://jybox.net)
 
-## 价值观
+## 作为开发者
 
-* 精子相信 [认真做事的人终有回报](https://jysperm.me/2014/06/1660)
-* 精子认为 [过程正义比结果正确更加重要](https://jysperm.me/2012/06/505)
-* 精子相信科学是最能够提高人类生产力的一套理论
-* 精子相信世界总是在向好的方向发展，不喜欢阴谋论
-* 精子是个很固执，很天真的人，他相信每个人都有像他一样天真的一面
+我 [从初中时代就成为了一名开发者](https://jysperm.me/2015/02/programming-from-middle-school)，在高中的业余时间我创建了 [RP 主机](https://jysperm.me/tag/rpvhost/)，赚得了我的第一桶金，它也是我整个职业生涯的敲门砖，让我决定离开学校直接开始从事软件开发。
 
-## 兴趣爱好
+我最长的一段工作经历就是在 LeanCloud 维护一个容器平台，主要使用 Node.js 进行后端开发，但也涉及到大量容器和 Linux 运维的工作。
 
-* 精子在无聊的时候喜欢刷 [知乎](http://www.zhihu.com/people/jysperm)
-* 精子喜欢 [看书](http://book.douban.com/people/jyprince/collect)，精子推荐大家看 [这些书](https://jysperm.me/booklist)
-* 精子喜欢 [哆啦 A 梦](https://jysperm.me/2015/05/stand-by-me-doraemon)、[皮蛋](http://pidan.cat)[豆腐](http://doufu.cat) 等各种萌萌的东西
-* 精子喜欢睡觉睡到自然醒，喝咖啡，喝牛奶，吃羊肉火锅
-* 精子是 [Steam](https://steamcommunity.com/id/jysperm) 和 Nintendo Switch 的用户，目前最喜欢的游戏是 Factorio 和 [塞尔达传说：旷野之息](/2019/10/zelda-breath-of-the-wild/)
+除了工作之外，我也对计算机技术本身也有着广泛的兴趣，我在家搭建了 [基于 Linux 的 NAS](https://jysperm.me/2020/11/my-opensource-nas-build) 和软路由；会将自己的想法实现为小工具开源在 [GitHub](https://github.com/jysperm) 上；也会在这个博客上分享自己的编程经验。
+
+## 兴趣和爱好
+### 网上冲浪
+
+我每天会花很多时间在网络上「冲浪」，目前我浏览最多的平台是：
+
+- **Twitter**: 我的开发者圈子都在 Twitter 上，也是我主要的发声渠道
+- **知乎**：虽然环境大不如前，但其仍然有着中文互联网中最好的讨论机制
+- **Bilibili**：创作氛围最好的中文长视频平台
+
+此外我也会浏览 Youtube、V2EX、Reddit 和小红书。
+
+### 游戏
+
+- Nintendo Switch 玩家
+- [Steam](https://steamcommunity.com/id/jysperm) 玩家（Steam Deck 持有者）
+
+近些年我最喜欢的一些游戏：
+
+- [塞尔达传说：旷野之息](https://jysperm.me/2019/10/zelda-breath-of-the-wild/)
+- 异星工厂（Factorio）
+- 坎巴拉太空计划（Kerbal Space Program）
+- 维多利亚 3（Victoria 3）
+- 缺氧（Oxygen Not Included）
+- 女神异闻录 5（Persona 5）
+- 双人成行（It Takes Two）
+
+### 摄影
+
+近些年我越来越喜欢拍照和整理照片，除了每张照片都是一个创作的过程中之外，整个照片库也是一个有关数字化的回忆的作品。
+
+## 生活
+
+- 在 21 岁 [遇到我的初恋](https://jysperm.me/2017/08/the-right-girl) —— 蛋黄，并在 6 年后结婚
+- Apple 设备用户（[为什么我选择 Apple 设备](https://jysperm.me/2023/08/why-i-use-apple-devices/)）
+
+### 投资
+
+我在 [很早就接触到了比特币](https://jysperm.me/tag/bitcoin/) 等区块链技术，密码货币塑造了我对于交易和投资的最初的概念，之后我也一直在参与股票、基金等市场。
 
 ## 观点
 
-* 精子 [不喜欢黑客圈](https://jysperm.me/tag/hacker)
-* 精子不喜欢二次元圈
-* 精子喜欢 [标准化的世界](https://jysperm.me/2015/08/standardized-world)
-* 精子觉得 [学校不是学习的好地方](https://jysperm.me/2014/02/1493)
-* 精子一向认为 [代码中不应当写注释](https://jysperm.me/2014/07/1750)
-* 精子觉得 [比特币是一个很有趣的东西](https://jysperm.me/2013/12/1411)，亦 [长期持有比特币](https://blockchain.info/address/13v2BTCMZMHg5v87susgg86HFZqXERuwUd)
-* 精子 [曾经使用过 PHP](http://blog.segmentfault.com/jysperm/1190000000403307), 但现在 [不喜欢 PHP](https://jysperm.me/2015/01/1992), 并且认为 [世界上最好的编程语言](https://jysperm.me/2014/01/1468) 绝不是 PHP
+- 旗帜鲜明地反对中医（[为什么我不相信中医](https://jysperm.me/2016/06/why-not-traditional-medicine/)）。
+- 支持言论自由、支持民主和个人权利、支持自由市场、认可维护少数群体权益和避免歧视。
 
-## 博客内容
-这个博客创建于精子 7 岁第一天上学的时候，之后的十几年里精子的成长和价值观的改变是很大的。
-所有的日志发布之后除了错别字都不会再修改，因此他可能并不完全同意早期日志中的观点。
+这个博客最早的文章可以追溯到我 7 岁第一天上学的时候，之后的十几年里我的成长和价值观的改变是很大的。所有的日志发布之后除了错别字都不会再修改，因此早期日志中的观点并不完全代表我当前的想法。
 
-<a id='licence'></a>
 ## 版权声明
 
 精子博客所有文章均为原创，所有内容使用 [署名-非商业性使用-禁止演绎（CC BY-NC-ND）](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/) 授权发布。即，任何人可以自由阅读、复制、发行，或通过信息网络传播本作品，但必须 **保留作者署名** （王子亭），以及指向该原文（<https://jysperm.me>）的 **链接** ，并 **不可用于商业用途** 。
 
-## 商业授权
-所有文章如需商业使用，需要单独联系精子购买商业授权。满足下列条件之一的，即被精子认为是商业使用：
+满足下列条件之一的，即被认为是商业使用：
 
 * 被个人网站使用，但在所在页面添加了可以直接获取货币形式的收益的广告（如 Adsense, 阿里妈妈等）。
 * 被具有销售服务、销售产品的功能的网站使用，如虚拟主机销售站点。
 * 被线下媒体和出版物使用，如报纸、杂志、书籍等。
 * 被公司身份的网站使用。
 
-参考价格：每篇文章 1000 人民币，不必署名，在同一网站或出版物上具有永久的使用权。
+## 关注我
 
-## 关注精子
-请优先通过 [粉丝团主页](https://jybox.net) 关注精子或加入粉丝团，单独联系精子请发邮件至 `jysperm@gmail.com`，邮件中请先进行自我介绍或提供社交网络、博客链接，否则不回复。
+- Telegram: [@jysperm](https://t.me/jysperm)
+- Twitter: [@jysperm](https://twitter.com/jysperm)
+- Email: [jysperm@gmail.com](mailto:jysperm@gmail.com)
 
-<!--
-* V2EX: [jybox](https://www.v2ex.com/member/jybox)
-* Keybase: [jysperm](https://keybase.io/jysperm)
-* Linkedin: [jysperm](https://cn.linkedin.com/in/jysperm)
-* SegmentFault: [jysperm](http://segmentfault.com/u/jysperm)
--->
+为确保得到回复，请先进行自我介绍或提供社交网络、博客链接。

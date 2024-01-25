@@ -31,18 +31,19 @@ right_menus:
 banners:
   -
     jade: |
-      | 我最近开发了两个小工具分别是 #[a(href='https://github.com/jysperm/dir2cast') dir2cast] 和 #[a(href='https://github.com/jysperm/homebrew-leftover-scanner') homebrew-leftover-scanner]。
+      | 我开发了一个基于 Beancount 的账本托管服务 #[a(href='https://www.hostedbeans.io') HostedBeans]，欢迎大家来了解纯文本复式记账并试用我的服务。
 
 widgets:
   -
     markdown: |
       精子生于 1995 年，英文 ID jysperm.
 
-      * [皮蛋](http://pidan.cat) 和 [豆腐](http://doufu.cat) 的主人
-      * 创建了 [RP 主机](https://rpvhost.net) 和 [Atom 中文社区](https://atom-china.org)
-      * 坚持十余年的 [独立博客](https://jysperm.me) 作者
-      * 曾就职于 [LeanCloud](https://leancloud.cn) 和 [番茄土豆](https://pomotodo.com)
-      * 在 [Github](https://github.com/jysperm) 上积极参与开源社区
+      - 皮蛋和豆腐的主人
+      - 坚持十余年的 [独立博客](https://jysperm.me) 作者
+      - 在 [Github](https://github.com/jysperm) 上积极参与开源社区
+      - 曾创建 [RP 主机](https://rpvhost.net) 和 [Atom 中文社区](https://atom-china.org)
+      - 曾就职于 [LeanCloud](https://leancloud.cn) 和 [番茄土豆](https://pomotodo.com)
+
   -
     jade: |
       h2 订阅推送

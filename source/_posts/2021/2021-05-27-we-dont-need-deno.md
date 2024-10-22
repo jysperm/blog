@@ -39,4 +39,4 @@ Deno 就是这样一个有着非常鲜明个人偏好的 JavaScript Runtime，�
 
 通过单一文件发行、进程级别的权限控制使 Deno 会更适合命令行工具的开发，但能否与已经广泛用于命令行工具的 Golang 竞争尚且存疑。
 
-作为一个 Node.js 开发者，我并不觉得 Deno 可以在未来替代 Node 成为我的主力开发工具，Deno 更像是 Golang 的设计哲学对 JavaScript 的一次入侵。
+作为一个 Node.js 开发者，我并不觉得 Deno 可以在未来替代 Node 成为我的主力开发工具，Deno 更像是 Golang 的设计哲学对 JavaScript 的一次入侵.

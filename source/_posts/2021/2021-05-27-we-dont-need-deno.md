@@ -28,15 +28,15 @@ date: 2021-05-27
 而且说起来我们现在已经有了 Docker（或者更广泛的容器的概念）这种彻底的隔离和权限控制机制，业界对编程语言引入一套权限控制已经没有太大的需求了。
 
 ## 孤立的生态
-可以说 JavaScript 的生态来自于用户态类库的充分竞争，Deno 则在 Runtime API 之外提供了 Standard Library（类似 `golang.org/x`）、提供了全套的开发工具链（fmt、test、doc、lint、bundle），在试图提供开箱即用的使用体验的同时，也削弱了第三方生态。
+可以说 JavaScript 的生态来自于用户态类库的充分竞争，Deno 则在 runtimes API 之外提供了 Standard Library（类似 `golang.org/x`）、提供了全套的开发工具链（fmt、test、doc、lint、bundle），在试图提供开箱即用的使用体验的同时，也削弱了第三方生态。
 
 在 Node.js 和 NPM 已然成为 JavaScript 事实标准的一部分的情况下，Deno 本来可以通过兼容 Node.js 或 NPM 有一个非常好的开场。但 Deno 却选择了和 Node.js 划清界限，而是兼容了一些浏览器环境的 API（如 prompt 或 onload）。
 
-Deno 自己的说法是为了遵循已有的 Web 标准避免发明新东西，但实际上这些 Web 标准在设计时并未充分考虑浏览器之外的 Runtime，况且 Deno 其实也没能避免发明新东西（这些新东西被放在了 Deno 这个命名空间中）。
+Deno 自己的说法是为了遵循已有的 Web 标准避免发明新东西，但实际上这些 Web 标准在设计时并未充分考虑浏览器之外的 runtimes，况且 Deno 其实也没能避免发明新东西（这些新东西被放在了 Deno 这个命名空间中）。
 
 ## 小结
-Deno 就是这样一个有着非常鲜明个人偏好的 JavaScript Runtime，它试图去纠正 Node.js 的一些「设计失误」、希望给出一种「JavaScript 最佳实践」，希望提供高质量且开箱即用的标准库和工具链。这些偏好的选择总会有人喜欢或不喜欢，但除此之外 Deno 实在是缺少一个 killer feature（杀手级特性）让一个「理性」的 Node.js 开发者（如一个公司）切换到 Deno。
+Deno 就是这样一个有着非常鲜明个人偏好的 JavaScript runtimes，它试图去纠正 Node.js 的一些「设计失误」、希望给出一种「JavaScript 最佳实践」，希望提供高质量且开箱即用的标准库和工具链。这些偏好的选择总会有人喜欢或不喜欢，但除此之外 Deno 实在是缺少一个 killer feature（杀手级特性）让一个「理性」的 Node.js 开发者（如一个公司）切换到 Deno。
 
 通过单一文件发行、进程级别的权限控制使 Deno 会更适合命令行工具的开发，但能否与已经广泛用于命令行工具的 Golang 竞争尚且存疑。
 
-作为一个 Node.js 开发者，我并不觉得 Deno 可以在未来替代 Node 成为我的主力开发工具，Deno 更像是 Golang 的设计哲学对 JavaScript 的一次入侵。
+作为一个 Node.js 开发者，我并不觉得 Deno 可以在未来替代 Node 成为我的主力开发工具，Deno 更像是 Golang 的设计哲学对 JavaScript 的一次入侵.

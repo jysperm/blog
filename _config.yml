@@ -124,13 +124,6 @@ pagination_dir: page
 # Extensions
 theme: simpleblock
 
-# Deployment
-deploy:
-  type: rsync
-  host: ap-home
-  user: www-data
-  root: /home/www-data/blog
-
 # Hexo RSS
 feed:
   type: atom

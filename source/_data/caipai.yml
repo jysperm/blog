@@ -11,7 +11,7 @@ channel:
     有任何想说的话都可以向 jysperm@gmail.com 发送邮件反馈，在试播期间我们希望听到所有有关播客内容的意见，以及关于录音或剪辑等技术问题的反馈。
   language: 'zh-CN'
   category: 'Technology'
-  image: 'https://r2-lc-cn.jysperm.me/caipai/caipai.png'
+  image: 'https://r2.jysperm.me/caipai/caipai.png'
   keywords:
     - '彩排'
     - '王子亭'
@@ -22,7 +22,7 @@ episodes:
     no: 4
     guid: 4-About-Me
     title: '关于我：王子亭'
-    enclosure: 'https://r2-lc-cn.jysperm.me/caipai/4-about-me.m4a'
+    enclosure: 'https://r2.jysperm.me/caipai/4-about-me.m4a'
     length: 30099579
     duration: 1242
     publishedAt: 'Sat, 19 Nov 2016 20:21:56 +0800'
@@ -58,7 +58,7 @@ episodes:
     no: 3
     guid: 3-Password
     title: '密码与互联网安全（试播）'
-    enclosure: 'https://r2-lc-cn.jysperm.me/caipai/3-password.m4a'
+    enclosure: 'https://r2.jysperm.me/caipai/3-password.m4a'
     length: 87329690
     duration: 2804
     publishedAt: 'Sat, 17 Sep 2016 00:21:07 +0800'
@@ -87,7 +87,7 @@ episodes:
     no: 2
     guid: 2-Pomodoro
     title: '番茄工作法（试播）'
-    enclosure: 'https://r2-lc-cn.jysperm.me/caipai/2-pomodoro.m4a'
+    enclosure: 'https://r2.jysperm.me/caipai/2-pomodoro.m4a'
     length: 37287391
     duration: 1198
     publishedAt: 'Sun, 21 Aug 2016 19:15:21 +0800'
@@ -110,7 +110,7 @@ episodes:
     no: 1
     guid: 1-Free-Software
     title: '自由软件和自由软件许可证（试播）'
-    enclosure: 'https://r2-lc-cn.jysperm.me/caipai/1-free-software.m4a'
+    enclosure: 'https://r2.jysperm.me/caipai/1-free-software.m4a'
     length: 55300185
     duration: 1762
     publishedAt: 'Tue, 02 Aug 2016 23:20:15 +0800'

@@ -46,6 +46,23 @@ widgets:
 
   -
     jade: |
+      style.
+        .ipfs-widget .ipns-address{display:inline-block;max-width:100%;vertical-align:bottom;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+        .ipfs-widget .ipns-address:hover{max-width:none;overflow:visible;position:relative;z-index:2;background:#fff}
+      .ipfs-widget
+        h2 通过 IPFS 访问
+        ul
+          li
+            code jysperm.eth
+          li
+            code.ipns-address ipns://k51qzi5uqu5dg71ebxtn9sjvdjzotniudwebll5ysyr8qb2kz4oimyydvu9n5u
+          li
+            a(href='https://jysperm.eth.limo/', target='_blank') Public Gateway (eth.limo)
+          li
+            a(href='http://127.0.0.1:8080/ipns/k51qzi5uqu5dg71ebxtn9sjvdjzotniudwebll5ysyr8qb2kz4oimyydvu9n5u/', target='_blank') Local Gateway (:8080)
+
+  -
+    jade: |
       h2 订阅推送
       p 通过 Telegram Channel 订阅我的博客日志、产品和项目的动态：
       p

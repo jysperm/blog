@@ -15,10 +15,3 @@ hexo.extend.generator.register('blogs', function(locals) {
     }))
   };
 });
-
-hexo.extend.generator.register('tweets', function(locals) {
-  return {
-    path: 'tweets.json',
-    data: JSON.stringify(locals.data.tweets.slice(0, 9))
-  };
-});

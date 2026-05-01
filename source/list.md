@@ -8,6 +8,7 @@ permalink: list/
 - [广告](/ad)
 - [推荐书单](/booklist)
 - [足迹](/footprints)
+- [游戏](/games)
 - [Identity of Cryptography](/keys)
 - [推荐及链接](/links)
 - [物品转让](/on-sale)

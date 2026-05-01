@@ -1,0 +1,463 @@
+- name: 异星工厂
+  nameEn: Factorio
+  year: 2020
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/library_600x900.jpg
+  rating: 5
+  progress: 1117+ Hours
+  tags:
+    - 自动化
+    - 建造
+    - 科幻
+  review: 一款完全专注于建造流水线的游戏 —— 没有一点多余。
+- name: 坎巴拉太空计划
+  nameEn: Kerbal Space Program
+  year: 2015
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/library_600x900.jpg
+  rating: 4.5
+  progress: 249+ Hours
+  tags:
+    - 模拟
+    - 科幻
+  review: 不止是一个游戏，而是关于火箭和轨道的交互式教学。
+- name: 环世界
+  nameEn: RimWorld
+  year: 2018
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/library_600x900.jpg
+  rating: 5
+  progress: 183+ Hours
+  tags:
+    - 建造
+    - 沙盒
+    - 科幻
+    - 生存
+  review:
+- name: 缺氧
+  nameEn: Oxygen Not Included
+  year: 2019
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/library_600x900.jpg
+  rating: 4.5
+  progress: 373+ Hours
+  tags:
+    - 自动化
+    - 建造
+    - 科幻
+    - 生存
+  review:
+- name: 维多利亚 3
+  nameEn: Victoria 3
+  year: 2022
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529340/library_600x900.jpg
+  rating: 4.5
+  progress: 321+ Hours
+  tags:
+    - 战略
+    - 沙盒
+    - 历史
+  review:
+- name: 黑帝斯
+  nameEn: Hades
+  year: 2020
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900.jpg
+  rating: 4.5
+  progress: 79+ Hours
+  tags:
+    - 动作
+    - Roguelike
+    - 欧洲神话
+  review:
+- name: 星际拓荒
+  nameEn: Outer Wilds
+  year: 2019
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900.jpg
+  rating: 5
+  tags:
+    - 探索
+    - 科幻
+    - 解谜
+    - 开放世界
+  review: 只有电子游戏能实现的科幻叙事。
+- name: 死亡搁浅
+  nameEn: Death Stranding
+  year: 2019
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190460/library_600x900.jpg
+  rating: 4.5
+  progress: 通关
+  tags:
+    - 角色扮演
+    - 第一人称射击
+    - 开放世界
+    - 科幻
+  review:
+- name: 黑神话：悟空
+  nameEn: 'Black Myth: Wukong'
+  year: 2024
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/library_600x900.jpg
+  rating: 4.5
+  progress: 高完成度通关
+  tags:
+    - 动作
+    - 角色扮演
+    - 中国神话
+  review:
+- name: 女神异闻录 5 皇家版
+  nameEn: Persona 5 Royal
+  year: 2020
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/library_600x900.jpg
+  rating: 5
+  progress: 高完成度通关
+  tags:
+    - 角色扮演
+    - 回合制战斗
+  review:
+- name: 双人成行
+  nameEn: It Takes Two
+  year: 2021
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/library_600x900.jpg
+  rating: 5
+  progress: 通关
+  tags:
+    - 动作
+    - 合作
+    - 卡通
+  review:
+- name: 城市：天际线
+  nameEn: 'Cities: Skylines'
+  year: 2015
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/library_600x900.jpg
+  rating: 4.5
+  progress: 213+ Hours
+  tags:
+    - 模拟
+    - 建造
+    - 沙盒
+  review:
+- name: 城市：天际线 2
+  nameEn: 'Cities: Skylines II'
+  year: 2023
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/library_600x900.jpg
+  rating: 4.5
+  progress: 53+ Hours
+  tags:
+    - 模拟
+    - 建造
+    - 沙盒
+  review:
+- name: 死亡循环
+  nameEn: Deathloop
+  year: 2021
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1252330/library_600x900.jpg
+  rating: 4.5
+  progress: 通关
+  tags:
+    - 第一人称射击
+    - 搜打撤
+    - 科幻
+  review:
+- name: 戴森球计划
+  nameEn: Dyson Sphere Program
+  year: 2021
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1366540/library_600x900.jpg
+  rating: 4
+  progress: 149+ Hours
+  tags:
+    - 自动化
+    - 建造
+    - 科幻
+  review:
+- name: 这是我的战争
+  nameEn: This War of Mine
+  year: 2014
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/library_600x900.jpg
+  rating: 4.5
+  progress: 45+ Hours
+  tags:
+    - 生存
+    - 建造
+  review:
+- name: 小丑牌
+  nameEn: Balatro
+  year: 2024
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/library_600x900.jpg
+  rating: 4
+  progress: 32+ Hours
+  tags:
+    - Roguelike
+    - 解谜
+  review:
+- name: 逃离鸭科夫
+  nameEn: Escape from Tarkov
+  year: 2025
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3167020/library_600x900.jpg
+  rating: 4
+  progress: 未通关
+  tags:
+    - 俯视角射击
+    - 搜打撤
+    - Roguelike
+    - 卡通
+  review:
+- name: 底特律：成为人类
+  nameEn: 'Detroit: Become Human'
+  year: 2018
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/library_600x900.jpg
+  rating: 4.5
+  progress: 通关
+  tags:
+    - 角色扮演
+    - 互动电影
+    - 科幻
+  review:
+- name: 植物大战僵尸
+  nameEn: 'Plants vs. Zombies'
+  year: 2009
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590/library_600x900.jpg
+  rating: 5
+  progress: 通关
+  tags:
+    - 塔防
+    - 卡通
+  review:
+- name: 冰汽时代
+  nameEn: 'Frostpunk'
+  year: 2018
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/library_600x900.jpg
+  rating: 4.5
+  progress: 113+ Hours
+  tags:
+    - 建造
+    - 生存
+  review:
+- name: 塞尔达传说：旷野之息
+  nameEn: 'The Legend of Zelda: Breath of the Wild'
+  year: 2017
+  cover: https://cdn2.steamgriddb.com/grid/121b81f7d167ca2c24fdab4f044048f8.png
+  rating: 5
+  progress: 高完成度通关
+  tags:
+    - 动作
+    - 开放世界
+  review:
+- name: 塞尔达传说：王国之泪
+  nameEn: 'The Legend of Zelda: Tears of the Kingdom'
+  year: 2023
+  cover: https://cdn2.steamgriddb.com/grid/ae758fbcbd5bd841516c53b3c08ebc6f.png
+  rating: 4.5
+  progress: 通关
+  tags:
+    - 动作
+    - 开放世界
+  review:
+- name: 孤胆枪手
+  nameEn: 'Alien Shooter'
+  year: 2003
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33100/library_600x900.jpg
+  rating: 3
+  progress:
+  tags:
+    - 俯视角射击
+  review:
+- name: 跑跑卡丁车
+  nameEn: 'KartRider'
+  year: 2004
+  cover: https://cdn2.steamgriddb.com/grid/d31d067889906c11829fa70cea10a635.png
+  rating: 3
+  progress:
+  tags:
+    - 赛车
+    - 竞技
+  review:
+- name: 英雄联盟
+  nameEn: 'League of Legends'
+  year: 2009
+  cover: https://cdn2.steamgriddb.com/grid/cf29ee336b07c0572c810f62f5543525.png
+  rating: 4
+  progress:
+  tags:
+    - MOBA
+    - 竞技
+  review:
+- name: 风暴英雄
+  nameEn: 'Heroes of the Storm'
+  year: 2015
+  cover: https://cdn2.steamgriddb.com/grid/8787dd3aae3560d2a02c39a461e99160.png
+  rating: 4
+  progress:
+  tags:
+    - MOBA
+    - 竞技
+  review:
+- name: 星际争霸 2
+  nameEn: 'StarCraft II'
+  year: 2010
+  cover: https://cdn2.steamgriddb.com/grid/d037b7e2852f79738930ce6c850e326e.png
+  rating: 4
+  progress:
+  tags:
+    - 即时战略
+    - 科幻
+    - 竞技
+  review:
+- name: 炉石传说
+  nameEn: 'Hearthstone'
+  year: 2014
+  cover: https://cdn2.steamgriddb.com/grid/f30259f76102eefd8b482ee4b68b1ef7.png
+  rating: 4
+  progress:
+  tags:
+    - 卡牌
+    - 竞技
+  review:
+- name: 抢滩登陆战
+  nameEn: 'Beach Head 2000'
+  year: 2000
+  cover: https://cdn2.steamgriddb.com/grid/f178ed0cb4ae051ec89b0b237357dd8f.png
+  rating: 2
+  progress:
+  tags:
+    - 射击
+  review:
+- name: 西游释厄传
+  nameEn: 'Oriental Legend'
+  year: 1997
+  cover: https://images.gog.com/73913b65459cef34f33d4e33c3b07a9c481af25c99cf50182196ae578333bb85_glx_vertical_cover.webp
+  rating: 3
+  progress:
+  tags:
+    - 动作
+    - 街机
+    - 合作
+    - 中国神话
+  review:
+- name: 红色警戒 2
+  nameEn: 'Command & Conquer: Red Alert 2'
+  year: 2000
+  cover: https://cdn2.steamgriddb.com/grid/57ed7cde687617e8395d41e2230cf138.png
+  rating: 4
+  progress:
+  tags:
+    - 即时战略
+    - 科幻
+  review:
+- name: 三国群英传 7
+  nameEn: 'The Legend of Three Kingdoms VII'
+  year: 2007
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1437880/library_600x900.jpg
+  rating: 3
+  progress:
+  tags:
+    - 战略
+    - 历史
+  review:
+- name: 超级马里奥兄弟
+  nameEn: 'Super Mario Bros.'
+  year: 1985
+  cover: https://cdn2.steamgriddb.com/grid/a740ff0373d793232b7210069b955c41.png
+  rating: 3.5
+  progress:
+  tags:
+    - 平台跳跃
+  review:
+- name: 魂斗罗
+  nameEn: 'Contra'
+  year: 1987
+  cover: https://cdn2.steamgriddb.com/grid/5851fa1539ff0e83bb2a8292bd40eaa5.png
+  rating: 4
+  progress:
+  tags:
+    - 横版射击
+    - 平台跳跃
+  review:
+- name: 坦克大战
+  nameEn: 'Battle City'
+  year: 1985
+  cover: https://cdn2.steamgriddb.com/grid/7876446b261feb3a15162d7d55b03329.png
+  rating: 3
+  progress:
+  tags:
+    - 俯视角射击
+    - 合作
+  review:
+- name: '星战前夜'
+  nameEn: 'EVE Online'
+  year: 2003
+  cover: https://cdn2.steamgriddb.com/grid/620bde855d806c199c826760aa4dc009.png
+  rating: 4
+  progress:
+  tags:
+    - MMORPG
+    - 科幻
+  review:
+- name: 暗黑破坏神 3
+  nameEn: 'Diablo III'
+  year: 2012
+  cover: https://cdn2.steamgriddb.com/grid/0f3839dc22ff5ad19a6b74203fac591f.png
+  rating: 3.5
+  progress:
+  tags:
+    - 动作
+    - 刷宝
+  review:
+- name: 守望先锋
+  nameEn: 'Overwatch'
+  year: 2016
+  cover: https://cdn2.steamgriddb.com/grid/96f0d98a448af2cfa50f971b680d6342.png
+  rating: 3.5
+  progress:
+  tags:
+    - 第一人称射击
+    - 竞技
+  review:
+- name: QQ 华夏
+  year: 2007
+  cover: https://images.placeholders.dev/?width=600&height=900&text=QQ%E5%8D%8E%E5%A4%8F
+  rating: 2.5
+  progress:
+  tags:
+    - MMORPG
+    - 中国神话
+  review:
+- name: 超级马里奥：奥德赛
+  nameEn: 'Super Mario Odyssey'
+  year: 2017
+  cover: https://cdn2.steamgriddb.com/grid/505870c8848f2d550944bf64008c9472.png
+  rating: 4.5
+  progress: 通关
+  tags:
+    - 平台跳跃
+    - 箱庭世界
+  review:
+- name: 纪元 1800
+  nameEn: 'Anno 1800'
+  year: 2019
+  cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916440/library_600x900.jpg
+  rating: 3.5
+  tags:
+    - 建造
+  review:
+- name: 健身环大冒险
+  nameEn: 'Ring Fit Adventure'
+  year: 2019
+  cover: https://cdn2.steamgriddb.com/grid/2c6ccdde2be1468cc1653bf228b77a13.png
+  rating: 4.5
+  tags:
+    - 健身
+    - 回合制
+  review:
+- name: 动物森友会
+  nameEn: 'Animal Crossing: New Horizons'
+  year: 2020
+  cover: https://cdn2.steamgriddb.com/grid/078d2a1275f0d53cda67d165440aeb50.png
+  rating: 4
+  tags:
+    - 社交
+    - 沙盒
+  review:
+- name: 喷射战士 2
+  nameEn: 'Splatoon 2'
+  year: 2017
+  cover: https://cdn2.steamgriddb.com/grid/0f409d747e1dfadd4b6317b894bb5348.png
+  rating: 4
+  tags:
+    - 第三人称射击
+    - 竞技
+  review:
